@@ -1,0 +1,2 @@
+00:00:00	 Tµi kho¶n: 123456	 Nh©n vËt: BaoDaiSu	 UUID: 3820391852	 CÊp: 	120	 M«n ph¸i: shaolin	 IP: 192.168.254.42 	 Xu: 326	 Tæng tiÒn v¹n: 	35001
+15:39:56	 Tµi kho¶n: 123456	 Nh©n vËt: BaoDaiSu	 UUID: 3820391852	 CÊp: 	120	 M«n ph¸i: shaolin	 IP: 192.168.254.42 	 Xu: 0	 Tæng tiÒn v¹n: 	17501

@@ -1,0 +1,35 @@
+
+*
+***** Sword3PaySys Start (@ 2025/07/14 19:21:25.274) >>>>>
+*
+
+[2025/07/14 19:21:31] 1 >> DB Connect 0 is busy !
+[2025/07/14 19:21:31] 2 >> Add Gateway(192.168.254.42 : 63371) Client 0 ! -- At 0
+[2025/07/14 19:21:31] 3 >> DB Connect 0 is free !
+[2025/07/14 19:21:31] 4 >> DB Connect 0 is busy !
+[2025/07/14 19:21:31] 5 >> Gateway txjx(192.168.254.42)000C-2930-B738: Verify OK !
+[2025/07/14 19:21:31] 6 >> Gateway unlock OK!
+[2025/07/14 19:21:31] 7 >> Gateway Connect OK!
+[2025/07/14 19:21:34] 8 >> DB Connect 0 is free !
+[2025/07/14 19:21:43] 9 >> Gateway txjx(192.168.254.42): Ping 10(s)
+[2025/07/14 19:21:52] 10 >> Gateway txjx(192.168.254.42): Ping 10(s)
+[2025/07/14 19:22:01] 11 >> Gateway txjx(192.168.254.42): Ping 10(s)
+[2025/07/14 19:22:13] 12 >> Gateway txjx(192.168.254.42): Ping 10(s)
+[2025/07/14 19:22:22] 13 >> Gateway txjx(192.168.254.42): Ping 10(s)
+[2025/07/14 19:22:31] 14 >> Gateway txjx(192.168.254.42): Ping 10(s)
+[2025/07/14 19:22:43] 15 >> Gateway txjx(192.168.254.42): Ping 10(s)
+[2025/07/14 19:22:52] 16 >> Gateway txjx(192.168.254.42): Ping 10(s)
+[2025/07/14 19:22:58] 17 >> DB Connect 0 is busy !
+[2025/07/14 19:22:58] 18 >> Gateway txjx(192.168.254.42): User 123456 Login Success ! (Ext:158)
+[2025/07/14 19:23:01] 19 >> Gateway txjx(192.168.254.42): User 123456 Enter Game Success !
+[2025/07/14 19:23:01] 20 >> DB Connect 0 is free !
+[2025/07/14 19:23:01] 21 >> Gateway txjx(192.168.254.42): Ping 10(s)
+[2025/07/14 19:23:13] 22 >> Gateway txjx(192.168.254.42): Ping 10(s)
+[2025/07/14 19:23:16] 23 >> DB Connect 0 is busy !
+[2025/07/14 19:23:16] 24 >> [S3PDB_MSSQLServer_Connection::Do COM error: IDispatch error #3092
+[2025/07/14 19:23:16] 25 >> Gateway txjx(192.168.254.42): User 123456 Logout Success ! (Ext:0)
+[2025/07/14 19:23:19] 26 >> DB Connect 0 is free !
+[2025/07/14 19:23:22] 27 >> Remove Gateway Client 0 ! -- At 0
+[2025/07/14 19:24:22] 28 >> DB Connect 0 is busy !
+[2025/07/14 19:24:22] 29 >> [S3PDB_MSSQLServer_Connection::Do COM error: IDispatch error #3092
+[2025/07/14 19:24:22] 30 >> DB Connect 0 is free !

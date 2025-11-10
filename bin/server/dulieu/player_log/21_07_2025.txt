@@ -1,0 +1,16 @@
+17:38:07	 Tµi kho¶n: 12345678	 Nh©n vËt: DienBaQuan	 UUID: 2417408551	 CÊp: 	1	 M«n ph¸i: 	 IP: 192.168.254.42 	 Xu: 0	 Tæng tiÒn v¹n: 	0
+17:38:18	 Tµi kho¶n: 12345678	 Nh©n vËt: DienBaQuan	 UUID: 2417408551	 CÊp: 	120	 M«n ph¸i: 	 IP: 192.168.254.42 	 Xu: 0	 Tæng tiÒn v¹n: 	100000
+17:38:40	 Tµi kho¶n: 12345678	 Nh©n vËt: DienBaQuan	 UUID: 2417408551	 CÊp: 	120	 M«n ph¸i: tangmen	 IP: 192.168.254.42 	 Xu: 0	 Tæng tiÒn v¹n: 	100000
+17:39:52	 Tµi kho¶n: 12345678	 Nh©n vËt: DienBaQuan	 UUID: 2417408551	 CÊp: 	120	 M«n ph¸i: tangmen	 IP: 192.168.254.42 	 Xu: 0	 Tæng tiÒn v¹n: 	100000
+17:40:32	 Tµi kho¶n: 12345678	 Nh©n vËt: DienBaQuan	 UUID: 2417408551	 CÊp: 	120	 M«n ph¸i: tangmen	 IP: 192.168.254.42 	 Xu: 0	 Tæng tiÒn v¹n: 	100000
+18:30:36	 Tµi kho¶n: 1234567	 Nh©n vËt: BaoDaiSu	 UUID: 3820391852	 CÊp: 	1	 M«n ph¸i: 	 IP: 192.168.254.42 	 Xu: 0	 Tæng tiÒn v¹n: 	0
+18:30:42	 Tµi kho¶n: 1234567	 Nh©n vËt: BaoDaiSu	 UUID: 3820391852	 CÊp: 	120	 M«n ph¸i: 	 IP: 192.168.254.42 	 Xu: 0	 Tæng tiÒn v¹n: 	100000
+18:39:46	 Tµi kho¶n: 1234567	 Nh©n vËt: BaoDaiSu	 UUID: 3820391852	 CÊp: 	120	 M«n ph¸i: shaolin	 IP: 192.168.254.42 	 Xu: 0	 Tæng tiÒn v¹n: 	100000
+18:47:35	 Tµi kho¶n: 123456	 Nh©n vËt: BaoDaiSu	 UUID: 3820391852	 CÊp: 	1	 M«n ph¸i: 	 IP: 192.168.254.42 	 Xu: 0	 Tæng tiÒn v¹n: 	0
+18:47:41	 Tµi kho¶n: 123456	 Nh©n vËt: BaoDaiSu	 UUID: 3820391852	 CÊp: 	120	 M«n ph¸i: 	 IP: 192.168.254.42 	 Xu: 0	 Tæng tiÒn v¹n: 	100000
+19:28:30	 Tµi kho¶n: 123456	 Nh©n vËt: BaoDaiSu	 UUID: 3820391852	 CÊp: 	1	 M«n ph¸i: 	 IP: 192.168.254.42 	 Xu: 0	 Tæng tiÒn v¹n: 	0
+19:28:38	 Tµi kho¶n: 123456	 Nh©n vËt: BaoDaiSu	 UUID: 3820391852	 CÊp: 	120	 M«n ph¸i: 	 IP: 192.168.254.42 	 Xu: 0	 Tæng tiÒn v¹n: 	100000
+19:30:34	 Tµi kho¶n: 123456	 Nh©n vËt: BaoDaiSu	 UUID: 3820391852	 CÊp: 	120	 M«n ph¸i: shaolin	 IP: 192.168.254.42 	 Xu: 0	 Tæng tiÒn v¹n: 	100000
+19:31:33	 Tµi kho¶n: 1234567	 Nh©n vËt: NgaMyPhai	 UUID: 1494994352	 CÊp: 	1	 M«n ph¸i: 	 IP: 192.168.254.42 	 Xu: 0	 Tæng tiÒn v¹n: 	0
+19:31:40	 Tµi kho¶n: 1234567	 Nh©n vËt: NgaMyPhai	 UUID: 1494994352	 CÊp: 	120	 M«n ph¸i: 	 IP: 192.168.254.42 	 Xu: 0	 Tæng tiÒn v¹n: 	100000
+19:32:55	 Tµi kho¶n: 1234567	 Nh©n vËt: NgaMyPhai	 UUID: 1494994352	 CÊp: 	120	 M«n ph¸i: emei	 IP: 192.168.254.42 	 Xu: 0	 Tæng tiÒn v¹n: 	100000

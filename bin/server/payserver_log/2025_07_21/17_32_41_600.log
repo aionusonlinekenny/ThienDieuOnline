@@ -1,0 +1,35 @@
+
+*
+***** Sword3PaySys Start (@ 2025/07/21 17:32:41.600) >>>>>
+*
+
+[2025/07/21 17:32:47] 1 >> DB Connect 0 is busy !
+[2025/07/21 17:32:47] 2 >> Add Gateway(192.168.254.42 : 58186) Client 0 ! -- At 0
+[2025/07/21 17:32:47] 3 >> DB Connect 0 is free !
+[2025/07/21 17:32:47] 4 >> DB Connect 0 is busy !
+[2025/07/21 17:32:47] 5 >> Gateway txjx(192.168.254.42)000C-2930-B738: Verify OK !
+[2025/07/21 17:32:47] 6 >> Gateway unlock OK!
+[2025/07/21 17:32:47] 7 >> Gateway Connect OK!
+[2025/07/21 17:32:50] 8 >> DB Connect 0 is free !
+[2025/07/21 17:33:08] 9 >> Remove Gateway Client 0 ! -- At 0
+[2025/07/21 17:33:08] 10 >> DB Connect 0 is busy !
+[2025/07/21 17:33:08] 11 >> ReAdd Gateway(192.168.254.42 : 58196) Client 1 ! -- At 0
+[2025/07/21 17:33:08] 12 >> DB Connect 0 is free !
+[2025/07/21 17:33:08] 13 >> DB Connect 0 is busy !
+[2025/07/21 17:33:08] 14 >> Gateway txjx(192.168.254.42)000C-2930-B738: Verify OK !
+[2025/07/21 17:33:08] 15 >> Gateway Connect Again OK!
+[2025/07/21 17:33:08] 16 >> DB Connect 0 is free !
+[2025/07/21 17:33:29] 17 >> Remove Gateway Client 1 ! -- At 0
+[2025/07/21 17:33:29] 18 >> DB Connect 0 is busy !
+[2025/07/21 17:33:29] 19 >> ReAdd Gateway(192.168.254.42 : 58200) Client 2 ! -- At 0
+[2025/07/21 17:33:29] 20 >> DB Connect 0 is free !
+[2025/07/21 17:33:29] 21 >> DB Connect 0 is busy !
+[2025/07/21 17:33:29] 22 >> Gateway txjx(192.168.254.42)000C-2930-B738: Verify OK !
+[2025/07/21 17:33:29] 23 >> Gateway Connect Again OK!
+[2025/07/21 17:33:29] 24 >> DB Connect 0 is free !
+[2025/07/21 17:33:29] Nomal exit !!!
+
+*
+***** Sword3PaySys Stop (@ 2025/07/21 17:33:29.973) <<<<<
+*
+

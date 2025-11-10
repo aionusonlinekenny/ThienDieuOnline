@@ -1,0 +1,243 @@
+
+*
+***** S3Relay Start (@ 2025/07/20 10:04:57.807) >>>>>
+*
+
+[2025/07/20 10:04:57] 1 -- Initializing ...
+[2025/07/20 10:04:57] 2 -- Connect Database Success!
+[2025/07/20 10:04:57] 3 -- Create Channel: [Stock, GM] <00000000> GM
+[2025/07/20 10:04:57] 4 -- Create Channel: [Stock] <00000001> 世界
+[2025/07/20 10:04:57] 5 -- friend timing update db: start
+[2025/07/20 10:04:57] 6 -- relay server startup
+[2025/07/20 10:04:57] 7 -- root client create: 192.168.254.42
+[2025/07/20 10:04:57] 8 -- DBRole client create: 192.168.254.42
+[2025/07/20 10:04:57] 9 -- root client close: 192.168.254.42
+[2025/07/20 10:04:57] 10 -- gateway client create: 192.168.254.42
+[2025/07/20 10:04:57] 11 -- host server startup
+[2025/07/20 10:04:57] 12 -- tong server startup
+[2025/07/20 10:04:57] 13 -- chat server startup
+[2025/07/20 10:04:57] 14 -- SockThread start success
+[2025/07/20 10:04:57] 15 -- tong database open ok!
+[2025/07/20 10:04:57] 16 -- tongset init ok !
+[2025/07/20 10:04:57] 17 -- Initialize OK
+[2025/07/20 10:05:06] 18 -- host connect create: 127.0.0.1
+[2025/07/20 10:05:06] 19 -- chat connect create: 127.0.0.1
+[2025/07/20 10:05:06] 20 -- tong connect create: 127.0.0.1
+[2025/07/20 10:05:21] 21 -- host connect create: 192.168.254.44
+[2025/07/20 10:05:21] 22 -- chat connect create: 192.168.254.44
+[2025/07/20 10:05:21] 23 -- tong connect create: 192.168.254.44
+[2025/07/20 10:05:24] 24 -- host connect create: 192.168.254.43
+[2025/07/20 10:05:24] 25 -- chat connect create: 192.168.254.43
+[2025/07/20 10:05:24] 26 -- tong connect create: 192.168.254.43
+[2025/07/20 10:06:34] 27 -- load someone: TieuVuong
+[2025/07/20 10:06:34] 28 -- player login: 123456 [TieuVuong] (2CFEA8C0, 00000000)
+[2025/07/20 10:06:34] 29 -- Query ChannelID: \S from (2CFEA8C0, 00000000)
+[2025/07/20 10:06:34] 30 -- Create Channel: <00000002> \S754886848
+[2025/07/20 10:06:34] 31 -- Query ChannelID: 世界 from (2CFEA8C0, 00000000)
+[2025/07/20 10:06:34] 32 -- Query ChannelID: \F1 from (2CFEA8C0, 00000000)
+[2025/07/20 10:06:34] 33 -- Create Channel: <00000003> \F1
+[2025/07/20 10:06:34] 34 -- Query ChannelID: GM from (2CFEA8C0, 00000000)
+[2025/07/20 10:06:34] 35 -- Query ChannelID: \B from (2CFEA8C0, 00000000)
+[2025/07/20 10:06:34] 36 -- Create Channel: <00000004> \B754886848
+[2025/07/20 10:06:34] 37 -- Query ChannelID: \S from (2CFEA8C0, 00000000)
+[2025/07/20 10:06:34] 38 -- Query ChannelID: 世界 from (2CFEA8C0, 00000000)
+[2025/07/20 10:06:34] 39 -- Query ChannelID: \F1 from (2CFEA8C0, 00000000)
+[2025/07/20 10:06:34] 40 -- Query ChannelID: GM from (2CFEA8C0, 00000000)
+[2025/07/20 10:06:34] 41 -- Query ChannelID: \B from (2CFEA8C0, 00000000)
+[2025/07/20 10:06:34] 42 -- sync friend list: TieuVuong (full)
+[2025/07/20 10:06:34] 43 -- Query ChannelID: \S from (2CFEA8C0, 00000000)
+[2025/07/20 10:06:34] 44 -- Query ChannelID: 世界 from (2CFEA8C0, 00000000)
+[2025/07/20 10:06:34] 45 -- Query ChannelID: \F1 from (2CFEA8C0, 00000000)
+[2025/07/20 10:06:34] 46 -- Query ChannelID: GM from (2CFEA8C0, 00000000)
+[2025/07/20 10:06:34] 47 -- Query ChannelID: \B from (2CFEA8C0, 00000000)
+[2025/07/20 10:06:34] 48 -- Query ChannelID: \S from (2CFEA8C0, 00000000)
+[2025/07/20 10:06:34] 49 -- Query ChannelID: 世界 from (2CFEA8C0, 00000000)
+[2025/07/20 10:06:34] 50 -- Query ChannelID: \F1 from (2CFEA8C0, 00000000)
+[2025/07/20 10:06:34] 51 -- Query ChannelID: GM from (2CFEA8C0, 00000000)
+[2025/07/20 10:06:34] 52 -- Query ChannelID: \B from (2CFEA8C0, 00000000)
+[2025/07/20 10:06:34] 53 -- Subscribe Channel: 00000002 by (2CFEA8C0,00000000)
+[2025/07/20 10:06:34] 54 -- Subscribe Channel: 00000001 by (2CFEA8C0,00000000)
+[2025/07/20 10:06:34] 55 -- Subscribe Channel: 00000003 by (2CFEA8C0,00000000)
+[2025/07/20 10:06:34] 56 -- Subscribe Channel: GM <00000000> by (2CFEA8C0,00000000)
+[2025/07/20 10:06:34] 57 -- Subscribe Channel: 00000004 by (2CFEA8C0,00000000)
+[2025/07/20 10:06:34] 58 -- Subscribe Channel: 00000002 by (2CFEA8C0,00000000)
+[2025/07/20 10:06:34] 59 -- Subscribe Channel: 00000001 by (2CFEA8C0,00000000)
+[2025/07/20 10:06:34] 60 -- Subscribe Channel: 00000003 by (2CFEA8C0,00000000)
+[2025/07/20 10:06:34] 61 -- Subscribe Channel: GM <00000000> by (2CFEA8C0,00000000)
+[2025/07/20 10:06:34] 62 -- Subscribe Channel: 00000004 by (2CFEA8C0,00000000)
+[2025/07/20 10:06:34] 63 -- Subscribe Channel: 00000002 by (2CFEA8C0,00000000)
+[2025/07/20 10:06:34] 64 -- Subscribe Channel: 00000001 by (2CFEA8C0,00000000)
+[2025/07/20 10:06:34] 65 -- Subscribe Channel: 00000003 by (2CFEA8C0,00000000)
+[2025/07/20 10:06:34] 66 -- Subscribe Channel: GM <00000000> by (2CFEA8C0,00000000)
+[2025/07/20 10:06:34] 67 -- Subscribe Channel: 00000004 by (2CFEA8C0,00000000)
+[2025/07/20 10:06:34] 68 -- Subscribe Channel: 00000002 by (2CFEA8C0,00000000)
+[2025/07/20 10:06:34] 69 -- Subscribe Channel: 00000001 by (2CFEA8C0,00000000)
+[2025/07/20 10:06:34] 70 -- Subscribe Channel: 00000003 by (2CFEA8C0,00000000)
+[2025/07/20 10:06:34] 71 -- Subscribe Channel: GM <00000000> by (2CFEA8C0,00000000)
+[2025/07/20 10:06:34] 72 -- Subscribe Channel: 00000004 by (2CFEA8C0,00000000)
+[2025/07/20 10:07:22] 73 -- [UpdateExtPoint][123456] Update Coin [159] into database successfully!!!
+[2025/07/20 10:10:01] 74 -- update friend DB succeed
+[2025/07/20 10:10:28] 75 -- [UpdateExtPoint][123456] Update Coin [161] into database successfully!!!
+[2025/07/20 10:11:40] 76 -- [UpdateExtPoint][123456] Update Coin [162] into database successfully!!!
+[2025/07/20 10:14:56] 77 -- [UpdateExtPoint][123456] Update Coin [163] into database successfully!!!
+[2025/07/20 10:15:02] 78 -- update friend DB succeed
+[2025/07/20 10:20:02] 79 -- update friend DB succeed
+[2025/07/20 10:25:03] 80 -- update friend DB succeed
+[2025/07/20 10:30:01] 81 -- update friend DB succeed
+[2025/07/20 10:35:01] 82 -- update friend DB succeed
+[2025/07/20 10:40:02] 83 -- update friend DB succeed
+[2025/07/20 10:45:03] 84 -- update friend DB succeed
+[2025/07/20 10:50:03] 85 -- update friend DB succeed
+[2025/07/20 10:55:01] 86 -- update friend DB succeed
+[2025/07/20 11:00:02] 87 -- update friend DB succeed
+[2025/07/20 11:05:02] 88 -- update friend DB succeed
+[2025/07/20 11:10:03] 89 -- update friend DB succeed
+[2025/07/20 11:15:01] 90 -- update friend DB succeed
+[2025/07/20 11:20:01] 91 -- update friend DB succeed
+[2025/07/20 11:23:08] 92 -- [UpdateExtPoint][123456] Update Coin [164] into database successfully!!!
+[2025/07/20 11:24:44] 93 -- Destroy Channel: <00000002> \S754886848
+[2025/07/20 11:24:44] 94 -- Destroy Channel: <00000003> \F1
+[2025/07/20 11:24:44] 95 -- Destroy Channel: <00000004> \B754886848
+[2025/07/20 11:24:44] 96 -- player logout: 123456
+[2025/07/20 11:24:56] 97 -- player login: 123456 [TieuVuong] (2CFEA8C0, 00000001)
+[2025/07/20 11:24:56] 98 -- Query ChannelID: \S from (2CFEA8C0, 00000001)
+[2025/07/20 11:24:56] 99 -- Create Channel: <00000005> \S754886848
+[2025/07/20 11:24:56] 100 -- Query ChannelID: 世界 from (2CFEA8C0, 00000001)
+[2025/07/20 11:24:56] 101 -- Query ChannelID: \F1 from (2CFEA8C0, 00000001)
+[2025/07/20 11:24:56] 102 -- Create Channel: <00000006> \F1
+[2025/07/20 11:24:56] 103 -- Query ChannelID: GM from (2CFEA8C0, 00000001)
+[2025/07/20 11:24:56] 104 -- Query ChannelID: \B from (2CFEA8C0, 00000001)
+[2025/07/20 11:24:56] 105 -- Create Channel: <00000007> \B754886848
+[2025/07/20 11:24:56] 106 -- Query ChannelID: \S from (2CFEA8C0, 00000001)
+[2025/07/20 11:24:56] 107 -- Query ChannelID: 世界 from (2CFEA8C0, 00000001)
+[2025/07/20 11:24:56] 108 -- Query ChannelID: \F1 from (2CFEA8C0, 00000001)
+[2025/07/20 11:24:56] 109 -- Query ChannelID: GM from (2CFEA8C0, 00000001)
+[2025/07/20 11:24:56] 110 -- Query ChannelID: \B from (2CFEA8C0, 00000001)
+[2025/07/20 11:24:56] 111 -- sync friend list: TieuVuong (full)
+[2025/07/20 11:24:56] 112 -- Query ChannelID: \S from (2CFEA8C0, 00000001)
+[2025/07/20 11:24:56] 113 -- Query ChannelID: 世界 from (2CFEA8C0, 00000001)
+[2025/07/20 11:24:56] 114 -- Query ChannelID: \F1 from (2CFEA8C0, 00000001)
+[2025/07/20 11:24:56] 115 -- Query ChannelID: GM from (2CFEA8C0, 00000001)
+[2025/07/20 11:24:56] 116 -- Query ChannelID: \B from (2CFEA8C0, 00000001)
+[2025/07/20 11:24:56] 117 -- Query ChannelID: \S from (2CFEA8C0, 00000001)
+[2025/07/20 11:24:56] 118 -- Query ChannelID: 世界 from (2CFEA8C0, 00000001)
+[2025/07/20 11:24:56] 119 -- Query ChannelID: \F1 from (2CFEA8C0, 00000001)
+[2025/07/20 11:24:56] 120 -- Query ChannelID: GM from (2CFEA8C0, 00000001)
+[2025/07/20 11:24:56] 121 -- Query ChannelID: \B from (2CFEA8C0, 00000001)
+[2025/07/20 11:24:56] 122 -- Subscribe Channel: 00000005 by (2CFEA8C0,00000001)
+[2025/07/20 11:24:56] 123 -- Subscribe Channel: 00000001 by (2CFEA8C0,00000001)
+[2025/07/20 11:24:56] 124 -- Subscribe Channel: 00000006 by (2CFEA8C0,00000001)
+[2025/07/20 11:24:56] 125 -- Subscribe Channel: GM <00000000> by (2CFEA8C0,00000001)
+[2025/07/20 11:24:56] 126 -- Subscribe Channel: 00000007 by (2CFEA8C0,00000001)
+[2025/07/20 11:24:56] 127 -- Subscribe Channel: 00000005 by (2CFEA8C0,00000001)
+[2025/07/20 11:24:56] 128 -- Subscribe Channel: 00000001 by (2CFEA8C0,00000001)
+[2025/07/20 11:24:56] 129 -- Subscribe Channel: 00000006 by (2CFEA8C0,00000001)
+[2025/07/20 11:24:56] 130 -- Subscribe Channel: GM <00000000> by (2CFEA8C0,00000001)
+[2025/07/20 11:24:56] 131 -- Subscribe Channel: 00000007 by (2CFEA8C0,00000001)
+[2025/07/20 11:24:56] 132 -- Subscribe Channel: 00000005 by (2CFEA8C0,00000001)
+[2025/07/20 11:24:56] 133 -- Subscribe Channel: 00000001 by (2CFEA8C0,00000001)
+[2025/07/20 11:24:56] 134 -- Subscribe Channel: 00000006 by (2CFEA8C0,00000001)
+[2025/07/20 11:24:56] 135 -- Subscribe Channel: GM <00000000> by (2CFEA8C0,00000001)
+[2025/07/20 11:24:56] 136 -- Subscribe Channel: 00000007 by (2CFEA8C0,00000001)
+[2025/07/20 11:24:56] 137 -- Subscribe Channel: 00000005 by (2CFEA8C0,00000001)
+[2025/07/20 11:24:56] 138 -- Subscribe Channel: 00000001 by (2CFEA8C0,00000001)
+[2025/07/20 11:24:56] 139 -- Subscribe Channel: 00000006 by (2CFEA8C0,00000001)
+[2025/07/20 11:24:56] 140 -- Subscribe Channel: GM <00000000> by (2CFEA8C0,00000001)
+[2025/07/20 11:24:56] 141 -- Subscribe Channel: 00000007 by (2CFEA8C0,00000001)
+[2025/07/20 11:25:02] 142 -- update friend DB succeed
+[2025/07/20 11:25:05] 143 -- [UpdateExtPoint][123456] Update Coin [166] into database successfully!!!
+[2025/07/20 11:30:03] 144 -- update friend DB succeed
+[2025/07/20 11:35:03] 145 -- update friend DB succeed
+[2025/07/20 11:35:21] 146 -- [UpdateExtPoint][123456] Update Coin [168] into database successfully!!!
+[2025/07/20 11:40:01] 147 -- update friend DB succeed
+[2025/07/20 11:44:58] 148 -- [UpdateExtPoint][123456] Update Coin [170] into database successfully!!!
+[2025/07/20 11:45:01] 149 -- update friend DB succeed
+[2025/07/20 11:50:02] 150 -- update friend DB succeed
+[2025/07/20 11:55:03] 151 -- update friend DB succeed
+[2025/07/20 12:00:03] 152 -- update friend DB succeed
+[2025/07/20 12:05:01] 153 -- update friend DB succeed
+[2025/07/20 12:05:19] 154 -- [UpdateExtPoint][123456] Update Coin [171] into database successfully!!!
+[2025/07/20 12:10:02] 155 -- update friend DB succeed
+[2025/07/20 12:15:02] 156 -- update friend DB succeed
+[2025/07/20 12:16:41] 157 -- [UpdateExtPoint][123456] Update Coin [172] into database successfully!!!
+[2025/07/20 12:20:03] 158 -- update friend DB succeed
+[2025/07/20 12:25:03] 159 -- update friend DB succeed
+[2025/07/20 12:28:04] 160 -- [UpdateExtPoint][123456] Update Coin [174] into database successfully!!!
+[2025/07/20 12:30:01] 161 -- [UpdateExtPoint][123456] Update Coin [175] into database successfully!!!
+[2025/07/20 12:30:01] 162 -- update friend DB succeed
+[2025/07/20 12:35:02] 163 -- update friend DB succeed
+[2025/07/20 12:38:08] 164 -- [UpdateExtPoint][123456] Update Coin [176] into database successfully!!!
+[2025/07/20 12:40:02] 165 -- update friend DB succeed
+[2025/07/20 12:45:03] 166 -- update friend DB succeed
+[2025/07/20 12:49:46] 167 -- [UpdateExtPoint][123456] Update Coin [177] into database successfully!!!
+[2025/07/20 12:50:01] 168 -- update friend DB succeed
+[2025/07/20 12:55:01] 169 -- update friend DB succeed
+[2025/07/20 13:00:02] 170 -- update friend DB succeed
+[2025/07/20 13:05:03] 171 -- update friend DB succeed
+[2025/07/20 13:07:30] 172 -- [UpdateExtPoint][123456] Update Coin [178] into database successfully!!!
+[2025/07/20 13:09:24] 173 -- [UpdateExtPoint][123456] Update Coin [180] into database successfully!!!
+[2025/07/20 13:09:45] 174 -- [UpdateExtPoint][123456] Update Coin [181] into database successfully!!!
+[2025/07/20 13:10:03] 175 -- update friend DB succeed
+[2025/07/20 13:15:01] 176 -- update friend DB succeed
+[2025/07/20 13:17:53] 177 -- [UpdateExtPoint][123456] Update Coin [183] into database successfully!!!
+[2025/07/20 13:20:02] 178 -- update friend DB succeed
+[2025/07/20 13:20:44] 179 -- [UpdateExtPoint][123456] Update Coin [184] into database successfully!!!
+[2025/07/20 13:21:59] 180 -- [UpdateExtPoint][123456] Update Coin [186] into database successfully!!!
+[2025/07/20 13:25:03] 181 -- update friend DB succeed
+[2025/07/20 13:26:00] 182 -- [UpdateExtPoint][123456] Update Coin [187] into database successfully!!!
+[2025/07/20 13:30:04] 183 -- update friend DB succeed
+[2025/07/20 13:35:01] 184 -- update friend DB succeed
+[2025/07/20 13:40:02] 185 -- update friend DB succeed
+[2025/07/20 13:43:38] 186 -- [UpdateExtPoint][123456] Update Coin [189] into database successfully!!!
+[2025/07/20 13:45:03] 187 -- update friend DB succeed
+[2025/07/20 13:50:03] 188 -- update friend DB succeed
+[2025/07/20 13:51:24] 189 -- [UpdateExtPoint][123456] Update Coin [191] into database successfully!!!
+[2025/07/20 13:55:01] 190 -- update friend DB succeed
+[2025/07/20 14:00:01] 191 -- update friend DB succeed
+[2025/07/20 14:01:41] 192 -- [UpdateExtPoint][123456] Update Coin [193] into database successfully!!!
+[2025/07/20 14:05:02] 193 -- update friend DB succeed
+[2025/07/20 14:10:03] 194 -- update friend DB succeed
+[2025/07/20 14:15:03] 195 -- update friend DB succeed
+[2025/07/20 14:20:01] 196 -- update friend DB succeed
+[2025/07/20 14:25:02] 197 -- update friend DB succeed
+[2025/07/20 14:30:02] 198 -- update friend DB succeed
+[2025/07/20 14:35:03] 199 -- update friend DB succeed
+[2025/07/20 14:38:45] 200 -- [UpdateExtPoint][123456] Update Coin [194] into database successfully!!!
+[2025/07/20 14:40:03] 201 -- update friend DB succeed
+[2025/07/20 14:45:01] 202 -- update friend DB succeed
+[2025/07/20 14:45:13] 203 -- [UpdateExtPoint][123456] Update Coin [196] into database successfully!!!
+[2025/07/20 14:50:02] 204 -- update friend DB succeed
+[2025/07/20 14:55:03] 205 -- update friend DB succeed
+[2025/07/20 15:00:03] 206 -- update friend DB succeed
+[2025/07/20 15:01:22] 207 -- [UpdateExtPoint][123456] Update Coin [197] into database successfully!!!
+[2025/07/20 15:04:28] 208 -- [UpdateExtPoint][123456] Update Coin [198] into database successfully!!!
+[2025/07/20 15:05:01] 209 -- update friend DB succeed
+[2025/07/20 15:06:07] 210 -- [UpdateExtPoint][123456] Update Coin [200] into database successfully!!!
+[2025/07/20 15:10:02] 211 -- update friend DB succeed
+[2025/07/20 15:15:02] 212 -- update friend DB succeed
+[2025/07/20 15:20:03] 213 -- update friend DB succeed
+[2025/07/20 15:22:33] 214 -- [UpdateExtPoint][123456] Update Coin [202] into database successfully!!!
+[2025/07/20 15:25:04] 215 -- update friend DB succeed
+[2025/07/20 15:30:01] 216 -- update friend DB succeed
+[2025/07/20 15:34:26] 217 -- [UpdateExtPoint][123456] Update Coin [203] into database successfully!!!
+[2025/07/20 15:34:50] 218 -- [UpdateExtPoint][123456] Update Coin [204] into database successfully!!!
+[2025/07/20 15:35:02] 219 -- update friend DB succeed
+[2025/07/20 15:37:06] 220 -- [UpdateExtPoint][123456] Update Coin [205] into database successfully!!!
+[2025/07/20 15:40:03] 221 -- update friend DB succeed
+[2025/07/20 15:43:39] 222 -- [UpdateExtPoint][123456] Update Coin [206] into database successfully!!!
+[2025/07/20 15:45:04] 223 -- update friend DB succeed
+[2025/07/20 15:50:01] 224 -- update friend DB succeed
+[2025/07/20 15:50:31] 225 -- [UpdateExtPoint][123456] Update Coin [208] into database successfully!!!
+[2025/07/20 15:51:22] 226 -- [UpdateExtPoint][123456] Update Coin [209] into database successfully!!!
+[2025/07/20 15:55:02] 227 -- update friend DB succeed
+[2025/07/20 15:57:35] 228 -- [UpdateExtPoint][123456] Update Coin [211] into database successfully!!!
+[2025/07/20 15:59:33] 229 -- [UpdateExtPoint][123456] Update Coin [212] into database successfully!!!
+[2025/07/20 16:00:03] 230 -- update friend DB succeed
+[2025/07/20 16:03:24] 231 -- [UpdateExtPoint][123456] Update Coin [214] into database successfully!!!
+[2025/07/20 16:05:03] 232 -- update friend DB succeed
+[2025/07/20 16:10:04] 233 -- update friend DB succeed
+[2025/07/20 16:15:01] 234 -- update friend DB succeed
+[2025/07/20 16:19:05] 235 -- [UpdateExtPoint][123456] Update Coin [215] into database successfully!!!
+[2025/07/20 16:19:50] 236 -- [UpdateExtPoint][123456] Update Coin [216] into database successfully!!!
+[2025/07/20 16:20:02] 237 -- update friend DB succeed
+[2025/07/20 16:24:57] 238 -- [UpdateExtPoint][123456] Update Coin [218] into database successfully!!!

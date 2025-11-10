@@ -1,0 +1,38 @@
+Mở file ...\SwordOnline\Sources\JXAll.dsw trên VC 6.0
+chọn Tools > Options.. > Directories.. > show directories for:
+Khai báo đường dẫn cho các "include" files:
+C:\SourceJX\DX9CSDK\INCLUDE
+C:\SourceJX\GDIPLUS\INCLUDE
+C:\SourceJX\UTILITY\HEADERS
+C:\SourceJX\STLPORT\STLPORT\STL
+C:\SourceJX\SWORDONLINE\SOURCES\ENGINE\SRC
+C:\SourceJX\SWORDONLINE\HEADERS
+C:\SourceJX\SWORDONLINE\SOURCES\CORE\SRC
+C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE
+C:\Program Files\Microsoft Visual Studio\VC98\MFC\INCLUDE
+C:\Program Files\Microsoft Visual Studio\VC98\ATL\INCLUDE
+---------------------------------------------------------------------------------------------
+ khai báo đường dẫn cho các "library" files:
+C:\SourceJX\DX9CSDK\LIB
+C:\SourceJX\UTILITY\LIB
+C:\SourceJX\SWORDONLINE\LIB
+C:\SourceJX\STLPORT\LIB
+C:\SourceJX\GDIPLUS\LIB
+C:\Program Files\Microsoft Visual Studio\VC98\LIB
+C:\Program Files\Microsoft Visual Studio\VC98\MFC\LIB
+----------Ok là xong giờ có thể build rồi....
+tạo card mạng ảo : phím WIN + R rồi nhập vào hdwwiz.exe
+
+C:\THIENDIEUONLINE\DX9CSDK\INCLUDE
+C:\THIENDIEUONLINE\GDIPLUS\INCLUDE
+C:\THIENDIEUONLINE\UTILITY\HEADERS
+C:\THIENDIEUONLINE\STLPORT\STLPORT\STL
+C:\THIENDIEUONLINE\SWORDONLINE\HEADERS
+C:\THIENDIEUONLINE\SWORDONLINE\SOURCES\ENGINE\SRC
+C:\THIENDIEUONLINE\SWORDONLINE\SOURCES\CORE\SRC
+
+C:\THIENDIEUONLINE\DX9CSDK\LIB
+C:\THIENDIEUONLINE\UTILITY\LIB
+C:\THIENDIEUONLINE\SWORDONLINE\LIB
+C:\THIENDIEUONLINE\STLPORT\LIB
+C:\THIENDIEUONLINE\GDIPLUS\LIB

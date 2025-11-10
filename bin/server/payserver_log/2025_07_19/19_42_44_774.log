@@ -1,0 +1,33 @@
+
+*
+***** Sword3PaySys Start (@ 2025/07/19 19:42:44.774) >>>>>
+*
+
+[2025/07/19 19:42:50] 1 >> DB Connect 0 is busy !
+[2025/07/19 19:42:50] 2 >> Add Gateway(192.168.254.42 : 49280) Client 0 ! -- At 0
+[2025/07/19 19:42:50] 3 >> Gateway txjx(192.168.254.42)000C-2930-B738: Verify OK !
+[2025/07/19 19:42:50] 4 >> Gateway unlock OK!
+[2025/07/19 19:42:50] 5 >> Gateway Connect OK!
+[2025/07/19 19:42:53] 6 >> DB Connect 0 is free !
+[2025/07/19 19:43:02] 7 >> Gateway txjx(192.168.254.42): Ping 10(s)
+[2025/07/19 19:43:11] 8 >> Gateway txjx(192.168.254.42): Ping 10(s)
+[2025/07/19 19:43:14] 9 >> DB Connect 0 is busy !
+[2025/07/19 19:43:14] 10 >> Gateway txjx(192.168.254.42): User 1234567 Login Success ! (Ext:1090)
+[2025/07/19 19:43:17] 11 >> Gateway txjx(192.168.254.42): User 1234567 Enter Game Success !
+[2025/07/19 19:43:17] 12 >> DB Connect 0 is free !
+[2025/07/19 19:43:20] 13 >> Gateway txjx(192.168.254.42): Ping 10(s)
+[2025/07/19 19:43:32] 14 >> Gateway txjx(192.168.254.42): Ping 10(s)
+[2025/07/19 19:43:41] 15 >> Gateway txjx(192.168.254.42): Ping 10(s)
+[2025/07/19 19:43:50] 16 >> Gateway txjx(192.168.254.42): Ping 10(s)
+[2025/07/19 19:44:03] 17 >> Gateway txjx(192.168.254.42): Ping 10(s)
+[2025/07/19 19:44:12] 18 >> Gateway txjx(192.168.254.42): Ping 10(s)
+[2025/07/19 19:44:21] 19 >> Gateway txjx(192.168.254.42): Ping 10(s)
+[2025/07/19 19:44:27] 20 >> DB Connect 0 is busy !
+[2025/07/19 19:44:27] 21 >> [S3PDB_MSSQLServer_Connection::Do COM error: IDispatch error #3092
+[2025/07/19 19:44:27] 22 >> Gateway txjx(192.168.254.42): User 1234567 Logout Success ! (Ext:0)
+[2025/07/19 19:44:27] 23 >> DB Connect 0 is free !
+[2025/07/19 19:44:33] 24 >> Gateway txjx(192.168.254.42): Ping 10(s)
+[2025/07/19 19:44:33] 25 >> Remove Gateway Client 0 ! -- At 0
+[2025/07/19 19:45:33] 26 >> DB Connect 0 is busy !
+[2025/07/19 19:45:33] 27 >> [S3PDB_MSSQLServer_Connection::Do COM error: IDispatch error #3092
+[2025/07/19 19:45:33] 28 >> DB Connect 0 is free !

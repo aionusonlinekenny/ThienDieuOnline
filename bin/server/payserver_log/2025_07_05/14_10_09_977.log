@@ -1,0 +1,11 @@
+
+*
+***** Sword3PaySys Start (@ 2025/07/05 14:10:09.977) >>>>>
+*
+
+[2025/07/05 14:10:19] 1 >> DB Connect 0 is busy !
+[2025/07/05 14:10:19] 2 >> Add Gateway(192.168.254.42 : 58404) Client 0 ! -- At 0
+[2025/07/05 14:10:19] 3 >> Gateway txjx(192.168.254.42)000C-2930-B738: Verify OK !
+[2025/07/05 14:10:19] 4 >> Gateway unlock OK!
+[2025/07/05 14:10:19] 5 >> Gateway Connect OK!
+[2025/07/05 14:10:19] 6 >> DB Connect 0 is free !

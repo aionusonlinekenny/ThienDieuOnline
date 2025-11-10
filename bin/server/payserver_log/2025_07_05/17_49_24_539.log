@@ -1,0 +1,41 @@
+
+*
+***** Sword3PaySys Start (@ 2025/07/05 17:49:24.539) >>>>>
+*
+
+[2025/07/05 17:49:30] 1 >> DB Connect 0 is busy !
+[2025/07/05 17:49:30] 2 >> Add Gateway(192.168.254.42 : 59847) Client 0 ! -- At 0
+[2025/07/05 17:49:30] 3 >> Gateway txjx(192.168.254.42)000C-2930-B738: Verify OK !
+[2025/07/05 17:49:30] 4 >> Gateway unlock OK!
+[2025/07/05 17:49:30] 5 >> Gateway Connect OK!
+[2025/07/05 17:49:30] 6 >> DB Connect 0 is free !
+[2025/07/05 17:49:42] 7 >> Gateway txjx(192.168.254.42): Ping 10(s)
+[2025/07/05 17:49:48] 8 >> DB Connect 0 is busy !
+[2025/07/05 17:49:48] 9 >> Gateway txjx(192.168.254.42): User 1234567 Login Success ! (Ext:1017)
+[2025/07/05 17:49:48] 10 >> Gateway txjx(192.168.254.42): User 1234567 Enter Game Success !
+[2025/07/05 17:49:48] 11 >> DB Connect 0 is free !
+[2025/07/05 17:49:51] 12 >> Gateway txjx(192.168.254.42): Ping 10(s)
+[2025/07/05 17:50:00] 13 >> Gateway txjx(192.168.254.42): Ping 10(s)
+[2025/07/05 17:50:12] 14 >> Gateway txjx(192.168.254.42): Ping 10(s)
+[2025/07/05 17:50:21] 15 >> Gateway txjx(192.168.254.42): Ping 10(s)
+[2025/07/05 17:50:30] 16 >> Gateway txjx(192.168.254.42): Ping 10(s)
+[2025/07/05 17:50:42] 17 >> Gateway txjx(192.168.254.42): Ping 9(s)
+[2025/07/05 17:50:51] 18 >> Gateway txjx(192.168.254.42): Ping 10(s)
+[2025/07/05 17:51:00] 19 >> Gateway txjx(192.168.254.42): Ping 10(s)
+[2025/07/05 17:51:12] 20 >> Gateway txjx(192.168.254.42): Ping 10(s)
+[2025/07/05 17:51:21] 21 >> Gateway txjx(192.168.254.42): Ping 10(s)
+[2025/07/05 17:51:30] 22 >> Gateway txjx(192.168.254.42): Ping 10(s)
+[2025/07/05 17:51:42] 23 >> Gateway txjx(192.168.254.42): Ping 10(s)
+[2025/07/05 17:51:51] 24 >> Gateway txjx(192.168.254.42): Ping 10(s)
+[2025/07/05 17:52:00] 25 >> Gateway txjx(192.168.254.42): Ping 10(s)
+[2025/07/05 17:52:09] 26 >> DB Connect 0 is busy !
+[2025/07/05 17:52:09] 27 >> [S3PDB_MSSQLServer_Connection::Do COM error: IDispatch error #3092
+[2025/07/05 17:52:09] 28 >> Gateway txjx(192.168.254.42): User 1234567 Logout Success ! (Ext:0)
+[2025/07/05 17:52:09] 29 >> DB Connect 0 is free !
+[2025/07/05 17:52:12] 30 >> Gateway txjx(192.168.254.42): Ping 10(s)
+[2025/07/05 17:52:15] Nomal exit !!!
+
+*
+***** Sword3PaySys Stop (@ 2025/07/05 17:52:15.858) <<<<<
+*
+

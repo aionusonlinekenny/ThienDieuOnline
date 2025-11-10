@@ -1,0 +1,157 @@
+
+*
+***** Sword3PaySys Start (@ 2025/07/21 18:28:47.163) >>>>>
+*
+
+[2025/07/21 18:28:53] 1 >> DB Connect 0 is busy !
+[2025/07/21 18:28:53] 2 >> Add Gateway(192.168.254.42 : 58554) Client 0 ! -- At 0
+[2025/07/21 18:28:53] 3 >> Gateway txjx(192.168.254.42)000C-2930-B738: Verify OK !
+[2025/07/21 18:28:53] 4 >> Gateway unlock OK!
+[2025/07/21 18:28:53] 5 >> Gateway Connect OK!
+[2025/07/21 18:28:56] 6 >> DB Connect 0 is free !
+[2025/07/21 18:29:05] 7 >> Gateway txjx(192.168.254.42): Ping 10(s)
+[2025/07/21 18:29:14] 8 >> Gateway txjx(192.168.254.42): Ping 10(s)
+[2025/07/21 18:29:14] 9 >> DB Connect 0 is busy !
+[2025/07/21 18:29:14] 10 >> Gateway txjx(192.168.254.42): User 12345678 Login Success ! (Ext:15)
+[2025/07/21 18:29:14] 11 >> Gateway txjx(192.168.254.42): User 12345678 Enter Game Success !
+[2025/07/21 18:29:17] 12 >> DB Connect 0 is free !
+[2025/07/21 18:29:23] 13 >> Gateway txjx(192.168.254.42): Ping 10(s)
+[2025/07/21 18:29:35] 14 >> Gateway txjx(192.168.254.42): Ping 10(s)
+[2025/07/21 18:29:44] 15 >> Gateway txjx(192.168.254.42): Ping 10(s)
+[2025/07/21 18:29:53] 16 >> Gateway txjx(192.168.254.42): Ping 10(s)
+[2025/07/21 18:30:05] 17 >> Gateway txjx(192.168.254.42): Ping 10(s)
+[2025/07/21 18:30:14] 18 >> Gateway txjx(192.168.254.42): Ping 10(s)
+[2025/07/21 18:30:20] 19 >> DB Connect 0 is busy !
+[2025/07/21 18:30:20] 20 >> [S3PDB_MSSQLServer_Connection::Do COM error: IDispatch error #3092
+[2025/07/21 18:30:20] 21 >> Gateway txjx(192.168.254.42): User 12345678 Logout Success ! (Ext:0)
+[2025/07/21 18:30:20] 22 >> DB Connect 0 is free !
+[2025/07/21 18:30:23] 23 >> Gateway txjx(192.168.254.42): Ping 10(s)
+[2025/07/21 18:30:29] 24 >> DB Connect 0 is busy !
+[2025/07/21 18:30:29] 25 >> Gateway txjx(192.168.254.42): User 1234567 Login Success ! (Ext:1094)
+[2025/07/21 18:30:29] 26 >> DB Connect 0 is free !
+[2025/07/21 18:30:35] 27 >> Gateway txjx(192.168.254.42): Ping 10(s)
+[2025/07/21 18:30:41] 28 >> DB Connect 0 is busy !
+[2025/07/21 18:30:41] 29 >> Gateway txjx(192.168.254.42): User 1234567 Enter Game Success !
+[2025/07/21 18:30:41] 30 >> DB Connect 0 is free !
+[2025/07/21 18:30:44] 31 >> Gateway txjx(192.168.254.42): Ping 10(s)
+[2025/07/21 18:30:47] 32 >> DB Connect 0 is busy !
+[2025/07/21 18:30:47] 33 >> [S3PDB_MSSQLServer_Connection::Do COM error: IDispatch error #3092
+[2025/07/21 18:30:47] 34 >> Gateway txjx(192.168.254.42): User 1234567 Logout Success ! (Ext:0)
+[2025/07/21 18:30:47] 35 >> Gateway txjx(192.168.254.42): User 1234567 Login Success ! (Ext:1094)
+[2025/07/21 18:30:47] 36 >> Gateway txjx(192.168.254.42): User 1234567 Enter Game Success !
+[2025/07/21 18:30:47] 37 >> DB Connect 0 is free !
+[2025/07/21 18:30:53] 38 >> Gateway txjx(192.168.254.42): Ping 10(s)
+[2025/07/21 18:31:05] 39 >> Gateway txjx(192.168.254.42): Ping 10(s)
+[2025/07/21 18:31:14] 40 >> Gateway txjx(192.168.254.42): Ping 10(s)
+[2025/07/21 18:31:23] 41 >> Gateway txjx(192.168.254.42): Ping 10(s)
+[2025/07/21 18:31:35] 42 >> Gateway txjx(192.168.254.42): Ping 10(s)
+[2025/07/21 18:31:44] 43 >> Gateway txjx(192.168.254.42): Ping 10(s)
+[2025/07/21 18:31:53] 44 >> Gateway txjx(192.168.254.42): Ping 10(s)
+[2025/07/21 18:32:05] 45 >> Gateway txjx(192.168.254.42): Ping 10(s)
+[2025/07/21 18:32:14] 46 >> Gateway txjx(192.168.254.42): Ping 10(s)
+[2025/07/21 18:32:23] 47 >> Gateway txjx(192.168.254.42): Ping 10(s)
+[2025/07/21 18:32:35] 48 >> Gateway txjx(192.168.254.42): Ping 10(s)
+[2025/07/21 18:32:44] 49 >> Gateway txjx(192.168.254.42): Ping 10(s)
+[2025/07/21 18:32:53] 50 >> Gateway txjx(192.168.254.42): Ping 10(s)
+[2025/07/21 18:33:05] 51 >> Gateway txjx(192.168.254.42): Ping 10(s)
+[2025/07/21 18:33:14] 52 >> Gateway txjx(192.168.254.42): Ping 10(s)
+[2025/07/21 18:33:24] 53 >> Gateway txjx(192.168.254.42): Ping 10(s)
+[2025/07/21 18:33:33] 54 >> Gateway txjx(192.168.254.42): Ping 10(s)
+[2025/07/21 18:33:45] 55 >> Gateway txjx(192.168.254.42): Ping 10(s)
+[2025/07/21 18:33:54] 56 >> Gateway txjx(192.168.254.42): Ping 10(s)
+[2025/07/21 18:34:06] 57 >> Gateway txjx(192.168.254.42): Ping 10(s)
+[2025/07/21 18:34:15] 58 >> Gateway txjx(192.168.254.42): Ping 10(s)
+[2025/07/21 18:34:24] 59 >> Gateway txjx(192.168.254.42): Ping 10(s)
+[2025/07/21 18:34:36] 60 >> Gateway txjx(192.168.254.42): Ping 10(s)
+[2025/07/21 18:34:45] 61 >> Gateway txjx(192.168.254.42): Ping 10(s)
+[2025/07/21 18:34:54] 62 >> Gateway txjx(192.168.254.42): Ping 10(s)
+[2025/07/21 18:35:03] 63 >> Gateway txjx(192.168.254.42): Ping 10(s)
+[2025/07/21 18:35:15] 64 >> Gateway txjx(192.168.254.42): Ping 10(s)
+[2025/07/21 18:35:24] 65 >> Gateway txjx(192.168.254.42): Ping 10(s)
+[2025/07/21 18:35:33] 66 >> Gateway txjx(192.168.254.42): Ping 10(s)
+[2025/07/21 18:35:45] 67 >> Gateway txjx(192.168.254.42): Ping 10(s)
+[2025/07/21 18:35:54] 68 >> Gateway txjx(192.168.254.42): Ping 10(s)
+[2025/07/21 18:36:03] 69 >> Gateway txjx(192.168.254.42): Ping 10(s)
+[2025/07/21 18:36:15] 70 >> Gateway txjx(192.168.254.42): Ping 10(s)
+[2025/07/21 18:36:24] 71 >> Gateway txjx(192.168.254.42): Ping 10(s)
+[2025/07/21 18:36:33] 72 >> Gateway txjx(192.168.254.42): Ping 10(s)
+[2025/07/21 18:36:45] 73 >> Gateway txjx(192.168.254.42): Ping 10(s)
+[2025/07/21 18:36:54] 74 >> Gateway txjx(192.168.254.42): Ping 10(s)
+[2025/07/21 18:37:06] 75 >> Gateway txjx(192.168.254.42): Ping 10(s)
+[2025/07/21 18:37:15] 76 >> Gateway txjx(192.168.254.42): Ping 10(s)
+[2025/07/21 18:37:24] 77 >> Gateway txjx(192.168.254.42): Ping 10(s)
+[2025/07/21 18:37:36] 78 >> Gateway txjx(192.168.254.42): Ping 10(s)
+[2025/07/21 18:37:45] 79 >> Gateway txjx(192.168.254.42): Ping 10(s)
+[2025/07/21 18:37:54] 80 >> Gateway txjx(192.168.254.42): Ping 10(s)
+[2025/07/21 18:38:06] 81 >> Gateway txjx(192.168.254.42): Ping 9(s)
+[2025/07/21 18:38:15] 82 >> Gateway txjx(192.168.254.42): Ping 10(s)
+[2025/07/21 18:38:24] 83 >> Gateway txjx(192.168.254.42): Ping 10(s)
+[2025/07/21 18:38:36] 84 >> Gateway txjx(192.168.254.42): Ping 10(s)
+[2025/07/21 18:38:45] 85 >> Gateway txjx(192.168.254.42): Ping 10(s)
+[2025/07/21 18:38:54] 86 >> Gateway txjx(192.168.254.42): Ping 10(s)
+[2025/07/21 18:39:06] 87 >> Gateway txjx(192.168.254.42): Ping 10(s)
+[2025/07/21 18:39:15] 88 >> Gateway txjx(192.168.254.42): Ping 10(s)
+[2025/07/21 18:39:24] 89 >> Gateway txjx(192.168.254.42): Ping 10(s)
+[2025/07/21 18:39:33] 90 >> Gateway txjx(192.168.254.42): Ping 10(s)
+[2025/07/21 18:39:42] 91 >> DB Connect 0 is busy !
+[2025/07/21 18:39:42] 92 >> [S3PDB_MSSQLServer_Connection::Do COM error: IDispatch error #3092
+[2025/07/21 18:39:42] 93 >> Gateway txjx(192.168.254.42): User 1234567 Logout Success ! (Ext:0)
+[2025/07/21 18:39:42] 94 >> Gateway txjx(192.168.254.42): User 1234567 Login Success ! (Ext:1094)
+[2025/07/21 18:39:42] 95 >> Gateway txjx(192.168.254.42): User 1234567 Enter Game Success !
+[2025/07/21 18:39:45] 96 >> DB Connect 0 is free !
+[2025/07/21 18:39:45] 97 >> Gateway txjx(192.168.254.42): Ping 10(s)
+[2025/07/21 18:39:51] 98 >> DB Connect 0 is busy !
+[2025/07/21 18:39:51] 99 >> [S3PDB_MSSQLServer_Connection::Do COM error: IDispatch error #3092
+[2025/07/21 18:39:51] 100 >> Gateway txjx(192.168.254.42): User 1234567 Logout Success ! (Ext:0)
+[2025/07/21 18:39:51] 101 >> Gateway txjx(192.168.254.42): User 1234567 Login Success ! (Ext:1094)
+[2025/07/21 18:39:51] 102 >> Gateway txjx(192.168.254.42): User 1234567 Enter Game Success !
+[2025/07/21 18:39:51] 103 >> DB Connect 0 is free !
+[2025/07/21 18:39:54] 104 >> Gateway txjx(192.168.254.42): Ping 10(s)
+[2025/07/21 18:40:03] 105 >> Gateway txjx(192.168.254.42): Ping 10(s)
+[2025/07/21 18:40:15] 106 >> Gateway txjx(192.168.254.42): Ping 10(s)
+[2025/07/21 18:40:18] 107 >> DB Connect 0 is busy !
+[2025/07/21 18:40:18] 108 >> [S3PDB_MSSQLServer_Connection::Do COM error: IDispatch error #3092
+[2025/07/21 18:40:18] 109 >> Gateway txjx(192.168.254.42): User 1234567 Logout Success ! (Ext:0)
+[2025/07/21 18:40:18] 110 >> Gateway txjx(192.168.254.42): User 1234567 Login Success ! (Ext:1094)
+[2025/07/21 18:40:18] 111 >> Gateway txjx(192.168.254.42): User 1234567 Enter Game Success !
+[2025/07/21 18:40:21] 112 >> DB Connect 0 is free !
+[2025/07/21 18:40:24] 113 >> Gateway txjx(192.168.254.42): Ping 10(s)
+[2025/07/21 18:40:33] 114 >> Gateway txjx(192.168.254.42): Ping 10(s)
+[2025/07/21 18:40:45] 115 >> Gateway txjx(192.168.254.42): Ping 10(s)
+[2025/07/21 18:40:54] 116 >> Gateway txjx(192.168.254.42): Ping 10(s)
+[2025/07/21 18:41:03] 117 >> Gateway txjx(192.168.254.42): Ping 10(s)
+[2025/07/21 18:41:15] 118 >> Gateway txjx(192.168.254.42): Ping 10(s)
+[2025/07/21 18:41:24] 119 >> Gateway txjx(192.168.254.42): Ping 10(s)
+[2025/07/21 18:41:33] 120 >> Gateway txjx(192.168.254.42): Ping 10(s)
+[2025/07/21 18:41:45] 121 >> Gateway txjx(192.168.254.42): Ping 10(s)
+[2025/07/21 18:41:54] 122 >> Gateway txjx(192.168.254.42): Ping 10(s)
+[2025/07/21 18:42:03] 123 >> Gateway txjx(192.168.254.42): Ping 10(s)
+[2025/07/21 18:42:16] 124 >> Gateway txjx(192.168.254.42): Ping 10(s)
+[2025/07/21 18:42:25] 125 >> Gateway txjx(192.168.254.42): Ping 10(s)
+[2025/07/21 18:42:34] 126 >> Gateway txjx(192.168.254.42): Ping 10(s)
+[2025/07/21 18:42:46] 127 >> Gateway txjx(192.168.254.42): Ping 10(s)
+[2025/07/21 18:42:55] 128 >> Gateway txjx(192.168.254.42): Ping 10(s)
+[2025/07/21 18:43:04] 129 >> Gateway txjx(192.168.254.42): Ping 10(s)
+[2025/07/21 18:43:16] 130 >> Gateway txjx(192.168.254.42): Ping 10(s)
+[2025/07/21 18:43:25] 131 >> Gateway txjx(192.168.254.42): Ping 10(s)
+[2025/07/21 18:43:34] 132 >> Gateway txjx(192.168.254.42): Ping 10(s)
+[2025/07/21 18:43:46] 133 >> Gateway txjx(192.168.254.42): Ping 10(s)
+[2025/07/21 18:43:55] 134 >> Gateway txjx(192.168.254.42): Ping 10(s)
+[2025/07/21 18:44:04] 135 >> Gateway txjx(192.168.254.42): Ping 10(s)
+[2025/07/21 18:44:16] 136 >> Gateway txjx(192.168.254.42): Ping 10(s)
+[2025/07/21 18:44:25] 137 >> Gateway txjx(192.168.254.42): Ping 10(s)
+[2025/07/21 18:44:34] 138 >> Gateway txjx(192.168.254.42): Ping 10(s)
+[2025/07/21 18:44:46] 139 >> Gateway txjx(192.168.254.42): Ping 10(s)
+[2025/07/21 18:44:55] 140 >> Gateway txjx(192.168.254.42): Ping 10(s)
+[2025/07/21 18:45:04] 141 >> Gateway txjx(192.168.254.42): Ping 10(s)
+[2025/07/21 18:45:16] 142 >> Gateway txjx(192.168.254.42): Ping 10(s)
+[2025/07/21 18:45:25] 143 >> Gateway txjx(192.168.254.42): Ping 10(s)
+[2025/07/21 18:45:34] 144 >> DB Connect 0 is busy !
+[2025/07/21 18:45:34] 145 >> [S3PDB_MSSQLServer_Connection::Do COM error: IDispatch error #3092
+[2025/07/21 18:45:34] 146 >> Gateway txjx(192.168.254.42): User 1234567 Logout Success ! (Ext:0)
+[2025/07/21 18:45:34] 147 >> Gateway txjx(192.168.254.42): Ping 10(s)
+[2025/07/21 18:45:37] 148 >> DB Connect 0 is free !
+[2025/07/21 18:45:40] 149 >> Remove Gateway Client 0 ! -- At 0
+[2025/07/21 18:46:40] 150 >> DB Connect 0 is busy !
+[2025/07/21 18:46:40] 151 >> [S3PDB_MSSQLServer_Connection::Do COM error: IDispatch error #3092
+[2025/07/21 18:46:40] 152 >> DB Connect 0 is free !

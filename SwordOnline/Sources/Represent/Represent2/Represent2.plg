@@ -1,0 +1,54 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Represent2 - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\TRUCNG~1\AppData\Local\Temp\RSPA16.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "REPRESENT2_EXPORTS" /Fp"Debug/Represent2.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\ThienDieuOnline\SwordOnline\Sources\Represent\Represent2\KRepresentShell2.cpp"
+]
+Creating command line "cl.exe @C:\Users\TRUCNG~1\AppData\Local\Temp\RSPA16.tmp" 
+Creating temporary file "C:\Users\TRUCNG~1\AppData\Local\Temp\RSPA17.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib GdiPlus.lib /nologo /dll /incremental:no /pdb:"Debug/Represent2.pdb" /map:"Debug/Represent2.map" /debug /machine:I386 /out:"Debug/Represent2.dll" /implib:"../../../lib/Represent.lib" /pdbtype:sept 
+.\Debug\KImageStore2.obj
+.\Debug\RepresentUtility.obj
+.\Debug\KRepresentShell2.obj
+.\Debug\KFont2.obj
+.\Debug\KFontData.obj
+.\Debug\TextProcess.obj
+.\Debug\ImageOperation.obj
+..\..\..\Lib\debug\engine.lib
+]
+Creating command line "link.exe @C:\Users\TRUCNG~1\AppData\Local\Temp\RSPA17.tmp"
+<h3>Output Window</h3>
+Compiling...
+KRepresentShell2.cpp
+c:\thiendieuonline\swordonline\sources\represent\represent2\krepresentshell2.cpp(1146) : error C2039: 'DrawSpriteScreenBlendSSE2' : is not a member of 'KRepresentShell2'
+        c:\thiendieuonline\swordonline\sources\represent\represent2\krepresentshell2.h(22) : see declaration of 'KRepresentShell2'
+c:\thiendieuonline\swordonline\sources\represent\represent2\krepresentshell2.cpp(1207) : error C2065: 'g_pPal' : undeclared identifier
+c:\thiendieuonline\swordonline\sources\represent\represent2\krepresentshell2.cpp(1207) : error C2440: '=' : cannot convert from 'unsigned short *' to 'int'
+        This conversion requires a reinterpret_cast, a C-style cast or function-style cast
+c:\thiendieuonline\swordonline\sources\represent\represent2\krepresentshell2.cpp(1208) : error C2065: 'g_pSection' : undeclared identifier
+c:\thiendieuonline\swordonline\sources\represent\represent2\krepresentshell2.cpp(1208) : error C2440: '=' : cannot convert from 'unsigned char *' to 'int'
+        This conversion requires a reinterpret_cast, a C-style cast or function-style cast
+c:\thiendieuonline\swordonline\sources\represent\represent2\krepresentshell2.cpp(1209) : error C2065: 'g_nIndex' : undeclared identifier
+c:\thiendieuonline\swordonline\sources\represent\represent2\krepresentshell2.cpp(1212) : error C2065: '_Jmp' : undeclared identifier
+c:\thiendieuonline\swordonline\sources\represent\represent2\krepresentshell2.cpp(1228) : error C2065: '_Alpha' : undeclared identifier
+c:\thiendieuonline\swordonline\sources\represent\represent2\krepresentshell2.cpp(1230) : error C2065: '_Color' : undeclared identifier
+c:\thiendieuonline\swordonline\sources\represent\represent2\krepresentshell2.cpp(1285) : error C2065: 'ScreenBlend4Pixel' : undeclared identifier
+c:\thiendieuonline\swordonline\sources\represent\represent2\krepresentshell2.cpp(1338) : error C2065: 'ScreenBlend2Pixel' : undeclared identifier
+c:\thiendieuonline\swordonline\sources\represent\represent2\krepresentshell2.cpp(1373) : error C2065: 'ScreenBlend1Pixel' : undeclared identifier
+Error executing cl.exe.
+
+
+
+<h3>Results</h3>
+Represent2.dll - 12 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

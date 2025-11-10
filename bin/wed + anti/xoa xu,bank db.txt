@@ -1,0 +1,11 @@
+ham bank khoa tat ca ac
+--------------------------------------
+use account;
+update Account_Info set iLock = 1;
+update hwids set is_banned = 1;
+
+-------------------------------------------
+
+ham xoa tat ca xu
+
+update Account_Habitus set nExtPoint = 0;

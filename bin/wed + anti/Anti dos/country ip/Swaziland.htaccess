@@ -1,0 +1,14 @@
+# Country: SWAZILAND
+# ISO Code: SZ
+# Total Networks: 9
+# Total Subnets:  34,560
+deny from 41.78.132.0/22
+deny from 41.84.224.0/19
+deny from 41.204.0.0/19
+deny from 41.211.32.0/19
+deny from 41.215.144.0/20
+deny from 69.63.64.0/20
+deny from 196.11.124.0/24
+deny from 196.13.168.0/24
+deny from 196.28.7.0/24
+#

@@ -1,0 +1,1649 @@
+
+*
+***** S3Relay Start (@ 2025/07/21 19:27:29.531) >>>>>
+*
+
+[2025/07/21 19:27:29] 1 -- Initializing ...
+[2025/07/21 19:27:29] 2 -- Connect Database Success!
+[2025/07/21 19:27:29] 3 -- Create Channel: [Stock, GM] <00000000> GM
+[2025/07/21 19:27:29] 4 -- Create Channel: [Stock] <00000001> 世界
+[2025/07/21 19:27:29] 5 -- friend timing update db: start
+[2025/07/21 19:27:29] 6 -- relay server startup
+[2025/07/21 19:27:29] 7 -- root client create: 192.168.254.42
+[2025/07/21 19:27:29] 8 -- DBRole client create: 192.168.254.42
+[2025/07/21 19:27:29] 9 -- root client close: 192.168.254.42
+[2025/07/21 19:27:29] 10 -- gateway client create: 192.168.254.42
+[2025/07/21 19:27:29] 11 -- host server startup
+[2025/07/21 19:27:29] 12 -- tong server startup
+[2025/07/21 19:27:29] 13 -- chat server startup
+[2025/07/21 19:27:29] 14 -- SockThread start success
+[2025/07/21 19:27:29] 15 -- tong database open ok!
+[2025/07/21 19:27:29] 16 -- tongset init ok !
+[2025/07/21 19:27:29] 17 -- Initialize OK
+[2025/07/21 19:27:38] 18 -- host connect create: 127.0.0.1
+[2025/07/21 19:27:38] 19 -- chat connect create: 127.0.0.1
+[2025/07/21 19:27:38] 20 -- tong connect create: 127.0.0.1
+[2025/07/21 19:27:44] 21 -- host connect create: 192.168.254.43
+[2025/07/21 19:27:44] 22 -- chat connect create: 192.168.254.43
+[2025/07/21 19:27:44] 23 -- tong connect create: 192.168.254.43
+[2025/07/21 19:27:44] 24 -- host connect create: 192.168.254.44
+[2025/07/21 19:27:44] 25 -- chat connect create: 192.168.254.44
+[2025/07/21 19:27:44] 26 -- tong connect create: 192.168.254.44
+[2025/07/21 19:28:35] 27 -- load someone: BaoDaiSu
+[2025/07/21 19:28:35] 28 -- player login: 123456 [BaoDaiSu] (0100007F, 00000000)
+[2025/07/21 19:28:35] 29 -- Query ChannelID: \S from (0100007F, 00000000)
+[2025/07/21 19:28:35] 30 -- Create Channel: <00000002> \S16777343
+[2025/07/21 19:28:35] 31 -- Query ChannelID: 世界 from (0100007F, 00000000)
+[2025/07/21 19:28:35] 32 -- Query ChannelID: GM from (0100007F, 00000000)
+[2025/07/21 19:28:35] 33 -- Query ChannelID: \B from (0100007F, 00000000)
+[2025/07/21 19:28:35] 34 -- Create Channel: <00000003> \B16777343
+[2025/07/21 19:28:35] 35 -- Query ChannelID: \S from (0100007F, 00000000)
+[2025/07/21 19:28:35] 36 -- Query ChannelID: 世界 from (0100007F, 00000000)
+[2025/07/21 19:28:35] 37 -- Query ChannelID: GM from (0100007F, 00000000)
+[2025/07/21 19:28:35] 38 -- Query ChannelID: \B from (0100007F, 00000000)
+[2025/07/21 19:28:35] 39 -- sync friend list: BaoDaiSu (full)
+[2025/07/21 19:28:35] 40 -- Subscribe Channel: 00000002 by (0100007F,00000000)
+[2025/07/21 19:28:35] 41 -- Subscribe Channel: 00000001 by (0100007F,00000000)
+[2025/07/21 19:28:35] 42 -- Subscribe Channel: GM <00000000> by (0100007F,00000000)
+[2025/07/21 19:28:35] 43 -- Subscribe Channel: 00000003 by (0100007F,00000000)
+[2025/07/21 19:28:35] 44 -- Subscribe Channel: 00000002 by (0100007F,00000000)
+[2025/07/21 19:28:35] 45 -- Subscribe Channel: 00000001 by (0100007F,00000000)
+[2025/07/21 19:28:35] 46 -- Subscribe Channel: GM <00000000> by (0100007F,00000000)
+[2025/07/21 19:28:35] 47 -- Subscribe Channel: 00000003 by (0100007F,00000000)
+[2025/07/21 19:28:41] 48 -- Destroy Channel: <00000002> \S16777343
+[2025/07/21 19:28:41] 49 -- Destroy Channel: <00000003> \B16777343
+[2025/07/21 19:28:41] 50 -- player logout: 123456
+[2025/07/21 19:28:41] 51 -- player login: 123456 [BaoDaiSu] (0100007F, 00000001)
+[2025/07/21 19:28:41] 52 -- Query ChannelID: \S from (0100007F, 00000001)
+[2025/07/21 19:28:41] 53 -- Create Channel: <00000004> \S16777343
+[2025/07/21 19:28:41] 54 -- Query ChannelID: 世界 from (0100007F, 00000001)
+[2025/07/21 19:28:41] 55 -- Query ChannelID: GM from (0100007F, 00000001)
+[2025/07/21 19:28:41] 56 -- Query ChannelID: \B from (0100007F, 00000001)
+[2025/07/21 19:28:41] 57 -- Create Channel: <00000005> \B16777343
+[2025/07/21 19:28:41] 58 -- sync friend list: BaoDaiSu (full)
+[2025/07/21 19:28:41] 59 -- Subscribe Channel: 00000004 by (0100007F,00000001)
+[2025/07/21 19:28:41] 60 -- Subscribe Channel: 00000001 by (0100007F,00000001)
+[2025/07/21 19:28:41] 61 -- Subscribe Channel: GM <00000000> by (0100007F,00000001)
+[2025/07/21 19:28:41] 62 -- Subscribe Channel: 00000005 by (0100007F,00000001)
+[2025/07/21 19:29:17] 63 -- Query ChannelID: \F0 from (0100007F, 00000001)
+[2025/07/21 19:29:17] 64 -- Create Channel: <00000006> \F0
+[2025/07/21 19:29:17] 65 -- Subscribe Channel: 00000006 by (0100007F,00000001)
+[2025/07/21 19:30:38] 66 -- Destroy Channel: <00000004> \S16777343
+[2025/07/21 19:30:38] 67 -- Destroy Channel: <00000005> \B16777343
+[2025/07/21 19:30:38] 68 -- Destroy Channel: <00000006> \F0
+[2025/07/21 19:30:38] 69 -- player logout: 123456
+[2025/07/21 19:30:38] 70 -- player login: 123456 [BaoDaiSu] (2CFEA8C0, 00000000)
+[2025/07/21 19:30:38] 71 -- Query ChannelID: \S from (2CFEA8C0, 00000000)
+[2025/07/21 19:30:38] 72 -- Create Channel: <00000007> \S754886848
+[2025/07/21 19:30:38] 73 -- Query ChannelID: 世界 from (2CFEA8C0, 00000000)
+[2025/07/21 19:30:38] 74 -- Query ChannelID: \F0 from (2CFEA8C0, 00000000)
+[2025/07/21 19:30:38] 75 -- Create Channel: <00000008> \F0
+[2025/07/21 19:30:38] 76 -- Query ChannelID: GM from (2CFEA8C0, 00000000)
+[2025/07/21 19:30:38] 77 -- Query ChannelID: \B from (2CFEA8C0, 00000000)
+[2025/07/21 19:30:38] 78 -- Create Channel: <00000009> \B754886848
+[2025/07/21 19:30:38] 79 -- sync friend list: BaoDaiSu (full)
+[2025/07/21 19:30:38] 80 -- Query ChannelID: \S from (2CFEA8C0, 00000000)
+[2025/07/21 19:30:38] 81 -- Query ChannelID: 世界 from (2CFEA8C0, 00000000)
+[2025/07/21 19:30:38] 82 -- Query ChannelID: \F0 from (2CFEA8C0, 00000000)
+[2025/07/21 19:30:38] 83 -- Query ChannelID: GM from (2CFEA8C0, 00000000)
+[2025/07/21 19:30:38] 84 -- Query ChannelID: \B from (2CFEA8C0, 00000000)
+[2025/07/21 19:30:38] 85 -- Query ChannelID: \S from (2CFEA8C0, 00000000)
+[2025/07/21 19:30:38] 86 -- Query ChannelID: 世界 from (2CFEA8C0, 00000000)
+[2025/07/21 19:30:38] 87 -- Query ChannelID: \F0 from (2CFEA8C0, 00000000)
+[2025/07/21 19:30:38] 88 -- Query ChannelID: GM from (2CFEA8C0, 00000000)
+[2025/07/21 19:30:38] 89 -- Query ChannelID: \B from (2CFEA8C0, 00000000)
+[2025/07/21 19:30:38] 90 -- Subscribe Channel: 00000007 by (2CFEA8C0,00000000)
+[2025/07/21 19:30:38] 91 -- Subscribe Channel: 00000001 by (2CFEA8C0,00000000)
+[2025/07/21 19:30:38] 92 -- Subscribe Channel: 00000008 by (2CFEA8C0,00000000)
+[2025/07/21 19:30:38] 93 -- Subscribe Channel: GM <00000000> by (2CFEA8C0,00000000)
+[2025/07/21 19:30:38] 94 -- Subscribe Channel: 00000009 by (2CFEA8C0,00000000)
+[2025/07/21 19:30:38] 95 -- Subscribe Channel: 00000007 by (2CFEA8C0,00000000)
+[2025/07/21 19:30:38] 96 -- Subscribe Channel: 00000001 by (2CFEA8C0,00000000)
+[2025/07/21 19:30:38] 97 -- Subscribe Channel: 00000008 by (2CFEA8C0,00000000)
+[2025/07/21 19:30:38] 98 -- Subscribe Channel: GM <00000000> by (2CFEA8C0,00000000)
+[2025/07/21 19:30:38] 99 -- Subscribe Channel: 00000009 by (2CFEA8C0,00000000)
+[2025/07/21 19:30:38] 100 -- Subscribe Channel: 00000007 by (2CFEA8C0,00000000)
+[2025/07/21 19:30:38] 101 -- Subscribe Channel: 00000001 by (2CFEA8C0,00000000)
+[2025/07/21 19:30:38] 102 -- Subscribe Channel: 00000008 by (2CFEA8C0,00000000)
+[2025/07/21 19:30:38] 103 -- Subscribe Channel: GM <00000000> by (2CFEA8C0,00000000)
+[2025/07/21 19:30:38] 104 -- Subscribe Channel: 00000009 by (2CFEA8C0,00000000)
+[2025/07/21 19:31:39] 105 -- load someone: NgaMyPhai
+[2025/07/21 19:31:39] 106 -- player login: 1234567 [NgaMyPhai] (0100007F, 00000002)
+[2025/07/21 19:31:39] 107 -- Query ChannelID: \S from (0100007F, 00000002)
+[2025/07/21 19:31:39] 108 -- Create Channel: <0000000A> \S16777343
+[2025/07/21 19:31:39] 109 -- Query ChannelID: 世界 from (0100007F, 00000002)
+[2025/07/21 19:31:39] 110 -- Query ChannelID: GM from (0100007F, 00000002)
+[2025/07/21 19:31:39] 111 -- Query ChannelID: \B from (0100007F, 00000002)
+[2025/07/21 19:31:39] 112 -- Create Channel: <0000000B> \B16777343
+[2025/07/21 19:31:39] 113 -- Query ChannelID: \S from (0100007F, 00000002)
+[2025/07/21 19:31:39] 114 -- Query ChannelID: 世界 from (0100007F, 00000002)
+[2025/07/21 19:31:39] 115 -- Query ChannelID: GM from (0100007F, 00000002)
+[2025/07/21 19:31:39] 116 -- Query ChannelID: \B from (0100007F, 00000002)
+[2025/07/21 19:31:39] 117 -- sync friend list: NgaMyPhai (full)
+[2025/07/21 19:31:39] 118 -- Subscribe Channel: 0000000A by (0100007F,00000002)
+[2025/07/21 19:31:39] 119 -- Subscribe Channel: 00000001 by (0100007F,00000002)
+[2025/07/21 19:31:39] 120 -- Subscribe Channel: GM <00000000> by (0100007F,00000002)
+[2025/07/21 19:31:39] 121 -- Subscribe Channel: 0000000B by (0100007F,00000002)
+[2025/07/21 19:31:39] 122 -- Subscribe Channel: 0000000A by (0100007F,00000002)
+[2025/07/21 19:31:39] 123 -- Subscribe Channel: 00000001 by (0100007F,00000002)
+[2025/07/21 19:31:39] 124 -- Subscribe Channel: GM <00000000> by (0100007F,00000002)
+[2025/07/21 19:31:39] 125 -- Subscribe Channel: 0000000B by (0100007F,00000002)
+[2025/07/21 19:31:44] 126 -- Destroy Channel: <0000000A> \S16777343
+[2025/07/21 19:31:44] 127 -- Destroy Channel: <0000000B> \B16777343
+[2025/07/21 19:31:44] 128 -- player logout: 1234567
+[2025/07/21 19:31:44] 129 -- player login: 1234567 [NgaMyPhai] (0100007F, 00000003)
+[2025/07/21 19:31:44] 130 -- Query ChannelID: \S from (0100007F, 00000003)
+[2025/07/21 19:31:44] 131 -- Create Channel: <0000000C> \S16777343
+[2025/07/21 19:31:44] 132 -- Query ChannelID: 世界 from (0100007F, 00000003)
+[2025/07/21 19:31:44] 133 -- Query ChannelID: GM from (0100007F, 00000003)
+[2025/07/21 19:31:44] 134 -- Query ChannelID: \B from (0100007F, 00000003)
+[2025/07/21 19:31:44] 135 -- Create Channel: <0000000D> \B16777343
+[2025/07/21 19:31:44] 136 -- sync friend list: NgaMyPhai (full)
+[2025/07/21 19:31:44] 137 -- Subscribe Channel: 0000000C by (0100007F,00000003)
+[2025/07/21 19:31:44] 138 -- Subscribe Channel: 00000001 by (0100007F,00000003)
+[2025/07/21 19:31:44] 139 -- Subscribe Channel: GM <00000000> by (0100007F,00000003)
+[2025/07/21 19:31:44] 140 -- Subscribe Channel: 0000000D by (0100007F,00000003)
+[2025/07/21 19:32:33] 141 -- update friend DB succeed
+[2025/07/21 19:32:45] 142 -- Query ChannelID: \F4 from (0100007F, 00000003)
+[2025/07/21 19:32:45] 143 -- Create Channel: <0000000E> \F4
+[2025/07/21 19:32:45] 144 -- Subscribe Channel: 0000000E by (0100007F,00000003)
+[2025/07/21 19:33:00] 145 -- Destroy Channel: <0000000C> \S16777343
+[2025/07/21 19:33:00] 146 -- Destroy Channel: <0000000D> \B16777343
+[2025/07/21 19:33:00] 147 -- Destroy Channel: <0000000E> \F4
+[2025/07/21 19:33:00] 148 -- player logout: 1234567
+[2025/07/21 19:33:00] 149 -- player login: 1234567 [NgaMyPhai] (2CFEA8C0, 00000001)
+[2025/07/21 19:33:00] 150 -- Query ChannelID: \S from (2CFEA8C0, 00000001)
+[2025/07/21 19:33:00] 151 -- Query ChannelID: 世界 from (2CFEA8C0, 00000001)
+[2025/07/21 19:33:00] 152 -- Query ChannelID: \F4 from (2CFEA8C0, 00000001)
+[2025/07/21 19:33:00] 153 -- Create Channel: <0000000F> \F4
+[2025/07/21 19:33:00] 154 -- Query ChannelID: GM from (2CFEA8C0, 00000001)
+[2025/07/21 19:33:00] 155 -- Query ChannelID: \B from (2CFEA8C0, 00000001)
+[2025/07/21 19:33:00] 156 -- sync friend list: NgaMyPhai (full)
+[2025/07/21 19:33:00] 157 -- Query ChannelID: \S from (2CFEA8C0, 00000001)
+[2025/07/21 19:33:00] 158 -- Query ChannelID: 世界 from (2CFEA8C0, 00000001)
+[2025/07/21 19:33:00] 159 -- Query ChannelID: \F4 from (2CFEA8C0, 00000001)
+[2025/07/21 19:33:00] 160 -- Query ChannelID: GM from (2CFEA8C0, 00000001)
+[2025/07/21 19:33:00] 161 -- Query ChannelID: \B from (2CFEA8C0, 00000001)
+[2025/07/21 19:33:00] 162 -- Query ChannelID: \S from (2CFEA8C0, 00000001)
+[2025/07/21 19:33:00] 163 -- Query ChannelID: 世界 from (2CFEA8C0, 00000001)
+[2025/07/21 19:33:00] 164 -- Query ChannelID: \F4 from (2CFEA8C0, 00000001)
+[2025/07/21 19:33:00] 165 -- Query ChannelID: GM from (2CFEA8C0, 00000001)
+[2025/07/21 19:33:00] 166 -- Query ChannelID: \B from (2CFEA8C0, 00000001)
+[2025/07/21 19:33:00] 167 -- Subscribe Channel: 00000007 by (2CFEA8C0,00000001)
+[2025/07/21 19:33:00] 168 -- Subscribe Channel: 00000001 by (2CFEA8C0,00000001)
+[2025/07/21 19:33:00] 169 -- Subscribe Channel: 0000000F by (2CFEA8C0,00000001)
+[2025/07/21 19:33:00] 170 -- Subscribe Channel: GM <00000000> by (2CFEA8C0,00000001)
+[2025/07/21 19:33:00] 171 -- Subscribe Channel: 00000009 by (2CFEA8C0,00000001)
+[2025/07/21 19:33:00] 172 -- Subscribe Channel: 00000007 by (2CFEA8C0,00000001)
+[2025/07/21 19:33:00] 173 -- Subscribe Channel: 00000001 by (2CFEA8C0,00000001)
+[2025/07/21 19:33:00] 174 -- Subscribe Channel: 0000000F by (2CFEA8C0,00000001)
+[2025/07/21 19:33:00] 175 -- Subscribe Channel: GM <00000000> by (2CFEA8C0,00000001)
+[2025/07/21 19:33:00] 176 -- Subscribe Channel: 00000009 by (2CFEA8C0,00000001)
+[2025/07/21 19:33:00] 177 -- Subscribe Channel: 00000007 by (2CFEA8C0,00000001)
+[2025/07/21 19:33:00] 178 -- Subscribe Channel: 00000001 by (2CFEA8C0,00000001)
+[2025/07/21 19:33:00] 179 -- Subscribe Channel: 0000000F by (2CFEA8C0,00000001)
+[2025/07/21 19:33:00] 180 -- Subscribe Channel: GM <00000000> by (2CFEA8C0,00000001)
+[2025/07/21 19:33:00] 181 -- Subscribe Channel: 00000009 by (2CFEA8C0,00000001)
+[2025/07/21 19:36:57] 182 -- Query ChannelID: \T0 from (2CFEA8C0, 00000000)
+[2025/07/21 19:36:57] 183 -- Create Channel: <00000010> \T0:754886848
+[2025/07/21 19:36:57] 184 -- Query ChannelID: \T0 from (2CFEA8C0, 00000000)
+[2025/07/21 19:36:57] 185 -- Query ChannelID: \T0 from (2CFEA8C0, 00000000)
+[2025/07/21 19:36:57] 186 -- Subscribe Channel: 00000010 by (2CFEA8C0,00000000)
+[2025/07/21 19:36:57] 187 -- Subscribe Channel: 00000010 by (2CFEA8C0,00000000)
+[2025/07/21 19:36:57] 188 -- Subscribe Channel: 00000010 by (2CFEA8C0,00000000)
+[2025/07/21 19:37:00] 189 -- Query ChannelID: \T0 from (2CFEA8C0, 00000001)
+[2025/07/21 19:37:00] 190 -- Subscribe Channel: 00000010 by (2CFEA8C0,00000001)
+[2025/07/21 19:37:33] 191 -- update friend DB succeed
+[2025/07/21 19:38:33] 192 -- [UpdateExtPoint][1234567] Update Coin [1096] into database successfully!!!
+[2025/07/21 19:38:54] 193 -- [UpdateExtPoint][1234567] Update Coin [1097] into database successfully!!!
+[2025/07/21 19:39:09] 194 -- [UpdateExtPoint][1234567] Update Coin [1099] into database successfully!!!
+[2025/07/21 19:42:01] 195 -- [UpdateExtPoint][123456] Update Coin [316] into database successfully!!!
+[2025/07/21 19:42:34] 196 -- update friend DB succeed
+[2025/07/21 19:43:10] 197 -- [UpdateExtPoint][1234567] Update Coin [1100] into database successfully!!!
+[2025/07/21 19:47:34] 198 -- update friend DB succeed
+[2025/07/21 19:48:50] 199 -- [UpdateExtPoint][123456] Update Coin [317] into database successfully!!!
+[2025/07/21 19:51:38] 200 -- [UpdateExtPoint][1234567] Update Coin [1102] into database successfully!!!
+[2025/07/21 19:52:32] 201 -- update friend DB succeed
+[2025/07/21 19:57:33] 202 -- update friend DB succeed
+[2025/07/21 19:59:24] 203 -- [UpdateExtPoint][1234567] Update Coin [1104] into database successfully!!!
+[2025/07/21 20:02:33] 204 -- update friend DB succeed
+[2025/07/21 20:05:37] 205 -- [UpdateExtPoint][1234567] Update Coin [1106] into database successfully!!!
+[2025/07/21 20:06:10] 206 -- [UpdateExtPoint][1234567] Update Coin [1108] into database successfully!!!
+[2025/07/21 20:07:34] 207 -- update friend DB succeed
+[2025/07/21 20:07:34] 208 -- [UpdateExtPoint][1234567] Update Coin [1109] into database successfully!!!
+[2025/07/21 20:12:35] 209 -- update friend DB succeed
+[2025/07/21 20:17:33] 210 -- update friend DB succeed
+[2025/07/21 20:18:18] 211 -- [UpdateExtPoint][123456] Update Coin [319] into database successfully!!!
+[2025/07/21 20:22:33] 212 -- update friend DB succeed
+[2025/07/21 20:23:31] 213 -- [UpdateExtPoint][1234567] Update Coin [1111] into database successfully!!!
+[2025/07/21 20:27:34] 214 -- update friend DB succeed
+[2025/07/21 20:32:35] 215 -- update friend DB succeed
+[2025/07/21 20:34:05] 216 -- [UpdateExtPoint][123456] Update Coin [320] into database successfully!!!
+[2025/07/21 20:37:35] 217 -- update friend DB succeed
+[2025/07/21 20:40:14] 218 -- [UpdateExtPoint][1234567] Update Coin [1112] into database successfully!!!
+[2025/07/21 20:42:33] 219 -- update friend DB succeed
+[2025/07/21 20:47:33] 220 -- update friend DB succeed
+[2025/07/21 20:52:34] 221 -- update friend DB succeed
+[2025/07/21 20:54:04] 222 -- [UpdateExtPoint][123456] Update Coin [322] into database successfully!!!
+[2025/07/21 20:56:07] 223 -- [UpdateExtPoint][1234567] Update Coin [1114] into database successfully!!!
+[2025/07/21 20:57:35] 224 -- update friend DB succeed
+[2025/07/21 21:02:32] 225 -- [UpdateExtPoint][1234567] Update Coin [1115] into database successfully!!!
+[2025/07/21 21:02:32] 226 -- update friend DB succeed
+[2025/07/21 21:07:33] 227 -- update friend DB succeed
+[2025/07/21 21:10:46] 228 -- [UpdateExtPoint][123456] Update Coin [324] into database successfully!!!
+[2025/07/21 21:11:25] 229 -- [UpdateExtPoint][1234567] Update Coin [1116] into database successfully!!!
+[2025/07/21 21:12:34] 230 -- update friend DB succeed
+[2025/07/21 21:17:34] 231 -- update friend DB succeed
+[2025/07/21 21:21:11] 232 -- [UpdateExtPoint][1234567] Update Coin [1118] into database successfully!!!
+[2025/07/21 21:22:35] 233 -- update friend DB succeed
+[2025/07/21 21:25:56] 234 -- [UpdateExtPoint][123456] Update Coin [326] into database successfully!!!
+[2025/07/21 21:25:56] 235 -- Unsubscribe Channel: 00000010 by (2CFEA8C0,00000000)
+[2025/07/21 21:25:56] 236 -- Unsubscribe Channel: 00000010 by (2CFEA8C0,00000001)
+[2025/07/21 21:25:59] 237 -- [UpdateExtPoint][1234567] Update Coin [1119] into database successfully!!!
+[2025/07/21 21:27:06] 238 -- [UpdateExtPoint][1234567] Update Coin [1120] into database successfully!!!
+[2025/07/21 21:27:33] 239 -- update friend DB succeed
+[2025/07/21 21:32:24] 240 -- [UpdateExtPoint][1234567] Update Coin [1122] into database successfully!!!
+[2025/07/21 21:32:33] 241 -- update friend DB succeed
+[2025/07/21 21:37:34] 242 -- update friend DB succeed
+[2025/07/21 21:37:43] 243 -- [UpdateExtPoint][1234567] Update Coin [1123] into database successfully!!!
+[2025/07/21 21:42:35] 244 -- update friend DB succeed
+[2025/07/21 21:47:35] 245 -- update friend DB succeed
+[2025/07/21 21:52:33] 246 -- update friend DB succeed
+[2025/07/21 21:57:33] 247 -- update friend DB succeed
+[2025/07/21 21:58:42] 248 -- [UpdateExtPoint][1234567] Update Coin [1124] into database successfully!!!
+[2025/07/21 22:02:34] 249 -- update friend DB succeed
+[2025/07/21 22:07:35] 250 -- update friend DB succeed
+[2025/07/21 22:12:32] 251 -- update friend DB succeed
+[2025/07/21 22:17:24] 252 -- [UpdateExtPoint][1234567] Update Coin [1125] into database successfully!!!
+[2025/07/21 22:17:33] 253 -- update friend DB succeed
+[2025/07/21 22:17:36] 254 -- [UpdateExtPoint][1234567] Update Coin [1127] into database successfully!!!
+[2025/07/21 22:22:34] 255 -- update friend DB succeed
+[2025/07/21 22:26:01] 256 -- [UpdateExtPoint][1234567] Update Coin [1129] into database successfully!!!
+[2025/07/21 22:27:34] 257 -- update friend DB succeed
+[2025/07/21 22:31:32] 258 -- [UpdateExtPoint][1234567] Update Coin [1131] into database successfully!!!
+[2025/07/21 22:32:35] 259 -- update friend DB succeed
+[2025/07/21 22:37:33] 260 -- update friend DB succeed
+[2025/07/21 22:42:33] 261 -- update friend DB succeed
+[2025/07/21 22:46:46] 262 -- [UpdateExtPoint][1234567] Update Coin [1133] into database successfully!!!
+[2025/07/21 22:47:34] 263 -- update friend DB succeed
+[2025/07/21 22:52:14] 264 -- [UpdateExtPoint][1234567] Update Coin [1135] into database successfully!!!
+[2025/07/21 22:52:35] 265 -- update friend DB succeed
+[2025/07/21 22:55:38] 266 -- [UpdateExtPoint][1234567] Update Coin [1136] into database successfully!!!
+[2025/07/21 22:57:32] 267 -- update friend DB succeed
+[2025/07/21 23:00:33] 268 -- [UpdateExtPoint][1234567] Update Coin [1138] into database successfully!!!
+[2025/07/21 23:01:30] 269 -- [UpdateExtPoint][1234567] Update Coin [1140] into database successfully!!!
+[2025/07/21 23:02:33] 270 -- update friend DB succeed
+[2025/07/21 23:03:00] 271 -- [UpdateExtPoint][1234567] Update Coin [1142] into database successfully!!!
+[2025/07/21 23:07:34] 272 -- update friend DB succeed
+[2025/07/21 23:12:34] 273 -- update friend DB succeed
+[2025/07/21 23:12:37] 274 -- [UpdateExtPoint][1234567] Update Coin [1144] into database successfully!!!
+[2025/07/21 23:14:50] 275 -- [UpdateExtPoint][1234567] Update Coin [1146] into database successfully!!!
+[2025/07/21 23:17:35] 276 -- update friend DB succeed
+[2025/07/21 23:22:35] 277 -- update friend DB succeed
+[2025/07/21 23:27:33] 278 -- update friend DB succeed
+[2025/07/21 23:28:03] 279 -- [UpdateExtPoint][1234567] Update Coin [1148] into database successfully!!!
+[2025/07/21 23:32:19] 280 -- [UpdateExtPoint][1234567] Update Coin [1149] into database successfully!!!
+[2025/07/21 23:32:34] 281 -- update friend DB succeed
+[2025/07/21 23:37:34] 282 -- update friend DB succeed
+[2025/07/21 23:38:52] 283 -- [UpdateExtPoint][1234567] Update Coin [1150] into database successfully!!!
+[2025/07/21 23:41:50] 284 -- [UpdateExtPoint][1234567] Update Coin [1151] into database successfully!!!
+[2025/07/21 23:42:35] 285 -- update friend DB succeed
+[2025/07/21 23:47:35] 286 -- update friend DB succeed
+[2025/07/21 23:52:33] 287 -- update friend DB succeed
+[2025/07/21 23:54:00] 288 -- [UpdateExtPoint][1234567] Update Coin [1153] into database successfully!!!
+[2025/07/21 23:57:34] 289 -- update friend DB succeed
+[2025/07/22 00:02:34] 290 -- update friend DB succeed
+[2025/07/22 00:07:35] 291 -- update friend DB succeed
+[2025/07/22 00:12:35] 292 -- update friend DB succeed
+[2025/07/22 00:17:33] 293 -- update friend DB succeed
+[2025/07/22 00:18:27] 294 -- [UpdateExtPoint][1234567] Update Coin [1154] into database successfully!!!
+[2025/07/22 00:18:57] 295 -- [UpdateExtPoint][1234567] Update Coin [1156] into database successfully!!!
+[2025/07/22 00:19:51] 296 -- [UpdateExtPoint][1234567] Update Coin [1157] into database successfully!!!
+[2025/07/22 00:22:34] 297 -- update friend DB succeed
+[2025/07/22 00:27:34] 298 -- update friend DB succeed
+[2025/07/22 00:28:40] 299 -- [UpdateExtPoint][1234567] Update Coin [1159] into database successfully!!!
+[2025/07/22 00:32:35] 300 -- update friend DB succeed
+[2025/07/22 00:35:08] 301 -- [UpdateExtPoint][1234567] Update Coin [1161] into database successfully!!!
+[2025/07/22 00:37:35] 302 -- update friend DB succeed
+[2025/07/22 00:37:54] 303 -- [UpdateExtPoint][1234567] Update Coin [1163] into database successfully!!!
+[2025/07/22 00:42:33] 304 -- update friend DB succeed
+[2025/07/22 00:47:34] 305 -- update friend DB succeed
+[2025/07/22 00:52:13] 306 -- [UpdateExtPoint][1234567] Update Coin [1165] into database successfully!!!
+[2025/07/22 00:52:34] 307 -- update friend DB succeed
+[2025/07/22 00:57:35] 308 -- update friend DB succeed
+[2025/07/22 01:02:33] 309 -- update friend DB succeed
+[2025/07/22 01:07:34] 310 -- update friend DB succeed
+[2025/07/22 01:10:19] 311 -- [UpdateExtPoint][1234567] Update Coin [1166] into database successfully!!!
+[2025/07/22 01:12:34] 312 -- update friend DB succeed
+[2025/07/22 01:17:35] 313 -- update friend DB succeed
+[2025/07/22 01:22:36] 314 -- update friend DB succeed
+[2025/07/22 01:27:33] 315 -- update friend DB succeed
+[2025/07/22 01:31:37] 316 -- [UpdateExtPoint][1234567] Update Coin [1168] into database successfully!!!
+[2025/07/22 01:32:34] 317 -- update friend DB succeed
+[2025/07/22 01:37:32] 318 -- [UpdateExtPoint][1234567] Update Coin [1170] into database successfully!!!
+[2025/07/22 01:37:35] 319 -- update friend DB succeed
+[2025/07/22 01:39:20] 320 -- [UpdateExtPoint][1234567] Update Coin [1172] into database successfully!!!
+[2025/07/22 01:42:35] 321 -- update friend DB succeed
+[2025/07/22 01:47:36] 322 -- update friend DB succeed
+[2025/07/22 01:47:36] 323 -- [UpdateExtPoint][1234567] Update Coin [1173] into database successfully!!!
+[2025/07/22 01:52:33] 324 -- update friend DB succeed
+[2025/07/22 01:52:39] 325 -- [UpdateExtPoint][1234567] Update Coin [1174] into database successfully!!!
+[2025/07/22 01:57:34] 326 -- update friend DB succeed
+[2025/07/22 02:02:35] 327 -- update friend DB succeed
+[2025/07/22 02:03:53] 328 -- [UpdateExtPoint][1234567] Update Coin [1175] into database successfully!!!
+[2025/07/22 02:05:29] 329 -- [UpdateExtPoint][1234567] Update Coin [1177] into database successfully!!!
+[2025/07/22 02:07:35] 330 -- update friend DB succeed
+[2025/07/22 02:08:29] 331 -- [UpdateExtPoint][1234567] Update Coin [1179] into database successfully!!!
+[2025/07/22 02:12:36] 332 -- update friend DB succeed
+[2025/07/22 02:17:33] 333 -- update friend DB succeed
+[2025/07/22 02:18:58] 334 -- [UpdateExtPoint][1234567] Update Coin [1180] into database successfully!!!
+[2025/07/22 02:19:10] 335 -- [UpdateExtPoint][1234567] Update Coin [1182] into database successfully!!!
+[2025/07/22 02:19:31] 336 -- [UpdateExtPoint][1234567] Update Coin [1184] into database successfully!!!
+[2025/07/22 02:22:34] 337 -- update friend DB succeed
+[2025/07/22 02:26:46] 338 -- [UpdateExtPoint][1234567] Update Coin [1185] into database successfully!!!
+[2025/07/22 02:27:34] 339 -- update friend DB succeed
+[2025/07/22 02:32:35] 340 -- update friend DB succeed
+[2025/07/22 02:37:36] 341 -- update friend DB succeed
+[2025/07/22 02:42:33] 342 -- update friend DB succeed
+[2025/07/22 02:47:34] 343 -- update friend DB succeed
+[2025/07/22 02:50:40] 344 -- [UpdateExtPoint][1234567] Update Coin [1186] into database successfully!!!
+[2025/07/22 02:52:35] 345 -- update friend DB succeed
+[2025/07/22 02:53:35] 346 -- [UpdateExtPoint][1234567] Update Coin [1187] into database successfully!!!
+[2025/07/22 02:57:35] 347 -- update friend DB succeed
+[2025/07/22 03:01:54] 348 -- [UpdateExtPoint][1234567] Update Coin [1189] into database successfully!!!
+[2025/07/22 03:02:33] 349 -- update friend DB succeed
+[2025/07/22 03:03:42] 350 -- [UpdateExtPoint][1234567] Update Coin [1190] into database successfully!!!
+[2025/07/22 03:07:34] 351 -- update friend DB succeed
+[2025/07/22 03:09:25] 352 -- [UpdateExtPoint][1234567] Update Coin [1191] into database successfully!!!
+[2025/07/22 03:12:34] 353 -- update friend DB succeed
+[2025/07/22 03:17:35] 354 -- update friend DB succeed
+[2025/07/22 03:20:32] 355 -- [UpdateExtPoint][1234567] Update Coin [1192] into database successfully!!!
+[2025/07/22 03:22:35] 356 -- update friend DB succeed
+[2025/07/22 03:27:27] 357 -- [UpdateExtPoint][1234567] Update Coin [1193] into database successfully!!!
+[2025/07/22 03:27:36] 358 -- update friend DB succeed
+[2025/07/22 03:32:33] 359 -- update friend DB succeed
+[2025/07/22 03:34:22] 360 -- [UpdateExtPoint][1234567] Update Coin [1195] into database successfully!!!
+[2025/07/22 03:37:22] 361 -- [UpdateExtPoint][1234567] Update Coin [1197] into database successfully!!!
+[2025/07/22 03:37:34] 362 -- update friend DB succeed
+[2025/07/22 03:38:52] 363 -- [UpdateExtPoint][1234567] Update Coin [1199] into database successfully!!!
+[2025/07/22 03:42:35] 364 -- update friend DB succeed
+[2025/07/22 03:45:08] 365 -- [UpdateExtPoint][1234567] Update Coin [1201] into database successfully!!!
+[2025/07/22 03:47:35] 366 -- update friend DB succeed
+[2025/07/22 03:52:33] 367 -- update friend DB succeed
+[2025/07/22 03:57:34] 368 -- update friend DB succeed
+[2025/07/22 04:02:34] 369 -- update friend DB succeed
+[2025/07/22 04:06:05] 370 -- [UpdateExtPoint][1234567] Update Coin [1202] into database successfully!!!
+[2025/07/22 04:07:08] 371 -- [UpdateExtPoint][1234567] Update Coin [1204] into database successfully!!!
+[2025/07/22 04:07:35] 372 -- update friend DB succeed
+[2025/07/22 04:11:38] 373 -- [UpdateExtPoint][1234567] Update Coin [1206] into database successfully!!!
+[2025/07/22 04:12:36] 374 -- update friend DB succeed
+[2025/07/22 04:17:33] 375 -- update friend DB succeed
+[2025/07/22 04:20:46] 376 -- [UpdateExtPoint][1234567] Update Coin [1208] into database successfully!!!
+[2025/07/22 04:22:25] 377 -- [UpdateExtPoint][1234567] Update Coin [1209] into database successfully!!!
+[2025/07/22 04:22:34] 378 -- update friend DB succeed
+[2025/07/22 04:23:16] 379 -- [UpdateExtPoint][1234567] Update Coin [1211] into database successfully!!!
+[2025/07/22 04:27:34] 380 -- update friend DB succeed
+[2025/07/22 04:32:35] 381 -- update friend DB succeed
+[2025/07/22 04:35:41] 382 -- [UpdateExtPoint][1234567] Update Coin [1213] into database successfully!!!
+[2025/07/22 04:37:36] 383 -- update friend DB succeed
+[2025/07/22 04:41:39] 384 -- [UpdateExtPoint][1234567] Update Coin [1215] into database successfully!!!
+[2025/07/22 04:42:33] 385 -- update friend DB succeed
+[2025/07/22 04:47:31] 386 -- [UpdateExtPoint][1234567] Update Coin [1217] into database successfully!!!
+[2025/07/22 04:47:34] 387 -- update friend DB succeed
+[2025/07/22 04:52:14] 388 -- [UpdateExtPoint][1234567] Update Coin [1218] into database successfully!!!
+[2025/07/22 04:52:35] 389 -- update friend DB succeed
+[2025/07/22 04:54:02] 390 -- [UpdateExtPoint][1234567] Update Coin [1220] into database successfully!!!
+[2025/07/22 04:57:35] 391 -- update friend DB succeed
+[2025/07/22 04:59:17] 392 -- [UpdateExtPoint][1234567] Update Coin [1222] into database successfully!!!
+[2025/07/22 05:02:36] 393 -- update friend DB succeed
+[2025/07/22 05:07:34] 394 -- update friend DB succeed
+[2025/07/22 05:10:52] 395 -- [UpdateExtPoint][1234567] Update Coin [1224] into database successfully!!!
+[2025/07/22 05:12:35] 396 -- update friend DB succeed
+[2025/07/22 05:17:35] 397 -- update friend DB succeed
+[2025/07/22 05:21:12] 398 -- [UpdateExtPoint][1234567] Update Coin [1226] into database successfully!!!
+[2025/07/22 05:22:36] 399 -- update friend DB succeed
+[2025/07/22 05:23:00] 400 -- [UpdateExtPoint][1234567] Update Coin [1227] into database successfully!!!
+[2025/07/22 05:23:45] 401 -- [UpdateExtPoint][1234567] Update Coin [1229] into database successfully!!!
+[2025/07/22 05:27:33] 402 -- update friend DB succeed
+[2025/07/22 05:32:34] 403 -- update friend DB succeed
+[2025/07/22 05:37:35] 404 -- update friend DB succeed
+[2025/07/22 05:40:11] 405 -- [UpdateExtPoint][1234567] Update Coin [1231] into database successfully!!!
+[2025/07/22 05:40:41] 406 -- [UpdateExtPoint][1234567] Update Coin [1232] into database successfully!!!
+[2025/07/22 05:40:53] 407 -- [UpdateExtPoint][1234567] Update Coin [1234] into database successfully!!!
+[2025/07/22 05:42:36] 408 -- update friend DB succeed
+[2025/07/22 05:46:18] 409 -- [UpdateExtPoint][1234567] Update Coin [1235] into database successfully!!!
+[2025/07/22 05:47:36] 410 -- update friend DB succeed
+[2025/07/22 05:50:09] 411 -- [UpdateExtPoint][1234567] Update Coin [1237] into database successfully!!!
+[2025/07/22 05:52:34] 412 -- update friend DB succeed
+[2025/07/22 05:57:34] 413 -- update friend DB succeed
+[2025/07/22 06:02:17] 414 -- [UpdateExtPoint][1234567] Update Coin [1239] into database successfully!!!
+[2025/07/22 06:02:35] 415 -- update friend DB succeed
+[2025/07/22 06:07:36] 416 -- update friend DB succeed
+[2025/07/22 06:11:06] 417 -- [UpdateExtPoint][1234567] Update Coin [1240] into database successfully!!!
+[2025/07/22 06:12:33] 418 -- update friend DB succeed
+[2025/07/22 06:16:49] 419 -- [UpdateExtPoint][1234567] Update Coin [1241] into database successfully!!!
+[2025/07/22 06:17:34] 420 -- update friend DB succeed
+[2025/07/22 06:22:35] 421 -- update friend DB succeed
+[2025/07/22 06:23:53] 422 -- [UpdateExtPoint][1234567] Update Coin [1242] into database successfully!!!
+[2025/07/22 06:27:35] 423 -- update friend DB succeed
+[2025/07/22 06:32:03] 424 -- [UpdateExtPoint][1234567] Update Coin [1244] into database successfully!!!
+[2025/07/22 06:32:36] 425 -- update friend DB succeed
+[2025/07/22 06:33:33] 426 -- [UpdateExtPoint][1234567] Update Coin [1245] into database successfully!!!
+[2025/07/22 06:37:33] 427 -- update friend DB succeed
+[2025/07/22 06:42:34] 428 -- update friend DB succeed
+[2025/07/22 06:45:07] 429 -- [UpdateExtPoint][1234567] Update Coin [1246] into database successfully!!!
+[2025/07/22 06:47:20] 430 -- [UpdateExtPoint][1234567] Update Coin [1248] into database successfully!!!
+[2025/07/22 06:47:35] 431 -- update friend DB succeed
+[2025/07/22 06:52:35] 432 -- update friend DB succeed
+[2025/07/22 06:57:36] 433 -- update friend DB succeed
+[2025/07/22 07:02:34] 434 -- update friend DB succeed
+[2025/07/22 07:04:58] 435 -- [UpdateExtPoint][1234567] Update Coin [1250] into database successfully!!!
+[2025/07/22 07:07:04] 436 -- [UpdateExtPoint][1234567] Update Coin [1252] into database successfully!!!
+[2025/07/22 07:07:35] 437 -- update friend DB succeed
+[2025/07/22 07:09:53] 438 -- [UpdateExtPoint][1234567] Update Coin [1253] into database successfully!!!
+[2025/07/22 07:12:35] 439 -- update friend DB succeed
+[2025/07/22 07:14:02] 440 -- [UpdateExtPoint][1234567] Update Coin [1254] into database successfully!!!
+[2025/07/22 07:17:36] 441 -- update friend DB succeed
+[2025/07/22 07:20:21] 442 -- [UpdateExtPoint][1234567] Update Coin [1256] into database successfully!!!
+[2025/07/22 07:22:34] 443 -- update friend DB succeed
+[2025/07/22 07:25:25] 444 -- [UpdateExtPoint][1234567] Update Coin [1258] into database successfully!!!
+[2025/07/22 07:27:34] 445 -- update friend DB succeed
+[2025/07/22 07:27:49] 446 -- [UpdateExtPoint][1234567] Update Coin [1259] into database successfully!!!
+[2025/07/22 07:29:37] 447 -- [UpdateExtPoint][1234567] Update Coin [1261] into database successfully!!!
+[2025/07/22 07:29:50] 448 -- [UpdateExtPoint][1234567] Update Coin [1262] into database successfully!!!
+[2025/07/22 07:32:35] 449 -- update friend DB succeed
+[2025/07/22 07:37:35] 450 -- update friend DB succeed
+[2025/07/22 07:42:36] 451 -- update friend DB succeed
+[2025/07/22 07:47:31] 452 -- [UpdateExtPoint][123456] Update Coin [328] into database successfully!!!
+[2025/07/22 07:47:34] 453 -- update friend DB succeed
+[2025/07/22 07:49:37] 454 -- [UpdateExtPoint][123456] Update Coin [329] into database successfully!!!
+[2025/07/22 07:52:35] 455 -- update friend DB succeed
+[2025/07/22 07:57:35] 456 -- update friend DB succeed
+[2025/07/22 07:58:08] 457 -- [UpdateExtPoint][123456] Update Coin [331] into database successfully!!!
+[2025/07/22 08:02:36] 458 -- update friend DB succeed
+[2025/07/22 08:04:45] 459 -- [UpdateExtPoint][1234567] Update Coin [1264] into database successfully!!!
+[2025/07/22 08:07:10] 460 -- [UpdateExtPoint][1234567] Update Coin [1265] into database successfully!!!
+[2025/07/22 08:07:34] 461 -- update friend DB succeed
+[2025/07/22 08:08:37] 462 -- [UpdateExtPoint][123456] Update Coin [333] into database successfully!!!
+[2025/07/22 08:08:58] 463 -- [UpdateExtPoint][1234567] Update Coin [1267] into database successfully!!!
+[2025/07/22 08:10:31] 464 -- [UpdateExtPoint][1234567] Update Coin [1268] into database successfully!!!
+[2025/07/22 08:12:34] 465 -- update friend DB succeed
+[2025/07/22 08:14:50] 466 -- [UpdateExtPoint][123456] Update Coin [334] into database successfully!!!
+[2025/07/22 08:15:59] 467 -- [UpdateExtPoint][1234567] Update Coin [1270] into database successfully!!!
+[2025/07/22 08:17:35] 468 -- update friend DB succeed
+[2025/07/22 08:17:41] 469 -- [UpdateExtPoint][1234567] Update Coin [1271] into database successfully!!!
+[2025/07/22 08:19:29] 470 -- [UpdateExtPoint][123456] Update Coin [335] into database successfully!!!
+[2025/07/22 08:22:36] 471 -- update friend DB succeed
+[2025/07/22 08:27:33] 472 -- update friend DB succeed
+[2025/07/22 08:30:34] 473 -- [UpdateExtPoint][1234567] Update Coin [1273] into database successfully!!!
+[2025/07/22 08:32:34] 474 -- update friend DB succeed
+[2025/07/22 08:37:35] 475 -- update friend DB succeed
+[2025/07/22 08:38:14] 476 -- [UpdateExtPoint][1234567] Update Coin [1275] into database successfully!!!
+[2025/07/22 08:39:11] 477 -- [UpdateExtPoint][1234567] Update Coin [1276] into database successfully!!!
+[2025/07/22 08:42:35] 478 -- update friend DB succeed
+[2025/07/22 08:47:36] 479 -- update friend DB succeed
+[2025/07/22 08:47:45] 480 -- [UpdateExtPoint][123456] Update Coin [336] into database successfully!!!
+[2025/07/22 08:52:34] 481 -- update friend DB succeed
+[2025/07/22 08:54:55] 482 -- [UpdateExtPoint][1234567] Update Coin [1278] into database successfully!!!
+[2025/07/22 08:57:34] 483 -- update friend DB succeed
+[2025/07/22 09:02:35] 484 -- update friend DB succeed
+[2025/07/22 09:05:50] 485 -- [UpdateExtPoint][1234567] Update Coin [1279] into database successfully!!!
+[2025/07/22 09:05:59] 486 -- [UpdateExtPoint][1234567] Update Coin [1281] into database successfully!!!
+[2025/07/22 09:07:36] 487 -- update friend DB succeed
+[2025/07/22 09:09:39] 488 -- [UpdateExtPoint][1234567] Update Coin [1283] into database successfully!!!
+[2025/07/22 09:09:45] 489 -- [UpdateExtPoint][1234567] Update Coin [1285] into database successfully!!!
+[2025/07/22 09:12:36] 490 -- update friend DB succeed
+[2025/07/22 09:17:34] 491 -- update friend DB succeed
+[2025/07/22 09:21:10] 492 -- [UpdateExtPoint][1234567] Update Coin [1287] into database successfully!!!
+[2025/07/22 09:22:35] 493 -- update friend DB succeed
+[2025/07/22 09:27:35] 494 -- update friend DB succeed
+[2025/07/22 09:32:36] 495 -- update friend DB succeed
+[2025/07/22 09:37:34] 496 -- update friend DB succeed
+[2025/07/22 09:42:34] 497 -- update friend DB succeed
+[2025/07/22 09:47:35] 498 -- update friend DB succeed
+[2025/07/22 09:49:38] 499 -- [UpdateExtPoint][123456] Update Coin [338] into database successfully!!!
+[2025/07/22 09:50:23] 500 -- [UpdateExtPoint][1234567] Update Coin [1288] into database successfully!!!
+[2025/07/22 09:52:36] 501 -- update friend DB succeed
+[2025/07/22 09:57:36] 502 -- update friend DB succeed
+[2025/07/22 10:01:04] 503 -- [UpdateExtPoint][1234567] Update Coin [1289] into database successfully!!!
+[2025/07/22 10:02:34] 504 -- update friend DB succeed
+[2025/07/22 10:07:26] 505 -- [UpdateExtPoint][1234567] Update Coin [1291] into database successfully!!!
+[2025/07/22 10:07:35] 506 -- update friend DB succeed
+[2025/07/22 10:08:17] 507 -- [UpdateExtPoint][1234567] Update Coin [1293] into database successfully!!!
+[2025/07/22 10:12:35] 508 -- update friend DB succeed
+[2025/07/22 10:17:36] 509 -- update friend DB succeed
+[2025/07/22 10:22:36] 510 -- update friend DB succeed
+[2025/07/22 10:27:34] 511 -- update friend DB succeed
+[2025/07/22 10:31:32] 512 -- [UpdateExtPoint][123456] Update Coin [340] into database successfully!!!
+[2025/07/22 10:32:35] 513 -- update friend DB succeed
+[2025/07/22 10:33:17] 514 -- [UpdateExtPoint][123456] Update Coin [342] into database successfully!!!
+[2025/07/22 10:36:42] 515 -- [UpdateExtPoint][123456] Update Coin [344] into database successfully!!!
+[2025/07/22 10:37:36] 516 -- update friend DB succeed
+[2025/07/22 10:42:36] 517 -- update friend DB succeed
+[2025/07/22 10:42:57] 518 -- [UpdateExtPoint][123456] Update Coin [346] into database successfully!!!
+[2025/07/22 10:47:34] 519 -- update friend DB succeed
+[2025/07/22 10:52:35] 520 -- update friend DB succeed
+[2025/07/22 10:57:35] 521 -- update friend DB succeed
+[2025/07/22 11:02:36] 522 -- update friend DB succeed
+[2025/07/22 11:07:36] 523 -- update friend DB succeed
+[2025/07/22 11:12:34] 524 -- update friend DB succeed
+[2025/07/22 11:17:35] 525 -- update friend DB succeed
+[2025/07/22 11:22:36] 526 -- update friend DB succeed
+[2025/07/22 11:27:36] 527 -- update friend DB succeed
+[2025/07/22 11:32:34] 528 -- update friend DB succeed
+[2025/07/22 11:37:35] 529 -- update friend DB succeed
+[2025/07/22 11:42:35] 530 -- update friend DB succeed
+[2025/07/22 11:47:36] 531 -- update friend DB succeed
+[2025/07/22 11:52:37] 532 -- update friend DB succeed
+[2025/07/22 11:57:34] 533 -- update friend DB succeed
+[2025/07/22 12:02:35] 534 -- update friend DB succeed
+[2025/07/22 12:07:36] 535 -- update friend DB succeed
+[2025/07/22 12:12:36] 536 -- update friend DB succeed
+[2025/07/22 12:17:34] 537 -- update friend DB succeed
+[2025/07/22 12:22:35] 538 -- update friend DB succeed
+[2025/07/22 12:27:35] 539 -- update friend DB succeed
+[2025/07/22 12:32:36] 540 -- update friend DB succeed
+[2025/07/22 12:37:37] 541 -- update friend DB succeed
+[2025/07/22 12:42:34] 542 -- update friend DB succeed
+[2025/07/22 12:47:35] 543 -- update friend DB succeed
+[2025/07/22 12:52:36] 544 -- update friend DB succeed
+[2025/07/22 12:57:36] 545 -- update friend DB succeed
+[2025/07/22 13:02:37] 546 -- update friend DB succeed
+[2025/07/22 13:07:35] 547 -- update friend DB succeed
+[2025/07/22 13:12:35] 548 -- update friend DB succeed
+[2025/07/22 13:17:36] 549 -- update friend DB succeed
+[2025/07/22 13:22:37] 550 -- update friend DB succeed
+[2025/07/22 13:27:34] 551 -- update friend DB succeed
+[2025/07/22 13:32:35] 552 -- update friend DB succeed
+[2025/07/22 13:37:36] 553 -- update friend DB succeed
+[2025/07/22 13:42:36] 554 -- update friend DB succeed
+[2025/07/22 13:47:34] 555 -- update friend DB succeed
+[2025/07/22 13:52:35] 556 -- update friend DB succeed
+[2025/07/22 13:57:35] 557 -- update friend DB succeed
+[2025/07/22 14:02:36] 558 -- update friend DB succeed
+[2025/07/22 14:07:37] 559 -- update friend DB succeed
+[2025/07/22 14:12:34] 560 -- update friend DB succeed
+[2025/07/22 14:17:35] 561 -- update friend DB succeed
+[2025/07/22 14:22:36] 562 -- update friend DB succeed
+[2025/07/22 14:27:36] 563 -- update friend DB succeed
+[2025/07/22 14:32:34] 564 -- update friend DB succeed
+[2025/07/22 14:37:35] 565 -- update friend DB succeed
+[2025/07/22 14:42:36] 566 -- update friend DB succeed
+[2025/07/22 14:47:36] 567 -- update friend DB succeed
+[2025/07/22 14:52:37] 568 -- update friend DB succeed
+[2025/07/22 14:57:34] 569 -- update friend DB succeed
+[2025/07/22 15:02:35] 570 -- update friend DB succeed
+[2025/07/22 15:07:36] 571 -- update friend DB succeed
+[2025/07/22 15:12:37] 572 -- update friend DB succeed
+[2025/07/22 15:17:34] 573 -- update friend DB succeed
+[2025/07/22 15:22:35] 574 -- update friend DB succeed
+[2025/07/22 15:27:35] 575 -- update friend DB succeed
+[2025/07/22 15:32:36] 576 -- update friend DB succeed
+[2025/07/22 15:37:36] 577 -- update friend DB succeed
+[2025/07/22 15:39:52] 578 -- Destroy Channel: <00000008> \F0
+[2025/07/22 15:39:52] 579 -- player logout: 123456
+[2025/07/22 15:39:52] 580 -- player login: 123456 [BaoDaiSu] (2BFEA8C0, 00000000)
+[2025/07/22 15:39:52] 581 -- Query ChannelID: \S from (2BFEA8C0, 00000000)
+[2025/07/22 15:39:52] 582 -- Create Channel: <00000011> \S738109632
+[2025/07/22 15:39:52] 583 -- Query ChannelID: 世界 from (2BFEA8C0, 00000000)
+[2025/07/22 15:39:52] 584 -- Query ChannelID: \F0 from (2BFEA8C0, 00000000)
+[2025/07/22 15:39:52] 585 -- Create Channel: <00000012> \F0
+[2025/07/22 15:39:52] 586 -- Query ChannelID: GM from (2BFEA8C0, 00000000)
+[2025/07/22 15:39:52] 587 -- Query ChannelID: \B from (2BFEA8C0, 00000000)
+[2025/07/22 15:39:52] 588 -- Create Channel: <00000013> \B738109632
+[2025/07/22 15:39:52] 589 -- sync friend list: BaoDaiSu (full)
+[2025/07/22 15:39:52] 590 -- Query ChannelID: \S from (2BFEA8C0, 00000000)
+[2025/07/22 15:39:52] 591 -- Query ChannelID: 世界 from (2BFEA8C0, 00000000)
+[2025/07/22 15:39:52] 592 -- Query ChannelID: \F0 from (2BFEA8C0, 00000000)
+[2025/07/22 15:39:52] 593 -- Query ChannelID: GM from (2BFEA8C0, 00000000)
+[2025/07/22 15:39:52] 594 -- Query ChannelID: \B from (2BFEA8C0, 00000000)
+[2025/07/22 15:39:52] 595 -- Query ChannelID: \S from (2BFEA8C0, 00000000)
+[2025/07/22 15:39:52] 596 -- Query ChannelID: 世界 from (2BFEA8C0, 00000000)
+[2025/07/22 15:39:52] 597 -- Query ChannelID: \F0 from (2BFEA8C0, 00000000)
+[2025/07/22 15:39:52] 598 -- Query ChannelID: GM from (2BFEA8C0, 00000000)
+[2025/07/22 15:39:52] 599 -- Query ChannelID: \B from (2BFEA8C0, 00000000)
+[2025/07/22 15:39:52] 600 -- Subscribe Channel: 00000011 by (2BFEA8C0,00000000)
+[2025/07/22 15:39:52] 601 -- Subscribe Channel: 00000001 by (2BFEA8C0,00000000)
+[2025/07/22 15:39:52] 602 -- Subscribe Channel: 00000012 by (2BFEA8C0,00000000)
+[2025/07/22 15:39:52] 603 -- Subscribe Channel: GM <00000000> by (2BFEA8C0,00000000)
+[2025/07/22 15:39:52] 604 -- Subscribe Channel: 00000013 by (2BFEA8C0,00000000)
+[2025/07/22 15:39:52] 605 -- Subscribe Channel: 00000011 by (2BFEA8C0,00000000)
+[2025/07/22 15:39:52] 606 -- Subscribe Channel: 00000001 by (2BFEA8C0,00000000)
+[2025/07/22 15:39:52] 607 -- Subscribe Channel: 00000012 by (2BFEA8C0,00000000)
+[2025/07/22 15:39:52] 608 -- Subscribe Channel: GM <00000000> by (2BFEA8C0,00000000)
+[2025/07/22 15:39:52] 609 -- Subscribe Channel: 00000013 by (2BFEA8C0,00000000)
+[2025/07/22 15:39:52] 610 -- Subscribe Channel: 00000011 by (2BFEA8C0,00000000)
+[2025/07/22 15:39:52] 611 -- Subscribe Channel: 00000001 by (2BFEA8C0,00000000)
+[2025/07/22 15:39:52] 612 -- Subscribe Channel: 00000012 by (2BFEA8C0,00000000)
+[2025/07/22 15:39:52] 613 -- Subscribe Channel: GM <00000000> by (2BFEA8C0,00000000)
+[2025/07/22 15:39:52] 614 -- Subscribe Channel: 00000013 by (2BFEA8C0,00000000)
+[2025/07/22 15:40:01] 615 -- Destroy Channel: <00000011> \S738109632
+[2025/07/22 15:40:01] 616 -- Destroy Channel: <00000012> \F0
+[2025/07/22 15:40:01] 617 -- Destroy Channel: <00000013> \B738109632
+[2025/07/22 15:40:01] 618 -- player logout: 123456
+[2025/07/22 15:40:01] 619 -- player login: 123456 [BaoDaiSu] (2CFEA8C0, 00000002)
+[2025/07/22 15:40:01] 620 -- Query ChannelID: \S from (2CFEA8C0, 00000002)
+[2025/07/22 15:40:01] 621 -- Query ChannelID: 世界 from (2CFEA8C0, 00000002)
+[2025/07/22 15:40:01] 622 -- Query ChannelID: \F0 from (2CFEA8C0, 00000002)
+[2025/07/22 15:40:01] 623 -- Create Channel: <00000014> \F0
+[2025/07/22 15:40:01] 624 -- Query ChannelID: GM from (2CFEA8C0, 00000002)
+[2025/07/22 15:40:01] 625 -- Query ChannelID: \B from (2CFEA8C0, 00000002)
+[2025/07/22 15:40:01] 626 -- sync friend list: BaoDaiSu (full)
+[2025/07/22 15:40:01] 627 -- Query ChannelID: \S from (2CFEA8C0, 00000002)
+[2025/07/22 15:40:01] 628 -- Query ChannelID: 世界 from (2CFEA8C0, 00000002)
+[2025/07/22 15:40:01] 629 -- Query ChannelID: \F0 from (2CFEA8C0, 00000002)
+[2025/07/22 15:40:01] 630 -- Query ChannelID: GM from (2CFEA8C0, 00000002)
+[2025/07/22 15:40:01] 631 -- Query ChannelID: \B from (2CFEA8C0, 00000002)
+[2025/07/22 15:40:01] 632 -- Query ChannelID: \S from (2CFEA8C0, 00000002)
+[2025/07/22 15:40:01] 633 -- Query ChannelID: 世界 from (2CFEA8C0, 00000002)
+[2025/07/22 15:40:01] 634 -- Query ChannelID: \F0 from (2CFEA8C0, 00000002)
+[2025/07/22 15:40:01] 635 -- Query ChannelID: GM from (2CFEA8C0, 00000002)
+[2025/07/22 15:40:01] 636 -- Query ChannelID: \B from (2CFEA8C0, 00000002)
+[2025/07/22 15:40:01] 637 -- Subscribe Channel: 00000007 by (2CFEA8C0,00000002)
+[2025/07/22 15:40:01] 638 -- Subscribe Channel: 00000001 by (2CFEA8C0,00000002)
+[2025/07/22 15:40:01] 639 -- Subscribe Channel: 00000014 by (2CFEA8C0,00000002)
+[2025/07/22 15:40:01] 640 -- Subscribe Channel: GM <00000000> by (2CFEA8C0,00000002)
+[2025/07/22 15:40:01] 641 -- Subscribe Channel: 00000009 by (2CFEA8C0,00000002)
+[2025/07/22 15:40:01] 642 -- Subscribe Channel: 00000007 by (2CFEA8C0,00000002)
+[2025/07/22 15:40:01] 643 -- Subscribe Channel: 00000001 by (2CFEA8C0,00000002)
+[2025/07/22 15:40:01] 644 -- Subscribe Channel: 00000014 by (2CFEA8C0,00000002)
+[2025/07/22 15:40:01] 645 -- Subscribe Channel: GM <00000000> by (2CFEA8C0,00000002)
+[2025/07/22 15:40:01] 646 -- Subscribe Channel: 00000009 by (2CFEA8C0,00000002)
+[2025/07/22 15:40:01] 647 -- Subscribe Channel: 00000007 by (2CFEA8C0,00000002)
+[2025/07/22 15:40:01] 648 -- Subscribe Channel: 00000001 by (2CFEA8C0,00000002)
+[2025/07/22 15:40:01] 649 -- Subscribe Channel: 00000014 by (2CFEA8C0,00000002)
+[2025/07/22 15:40:01] 650 -- Subscribe Channel: GM <00000000> by (2CFEA8C0,00000002)
+[2025/07/22 15:40:01] 651 -- Subscribe Channel: 00000009 by (2CFEA8C0,00000002)
+[2025/07/22 15:41:34] 652 -- [UpdateExtPoint][1234567] Update Coin [1294] into database successfully!!!
+[2025/07/22 15:41:37] 653 -- [UpdateExtPoint][1234567] Update Coin [1295] into database successfully!!!
+[2025/07/22 15:42:37] 654 -- update friend DB succeed
+[2025/07/22 15:47:35] 655 -- update friend DB succeed
+[2025/07/22 15:47:44] 656 -- [UpdateExtPoint][1234567] Update Coin [1296] into database successfully!!!
+[2025/07/22 15:51:17] 657 -- [UpdateExtPoint][1234567] Update Coin [1297] into database successfully!!!
+[2025/07/22 15:51:38] 658 -- [UpdateExtPoint][1234567] Update Coin [1298] into database successfully!!!
+[2025/07/22 15:52:35] 659 -- update friend DB succeed
+[2025/07/22 15:57:36] 660 -- update friend DB succeed
+[2025/07/22 16:02:37] 661 -- update friend DB succeed
+[2025/07/22 16:07:37] 662 -- update friend DB succeed
+[2025/07/22 16:12:35] 663 -- update friend DB succeed
+[2025/07/22 16:15:26] 664 -- [UpdateExtPoint][1234567] Update Coin [1300] into database successfully!!!
+[2025/07/22 16:17:35] 665 -- update friend DB succeed
+[2025/07/22 16:22:00] 666 -- [UpdateExtPoint][1234567] Update Coin [1301] into database successfully!!!
+[2025/07/22 16:22:36] 667 -- update friend DB succeed
+[2025/07/22 16:24:57] 668 -- [UpdateExtPoint][1234567] Update Coin [1302] into database successfully!!!
+[2025/07/22 16:27:37] 669 -- update friend DB succeed
+[2025/07/22 16:28:49] 670 -- [UpdateExtPoint][1234567] Update Coin [1303] into database successfully!!!
+[2025/07/22 16:31:40] 671 -- [UpdateExtPoint][123456] Update Coin [348] into database successfully!!!
+[2025/07/22 16:32:37] 672 -- update friend DB succeed
+[2025/07/22 16:37:35] 673 -- update friend DB succeed
+[2025/07/22 16:42:35] 674 -- update friend DB succeed
+[2025/07/22 16:47:36] 675 -- update friend DB succeed
+[2025/07/22 16:49:18] 676 -- [UpdateExtPoint][123456] Update Coin [349] into database successfully!!!
+[2025/07/22 16:51:07] 677 -- [UpdateExtPoint][1234567] Update Coin [1305] into database successfully!!!
+[2025/07/22 16:52:19] 678 -- [UpdateExtPoint][1234567] Update Coin [1307] into database successfully!!!
+[2025/07/22 16:52:37] 679 -- update friend DB succeed
+[2025/07/22 16:55:55] 680 -- [UpdateExtPoint][123456] Update Coin [350] into database successfully!!!
+[2025/07/22 16:57:34] 681 -- update friend DB succeed
+[2025/07/22 16:58:23] 682 -- [UpdateExtPoint][1234567] Update Coin [1309] into database successfully!!!
+[2025/07/22 17:00:11] 683 -- [UpdateExtPoint][1234567] Update Coin [1311] into database successfully!!!
+[2025/07/22 17:02:35] 684 -- update friend DB succeed
+[2025/07/22 17:06:18] 685 -- [UpdateExtPoint][123456] Update Coin [352] into database successfully!!!
+[2025/07/22 17:07:36] 686 -- update friend DB succeed
+[2025/07/22 17:12:37] 687 -- update friend DB succeed
+[2025/07/22 17:17:37] 688 -- update friend DB succeed
+[2025/07/22 17:22:35] 689 -- update friend DB succeed
+[2025/07/22 17:25:53] 690 -- [UpdateExtPoint][123456] Update Coin [353] into database successfully!!!
+[2025/07/22 17:27:36] 691 -- update friend DB succeed
+[2025/07/22 17:27:51] 692 -- [UpdateExtPoint][123456] Update Coin [354] into database successfully!!!
+[2025/07/22 17:32:36] 693 -- update friend DB succeed
+[2025/07/22 17:37:37] 694 -- update friend DB succeed
+[2025/07/22 17:39:31] 695 -- [UpdateExtPoint][123456] Update Coin [356] into database successfully!!!
+[2025/07/22 17:42:35] 696 -- update friend DB succeed
+[2025/07/22 17:47:35] 697 -- update friend DB succeed
+[2025/07/22 17:48:39] 698 -- [UpdateExtPoint][123456] Update Coin [357] into database successfully!!!
+[2025/07/22 17:52:36] 699 -- update friend DB succeed
+[2025/07/22 17:57:37] 700 -- update friend DB succeed
+[2025/07/22 17:58:52] 701 -- [UpdateExtPoint][123456] Update Coin [359] into database successfully!!!
+[2025/07/22 18:02:35] 702 -- update friend DB succeed
+[2025/07/22 18:07:35] 703 -- update friend DB succeed
+[2025/07/22 18:12:36] 704 -- update friend DB succeed
+[2025/07/22 18:17:37] 705 -- update friend DB succeed
+[2025/07/22 18:22:37] 706 -- update friend DB succeed
+[2025/07/22 18:27:35] 707 -- update friend DB succeed
+[2025/07/22 18:32:36] 708 -- update friend DB succeed
+[2025/07/22 18:37:36] 709 -- update friend DB succeed
+[2025/07/22 18:42:37] 710 -- update friend DB succeed
+[2025/07/22 18:47:38] 711 -- update friend DB succeed
+[2025/07/22 18:52:35] 712 -- update friend DB succeed
+[2025/07/22 18:52:38] 713 -- [UpdateExtPoint][123456] Update Coin [360] into database successfully!!!
+[2025/07/22 18:57:36] 714 -- update friend DB succeed
+[2025/07/22 19:02:36] 715 -- update friend DB succeed
+[2025/07/22 19:07:37] 716 -- update friend DB succeed
+[2025/07/22 19:11:22] 717 -- [UpdateExtPoint][123456] Update Coin [362] into database successfully!!!
+[2025/07/22 19:12:37] 718 -- update friend DB succeed
+[2025/07/22 19:17:35] 719 -- update friend DB succeed
+[2025/07/22 19:22:35] 720 -- update friend DB succeed
+[2025/07/22 19:27:36] 721 -- update friend DB succeed
+[2025/07/22 19:32:37] 722 -- update friend DB succeed
+[2025/07/22 19:37:38] 723 -- update friend DB succeed
+[2025/07/22 19:39:17] 724 -- [UpdateExtPoint][123456] Update Coin [363] into database successfully!!!
+[2025/07/22 19:42:35] 725 -- update friend DB succeed
+[2025/07/22 19:47:36] 726 -- update friend DB succeed
+[2025/07/22 19:52:37] 727 -- update friend DB succeed
+[2025/07/22 19:54:25] 728 -- [UpdateExtPoint][123456] Update Coin [364] into database successfully!!!
+[2025/07/22 19:57:37] 729 -- update friend DB succeed
+[2025/07/22 20:02:38] 730 -- update friend DB succeed
+[2025/07/22 20:07:35] 731 -- update friend DB succeed
+[2025/07/22 20:12:36] 732 -- update friend DB succeed
+[2025/07/22 20:17:37] 733 -- update friend DB succeed
+[2025/07/22 20:22:28] 734 -- [UpdateExtPoint][123456] Update Coin [366] into database successfully!!!
+[2025/07/22 20:22:37] 735 -- update friend DB succeed
+[2025/07/22 20:23:55] 736 -- [UpdateExtPoint][123456] Update Coin [368] into database successfully!!!
+[2025/07/22 20:27:35] 737 -- update friend DB succeed
+[2025/07/22 20:32:36] 738 -- update friend DB succeed
+[2025/07/22 20:33:12] 739 -- [UpdateExtPoint][123456] Update Coin [369] into database successfully!!!
+[2025/07/22 20:36:57] 740 -- Destroy Channel: <0000000F> \F4
+[2025/07/22 20:36:57] 741 -- Destroy Channel: <00000010> \T0:754886848
+[2025/07/22 20:36:57] 742 -- player logout: 1234567
+[2025/07/22 20:37:36] 743 -- update friend DB succeed
+[2025/07/22 20:42:37] 744 -- update friend DB succeed
+[2025/07/22 20:47:37] 745 -- update friend DB succeed
+[2025/07/22 20:52:38] 746 -- update friend DB succeed
+[2025/07/22 20:57:35] 747 -- update friend DB succeed
+[2025/07/22 21:02:36] 748 -- update friend DB succeed
+[2025/07/22 21:07:36] 749 -- update friend DB succeed
+[2025/07/22 21:12:37] 750 -- update friend DB succeed
+[2025/07/22 21:17:37] 751 -- update friend DB succeed
+[2025/07/22 21:22:35] 752 -- update friend DB succeed
+[2025/07/22 21:27:36] 753 -- update friend DB succeed
+[2025/07/22 21:32:36] 754 -- update friend DB succeed
+[2025/07/22 21:37:37] 755 -- update friend DB succeed
+[2025/07/22 21:42:37] 756 -- update friend DB succeed
+[2025/07/22 21:47:38] 757 -- update friend DB succeed
+[2025/07/22 21:52:35] 758 -- update friend DB succeed
+[2025/07/22 21:57:36] 759 -- update friend DB succeed
+[2025/07/22 22:02:36] 760 -- update friend DB succeed
+[2025/07/22 22:07:36] 761 -- update friend DB succeed
+[2025/07/22 22:12:37] 762 -- update friend DB succeed
+[2025/07/22 22:17:38] 763 -- update friend DB succeed
+[2025/07/22 22:22:38] 764 -- update friend DB succeed
+[2025/07/22 22:27:35] 765 -- update friend DB succeed
+[2025/07/22 22:32:36] 766 -- update friend DB succeed
+[2025/07/22 22:37:37] 767 -- update friend DB succeed
+[2025/07/22 22:42:37] 768 -- update friend DB succeed
+[2025/07/22 22:47:38] 769 -- update friend DB succeed
+[2025/07/22 22:52:35] 770 -- update friend DB succeed
+[2025/07/22 22:57:36] 771 -- update friend DB succeed
+[2025/07/22 23:02:37] 772 -- update friend DB succeed
+[2025/07/22 23:07:37] 773 -- update friend DB succeed
+[2025/07/22 23:12:38] 774 -- update friend DB succeed
+[2025/07/22 23:17:35] 775 -- update friend DB succeed
+[2025/07/22 23:22:36] 776 -- update friend DB succeed
+[2025/07/22 23:27:36] 777 -- update friend DB succeed
+[2025/07/22 23:32:37] 778 -- update friend DB succeed
+[2025/07/22 23:37:37] 779 -- update friend DB succeed
+[2025/07/22 23:42:38] 780 -- update friend DB succeed
+[2025/07/22 23:47:36] 781 -- update friend DB succeed
+[2025/07/22 23:52:36] 782 -- update friend DB succeed
+[2025/07/22 23:57:36] 783 -- update friend DB succeed
+[2025/07/23 00:02:37] 784 -- update friend DB succeed
+[2025/07/23 00:07:37] 785 -- update friend DB succeed
+[2025/07/23 00:12:38] 786 -- update friend DB succeed
+[2025/07/23 00:17:38] 787 -- update friend DB succeed
+[2025/07/23 00:22:36] 788 -- update friend DB succeed
+[2025/07/23 00:27:36] 789 -- update friend DB succeed
+[2025/07/23 00:32:36] 790 -- update friend DB succeed
+[2025/07/23 00:37:37] 791 -- update friend DB succeed
+[2025/07/23 00:42:38] 792 -- update friend DB succeed
+[2025/07/23 00:47:38] 793 -- update friend DB succeed
+[2025/07/23 00:52:36] 794 -- update friend DB succeed
+[2025/07/23 00:57:36] 795 -- update friend DB succeed
+[2025/07/23 01:02:36] 796 -- update friend DB succeed
+[2025/07/23 01:07:37] 797 -- update friend DB succeed
+[2025/07/23 01:12:37] 798 -- update friend DB succeed
+[2025/07/23 01:17:38] 799 -- update friend DB succeed
+[2025/07/23 01:22:38] 800 -- update friend DB succeed
+[2025/07/23 01:27:36] 801 -- update friend DB succeed
+[2025/07/23 01:32:36] 802 -- update friend DB succeed
+[2025/07/23 01:37:37] 803 -- update friend DB succeed
+[2025/07/23 01:42:37] 804 -- update friend DB succeed
+[2025/07/23 01:47:38] 805 -- update friend DB succeed
+[2025/07/23 01:52:38] 806 -- update friend DB succeed
+[2025/07/23 01:57:38] 807 -- update friend DB succeed
+[2025/07/23 02:02:36] 808 -- update friend DB succeed
+[2025/07/23 02:07:37] 809 -- update friend DB succeed
+[2025/07/23 02:12:37] 810 -- update friend DB succeed
+[2025/07/23 02:17:37] 811 -- update friend DB succeed
+[2025/07/23 02:22:38] 812 -- update friend DB succeed
+[2025/07/23 02:27:38] 813 -- update friend DB succeed
+[2025/07/23 02:32:36] 814 -- update friend DB succeed
+[2025/07/23 02:37:36] 815 -- update friend DB succeed
+[2025/07/23 02:42:37] 816 -- update friend DB succeed
+[2025/07/23 02:47:38] 817 -- update friend DB succeed
+[2025/07/23 02:52:38] 818 -- update friend DB succeed
+[2025/07/23 02:57:36] 819 -- update friend DB succeed
+[2025/07/23 03:02:36] 820 -- update friend DB succeed
+[2025/07/23 03:07:37] 821 -- update friend DB succeed
+[2025/07/23 03:12:37] 822 -- update friend DB succeed
+[2025/07/23 03:17:38] 823 -- update friend DB succeed
+[2025/07/23 03:22:38] 824 -- update friend DB succeed
+[2025/07/23 03:27:39] 825 -- update friend DB succeed
+[2025/07/23 03:32:36] 826 -- update friend DB succeed
+[2025/07/23 03:37:37] 827 -- update friend DB succeed
+[2025/07/23 03:42:37] 828 -- update friend DB succeed
+[2025/07/23 03:47:37] 829 -- update friend DB succeed
+[2025/07/23 03:52:38] 830 -- update friend DB succeed
+[2025/07/23 03:57:39] 831 -- update friend DB succeed
+[2025/07/23 04:02:36] 832 -- update friend DB succeed
+[2025/07/23 04:07:37] 833 -- update friend DB succeed
+[2025/07/23 04:12:37] 834 -- update friend DB succeed
+[2025/07/23 04:17:38] 835 -- update friend DB succeed
+[2025/07/23 04:22:38] 836 -- update friend DB succeed
+[2025/07/23 04:27:36] 837 -- update friend DB succeed
+[2025/07/23 04:32:36] 838 -- update friend DB succeed
+[2025/07/23 04:37:37] 839 -- update friend DB succeed
+[2025/07/23 04:42:37] 840 -- update friend DB succeed
+[2025/07/23 04:47:38] 841 -- update friend DB succeed
+[2025/07/23 04:52:38] 842 -- update friend DB succeed
+[2025/07/23 04:57:39] 843 -- update friend DB succeed
+[2025/07/23 05:02:36] 844 -- update friend DB succeed
+[2025/07/23 05:07:37] 845 -- update friend DB succeed
+[2025/07/23 05:12:37] 846 -- update friend DB succeed
+[2025/07/23 05:17:38] 847 -- update friend DB succeed
+[2025/07/23 05:22:38] 848 -- update friend DB succeed
+[2025/07/23 05:27:38] 849 -- update friend DB succeed
+[2025/07/23 05:32:39] 850 -- update friend DB succeed
+[2025/07/23 05:37:36] 851 -- update friend DB succeed
+[2025/07/23 05:42:37] 852 -- update friend DB succeed
+[2025/07/23 05:47:37] 853 -- update friend DB succeed
+[2025/07/23 05:52:38] 854 -- update friend DB succeed
+[2025/07/23 05:57:38] 855 -- update friend DB succeed
+[2025/07/23 06:02:39] 856 -- update friend DB succeed
+[2025/07/23 06:07:36] 857 -- update friend DB succeed
+[2025/07/23 06:12:37] 858 -- update friend DB succeed
+[2025/07/23 06:17:37] 859 -- update friend DB succeed
+[2025/07/23 06:22:38] 860 -- update friend DB succeed
+[2025/07/23 06:27:38] 861 -- update friend DB succeed
+[2025/07/23 06:32:39] 862 -- update friend DB succeed
+[2025/07/23 06:37:36] 863 -- update friend DB succeed
+[2025/07/23 06:42:37] 864 -- update friend DB succeed
+[2025/07/23 06:47:37] 865 -- update friend DB succeed
+[2025/07/23 06:52:38] 866 -- update friend DB succeed
+[2025/07/23 06:57:38] 867 -- update friend DB succeed
+[2025/07/23 07:02:39] 868 -- update friend DB succeed
+[2025/07/23 07:07:36] 869 -- update friend DB succeed
+[2025/07/23 07:12:37] 870 -- update friend DB succeed
+[2025/07/23 07:17:37] 871 -- update friend DB succeed
+[2025/07/23 07:22:38] 872 -- update friend DB succeed
+[2025/07/23 07:27:38] 873 -- update friend DB succeed
+[2025/07/23 07:32:39] 874 -- update friend DB succeed
+[2025/07/23 07:37:39] 875 -- update friend DB succeed
+[2025/07/23 07:42:36] 876 -- update friend DB succeed
+[2025/07/23 07:47:37] 877 -- update friend DB succeed
+[2025/07/23 07:52:37] 878 -- update friend DB succeed
+[2025/07/23 07:57:38] 879 -- update friend DB succeed
+[2025/07/23 08:02:38] 880 -- update friend DB succeed
+[2025/07/23 08:07:39] 881 -- update friend DB succeed
+[2025/07/23 08:12:36] 882 -- update friend DB succeed
+[2025/07/23 08:17:37] 883 -- update friend DB succeed
+[2025/07/23 08:22:37] 884 -- update friend DB succeed
+[2025/07/23 08:27:38] 885 -- update friend DB succeed
+[2025/07/23 08:32:38] 886 -- update friend DB succeed
+[2025/07/23 08:37:39] 887 -- update friend DB succeed
+[2025/07/23 08:42:36] 888 -- update friend DB succeed
+[2025/07/23 08:47:37] 889 -- update friend DB succeed
+[2025/07/23 08:52:37] 890 -- update friend DB succeed
+[2025/07/23 08:57:38] 891 -- update friend DB succeed
+[2025/07/23 09:02:38] 892 -- update friend DB succeed
+[2025/07/23 09:07:38] 893 -- update friend DB succeed
+[2025/07/23 09:12:39] 894 -- update friend DB succeed
+[2025/07/23 09:17:37] 895 -- update friend DB succeed
+[2025/07/23 09:22:37] 896 -- update friend DB succeed
+[2025/07/23 09:27:38] 897 -- update friend DB succeed
+[2025/07/23 09:32:38] 898 -- update friend DB succeed
+[2025/07/23 09:37:39] 899 -- update friend DB succeed
+[2025/07/23 09:42:39] 900 -- update friend DB succeed
+[2025/07/23 09:47:37] 901 -- update friend DB succeed
+[2025/07/23 09:52:37] 902 -- update friend DB succeed
+[2025/07/23 09:57:37] 903 -- update friend DB succeed
+[2025/07/23 10:02:38] 904 -- update friend DB succeed
+[2025/07/23 10:07:39] 905 -- update friend DB succeed
+[2025/07/23 10:12:39] 906 -- update friend DB succeed
+[2025/07/23 10:17:37] 907 -- update friend DB succeed
+[2025/07/23 10:22:37] 908 -- update friend DB succeed
+[2025/07/23 10:27:37] 909 -- update friend DB succeed
+[2025/07/23 10:32:38] 910 -- update friend DB succeed
+[2025/07/23 10:37:38] 911 -- update friend DB succeed
+[2025/07/23 10:42:39] 912 -- update friend DB succeed
+[2025/07/23 10:47:39] 913 -- update friend DB succeed
+[2025/07/23 10:52:37] 914 -- update friend DB succeed
+[2025/07/23 10:57:37] 915 -- update friend DB succeed
+[2025/07/23 11:02:37] 916 -- update friend DB succeed
+[2025/07/23 11:07:38] 917 -- update friend DB succeed
+[2025/07/23 11:12:38] 918 -- update friend DB succeed
+[2025/07/23 11:17:39] 919 -- update friend DB succeed
+[2025/07/23 11:22:39] 920 -- update friend DB succeed
+[2025/07/23 11:27:37] 921 -- update friend DB succeed
+[2025/07/23 11:32:37] 922 -- update friend DB succeed
+[2025/07/23 11:37:38] 923 -- update friend DB succeed
+[2025/07/23 11:42:38] 924 -- update friend DB succeed
+[2025/07/23 11:47:39] 925 -- update friend DB succeed
+[2025/07/23 11:52:37] 926 -- update friend DB succeed
+[2025/07/23 11:57:37] 927 -- update friend DB succeed
+[2025/07/23 12:02:38] 928 -- update friend DB succeed
+[2025/07/23 12:07:38] 929 -- update friend DB succeed
+[2025/07/23 12:12:38] 930 -- update friend DB succeed
+[2025/07/23 12:17:39] 931 -- update friend DB succeed
+[2025/07/23 12:22:39] 932 -- update friend DB succeed
+[2025/07/23 12:27:37] 933 -- update friend DB succeed
+[2025/07/23 12:32:38] 934 -- update friend DB succeed
+[2025/07/23 12:37:38] 935 -- update friend DB succeed
+[2025/07/23 12:42:39] 936 -- update friend DB succeed
+[2025/07/23 12:47:39] 937 -- update friend DB succeed
+[2025/07/23 12:52:40] 938 -- update friend DB succeed
+[2025/07/23 12:57:37] 939 -- update friend DB succeed
+[2025/07/23 13:02:38] 940 -- update friend DB succeed
+[2025/07/23 13:07:38] 941 -- update friend DB succeed
+[2025/07/23 13:12:39] 942 -- update friend DB succeed
+[2025/07/23 13:17:40] 943 -- update friend DB succeed
+[2025/07/23 13:22:37] 944 -- update friend DB succeed
+[2025/07/23 13:27:38] 945 -- update friend DB succeed
+[2025/07/23 13:32:38] 946 -- update friend DB succeed
+[2025/07/23 13:37:39] 947 -- update friend DB succeed
+[2025/07/23 13:42:39] 948 -- update friend DB succeed
+[2025/07/23 13:47:37] 949 -- update friend DB succeed
+[2025/07/23 13:52:38] 950 -- update friend DB succeed
+[2025/07/23 13:57:38] 951 -- update friend DB succeed
+[2025/07/23 14:02:39] 952 -- update friend DB succeed
+[2025/07/23 14:07:39] 953 -- update friend DB succeed
+[2025/07/23 14:12:37] 954 -- update friend DB succeed
+[2025/07/23 14:17:37] 955 -- update friend DB succeed
+[2025/07/23 14:22:38] 956 -- update friend DB succeed
+[2025/07/23 14:27:39] 957 -- update friend DB succeed
+[2025/07/23 14:32:39] 958 -- update friend DB succeed
+[2025/07/23 14:37:40] 959 -- update friend DB succeed
+[2025/07/23 14:42:37] 960 -- update friend DB succeed
+[2025/07/23 14:47:38] 961 -- update friend DB succeed
+[2025/07/23 14:52:39] 962 -- update friend DB succeed
+[2025/07/23 14:57:39] 963 -- update friend DB succeed
+[2025/07/23 15:02:40] 964 -- update friend DB succeed
+[2025/07/23 15:07:37] 965 -- update friend DB succeed
+[2025/07/23 15:12:38] 966 -- update friend DB succeed
+[2025/07/23 15:17:39] 967 -- update friend DB succeed
+[2025/07/23 15:22:39] 968 -- update friend DB succeed
+[2025/07/23 15:27:40] 969 -- update friend DB succeed
+[2025/07/23 15:32:37] 970 -- update friend DB succeed
+[2025/07/23 15:37:38] 971 -- update friend DB succeed
+[2025/07/23 15:42:38] 972 -- update friend DB succeed
+[2025/07/23 15:47:39] 973 -- update friend DB succeed
+[2025/07/23 15:52:40] 974 -- update friend DB succeed
+[2025/07/23 15:57:37] 975 -- update friend DB succeed
+[2025/07/23 16:02:38] 976 -- update friend DB succeed
+[2025/07/23 16:07:38] 977 -- update friend DB succeed
+[2025/07/23 16:12:39] 978 -- update friend DB succeed
+[2025/07/23 16:17:40] 979 -- update friend DB succeed
+[2025/07/23 16:22:38] 980 -- update friend DB succeed
+[2025/07/23 16:27:38] 981 -- update friend DB succeed
+[2025/07/23 16:32:39] 982 -- update friend DB succeed
+[2025/07/23 16:37:39] 983 -- update friend DB succeed
+[2025/07/23 16:42:40] 984 -- update friend DB succeed
+[2025/07/23 16:47:38] 985 -- update friend DB succeed
+[2025/07/23 16:52:38] 986 -- update friend DB succeed
+[2025/07/23 16:57:39] 987 -- update friend DB succeed
+[2025/07/23 17:02:39] 988 -- update friend DB succeed
+[2025/07/23 17:07:40] 989 -- update friend DB succeed
+[2025/07/23 17:12:37] 990 -- update friend DB succeed
+[2025/07/23 17:17:38] 991 -- update friend DB succeed
+[2025/07/23 17:22:39] 992 -- update friend DB succeed
+[2025/07/23 17:27:39] 993 -- update friend DB succeed
+[2025/07/23 17:32:40] 994 -- update friend DB succeed
+[2025/07/23 17:37:38] 995 -- update friend DB succeed
+[2025/07/23 17:42:38] 996 -- update friend DB succeed
+[2025/07/23 17:47:39] 997 -- update friend DB succeed
+[2025/07/23 17:52:39] 998 -- update friend DB succeed
+[2025/07/23 17:57:40] 999 -- update friend DB succeed
+[2025/07/23 18:02:38] 1000 -- update friend DB succeed
+[2025/07/23 18:07:38] 1001 -- update friend DB succeed
+[2025/07/23 18:12:39] 1002 -- update friend DB succeed
+[2025/07/23 18:17:39] 1003 -- update friend DB succeed
+[2025/07/23 18:22:40] 1004 -- update friend DB succeed
+[2025/07/23 18:27:38] 1005 -- update friend DB succeed
+[2025/07/23 18:32:38] 1006 -- update friend DB succeed
+[2025/07/23 18:37:39] 1007 -- update friend DB succeed
+[2025/07/23 18:42:40] 1008 -- update friend DB succeed
+[2025/07/23 18:47:37] 1009 -- update friend DB succeed
+[2025/07/23 18:52:38] 1010 -- update friend DB succeed
+[2025/07/23 18:57:38] 1011 -- update friend DB succeed
+[2025/07/23 19:02:39] 1012 -- update friend DB succeed
+[2025/07/23 19:07:40] 1013 -- update friend DB succeed
+[2025/07/23 19:12:40] 1014 -- update friend DB succeed
+[2025/07/23 19:17:38] 1015 -- update friend DB succeed
+[2025/07/23 19:22:38] 1016 -- update friend DB succeed
+[2025/07/23 19:27:39] 1017 -- update friend DB succeed
+[2025/07/23 19:32:39] 1018 -- update friend DB succeed
+[2025/07/23 19:37:40] 1019 -- update friend DB succeed
+[2025/07/23 19:42:38] 1020 -- update friend DB succeed
+[2025/07/23 19:47:38] 1021 -- update friend DB succeed
+[2025/07/23 19:52:39] 1022 -- update friend DB succeed
+[2025/07/23 19:57:39] 1023 -- update friend DB succeed
+[2025/07/23 20:02:40] 1024 -- update friend DB succeed
+[2025/07/23 20:07:40] 1025 -- update friend DB succeed
+[2025/07/23 20:12:38] 1026 -- update friend DB succeed
+[2025/07/23 20:17:39] 1027 -- update friend DB succeed
+[2025/07/23 20:22:39] 1028 -- update friend DB succeed
+[2025/07/23 20:27:40] 1029 -- update friend DB succeed
+[2025/07/23 20:32:38] 1030 -- update friend DB succeed
+[2025/07/23 20:37:38] 1031 -- update friend DB succeed
+[2025/07/23 20:42:39] 1032 -- update friend DB succeed
+[2025/07/23 20:47:40] 1033 -- update friend DB succeed
+[2025/07/23 20:52:40] 1034 -- update friend DB succeed
+[2025/07/23 20:57:38] 1035 -- update friend DB succeed
+[2025/07/23 21:02:38] 1036 -- update friend DB succeed
+[2025/07/23 21:07:39] 1037 -- update friend DB succeed
+[2025/07/23 21:12:39] 1038 -- update friend DB succeed
+[2025/07/23 21:17:40] 1039 -- update friend DB succeed
+[2025/07/23 21:22:40] 1040 -- update friend DB succeed
+[2025/07/23 21:27:38] 1041 -- update friend DB succeed
+[2025/07/23 21:32:39] 1042 -- update friend DB succeed
+[2025/07/23 21:37:39] 1043 -- update friend DB succeed
+[2025/07/23 21:42:40] 1044 -- update friend DB succeed
+[2025/07/23 21:47:40] 1045 -- update friend DB succeed
+[2025/07/23 21:52:38] 1046 -- update friend DB succeed
+[2025/07/23 21:57:39] 1047 -- update friend DB succeed
+[2025/07/23 22:02:39] 1048 -- update friend DB succeed
+[2025/07/23 22:07:40] 1049 -- update friend DB succeed
+[2025/07/23 22:12:40] 1050 -- update friend DB succeed
+[2025/07/23 22:17:40] 1051 -- update friend DB succeed
+[2025/07/23 22:22:38] 1052 -- update friend DB succeed
+[2025/07/23 22:27:39] 1053 -- update friend DB succeed
+[2025/07/23 22:32:39] 1054 -- update friend DB succeed
+[2025/07/23 22:37:40] 1055 -- update friend DB succeed
+[2025/07/23 22:42:40] 1056 -- update friend DB succeed
+[2025/07/23 22:47:38] 1057 -- update friend DB succeed
+[2025/07/23 22:52:39] 1058 -- update friend DB succeed
+[2025/07/23 22:57:39] 1059 -- update friend DB succeed
+[2025/07/23 23:02:40] 1060 -- update friend DB succeed
+[2025/07/23 23:07:40] 1061 -- update friend DB succeed
+[2025/07/23 23:12:38] 1062 -- update friend DB succeed
+[2025/07/23 23:17:38] 1063 -- update friend DB succeed
+[2025/07/23 23:22:39] 1064 -- update friend DB succeed
+[2025/07/23 23:27:40] 1065 -- update friend DB succeed
+[2025/07/23 23:32:41] 1066 -- update friend DB succeed
+[2025/07/23 23:37:38] 1067 -- update friend DB succeed
+[2025/07/23 23:42:39] 1068 -- update friend DB succeed
+[2025/07/23 23:47:39] 1069 -- update friend DB succeed
+[2025/07/23 23:52:40] 1070 -- update friend DB succeed
+[2025/07/23 23:57:40] 1071 -- update friend DB succeed
+[2025/07/24 00:02:41] 1072 -- update friend DB succeed
+[2025/07/24 00:07:38] 1073 -- update friend DB succeed
+[2025/07/24 00:12:39] 1074 -- update friend DB succeed
+[2025/07/24 00:17:39] 1075 -- update friend DB succeed
+[2025/07/24 00:22:40] 1076 -- update friend DB succeed
+[2025/07/24 00:27:41] 1077 -- update friend DB succeed
+[2025/07/24 00:32:38] 1078 -- update friend DB succeed
+[2025/07/24 00:37:39] 1079 -- update friend DB succeed
+[2025/07/24 00:42:39] 1080 -- update friend DB succeed
+[2025/07/24 00:47:40] 1081 -- update friend DB succeed
+[2025/07/24 00:52:41] 1082 -- update friend DB succeed
+[2025/07/24 00:57:38] 1083 -- update friend DB succeed
+[2025/07/24 01:02:39] 1084 -- update friend DB succeed
+[2025/07/24 01:07:39] 1085 -- update friend DB succeed
+[2025/07/24 01:12:40] 1086 -- update friend DB succeed
+[2025/07/24 01:17:40] 1087 -- update friend DB succeed
+[2025/07/24 01:22:41] 1088 -- update friend DB succeed
+[2025/07/24 01:27:38] 1089 -- update friend DB succeed
+[2025/07/24 01:32:39] 1090 -- update friend DB succeed
+[2025/07/24 01:37:39] 1091 -- update friend DB succeed
+[2025/07/24 01:42:40] 1092 -- update friend DB succeed
+[2025/07/24 01:47:40] 1093 -- update friend DB succeed
+[2025/07/24 01:52:41] 1094 -- update friend DB succeed
+[2025/07/24 01:57:38] 1095 -- update friend DB succeed
+[2025/07/24 02:02:39] 1096 -- update friend DB succeed
+[2025/07/24 02:07:39] 1097 -- update friend DB succeed
+[2025/07/24 02:12:40] 1098 -- update friend DB succeed
+[2025/07/24 02:17:40] 1099 -- update friend DB succeed
+[2025/07/24 02:22:41] 1100 -- update friend DB succeed
+[2025/07/24 02:27:38] 1101 -- update friend DB succeed
+[2025/07/24 02:32:39] 1102 -- update friend DB succeed
+[2025/07/24 02:37:39] 1103 -- update friend DB succeed
+[2025/07/24 02:42:40] 1104 -- update friend DB succeed
+[2025/07/24 02:47:40] 1105 -- update friend DB succeed
+[2025/07/24 02:52:41] 1106 -- update friend DB succeed
+[2025/07/24 02:57:38] 1107 -- update friend DB succeed
+[2025/07/24 03:02:39] 1108 -- update friend DB succeed
+[2025/07/24 03:07:39] 1109 -- update friend DB succeed
+[2025/07/24 03:12:40] 1110 -- update friend DB succeed
+[2025/07/24 03:17:41] 1111 -- update friend DB succeed
+[2025/07/24 03:22:41] 1112 -- update friend DB succeed
+[2025/07/24 03:27:39] 1113 -- update friend DB succeed
+[2025/07/24 03:32:39] 1114 -- update friend DB succeed
+[2025/07/24 03:37:40] 1115 -- update friend DB succeed
+[2025/07/24 03:42:40] 1116 -- update friend DB succeed
+[2025/07/24 03:47:41] 1117 -- update friend DB succeed
+[2025/07/24 03:52:38] 1118 -- update friend DB succeed
+[2025/07/24 03:57:39] 1119 -- update friend DB succeed
+[2025/07/24 04:02:40] 1120 -- update friend DB succeed
+[2025/07/24 04:07:40] 1121 -- update friend DB succeed
+[2025/07/24 04:12:41] 1122 -- update friend DB succeed
+[2025/07/24 04:17:39] 1123 -- update friend DB succeed
+[2025/07/24 04:22:39] 1124 -- update friend DB succeed
+[2025/07/24 04:27:40] 1125 -- update friend DB succeed
+[2025/07/24 04:32:40] 1126 -- update friend DB succeed
+[2025/07/24 04:37:41] 1127 -- update friend DB succeed
+[2025/07/24 04:42:38] 1128 -- update friend DB succeed
+[2025/07/24 04:47:39] 1129 -- update friend DB succeed
+[2025/07/24 04:52:40] 1130 -- update friend DB succeed
+[2025/07/24 04:57:40] 1131 -- update friend DB succeed
+[2025/07/24 05:02:41] 1132 -- update friend DB succeed
+[2025/07/24 05:07:41] 1133 -- update friend DB succeed
+[2025/07/24 05:12:39] 1134 -- update friend DB succeed
+[2025/07/24 05:17:39] 1135 -- update friend DB succeed
+[2025/07/24 05:22:40] 1136 -- update friend DB succeed
+[2025/07/24 05:27:41] 1137 -- update friend DB succeed
+[2025/07/24 05:32:41] 1138 -- update friend DB succeed
+[2025/07/24 05:37:39] 1139 -- update friend DB succeed
+[2025/07/24 05:42:39] 1140 -- update friend DB succeed
+[2025/07/24 05:47:40] 1141 -- update friend DB succeed
+[2025/07/24 05:52:41] 1142 -- update friend DB succeed
+[2025/07/24 05:57:41] 1143 -- update friend DB succeed
+[2025/07/24 06:02:39] 1144 -- update friend DB succeed
+[2025/07/24 06:07:39] 1145 -- update friend DB succeed
+[2025/07/24 06:12:40] 1146 -- update friend DB succeed
+[2025/07/24 06:17:41] 1147 -- update friend DB succeed
+[2025/07/24 06:22:41] 1148 -- update friend DB succeed
+[2025/07/24 06:27:39] 1149 -- update friend DB succeed
+[2025/07/24 06:32:39] 1150 -- update friend DB succeed
+[2025/07/24 06:37:40] 1151 -- update friend DB succeed
+[2025/07/24 06:42:40] 1152 -- update friend DB succeed
+[2025/07/24 06:47:41] 1153 -- update friend DB succeed
+[2025/07/24 06:52:41] 1154 -- update friend DB succeed
+[2025/07/24 06:57:39] 1155 -- update friend DB succeed
+[2025/07/24 07:02:40] 1156 -- update friend DB succeed
+[2025/07/24 07:07:40] 1157 -- update friend DB succeed
+[2025/07/24 07:12:41] 1158 -- update friend DB succeed
+[2025/07/24 07:17:41] 1159 -- update friend DB succeed
+[2025/07/24 07:22:39] 1160 -- update friend DB succeed
+[2025/07/24 07:27:39] 1161 -- update friend DB succeed
+[2025/07/24 07:32:40] 1162 -- update friend DB succeed
+[2025/07/24 07:37:41] 1163 -- update friend DB succeed
+[2025/07/24 07:42:41] 1164 -- update friend DB succeed
+[2025/07/24 07:47:39] 1165 -- update friend DB succeed
+[2025/07/24 07:52:39] 1166 -- update friend DB succeed
+[2025/07/24 07:57:40] 1167 -- update friend DB succeed
+[2025/07/24 08:02:40] 1168 -- update friend DB succeed
+[2025/07/24 08:07:41] 1169 -- update friend DB succeed
+[2025/07/24 08:12:41] 1170 -- update friend DB succeed
+[2025/07/24 08:17:39] 1171 -- update friend DB succeed
+[2025/07/24 08:22:40] 1172 -- update friend DB succeed
+[2025/07/24 08:27:40] 1173 -- update friend DB succeed
+[2025/07/24 08:32:41] 1174 -- update friend DB succeed
+[2025/07/24 08:37:41] 1175 -- update friend DB succeed
+[2025/07/24 08:42:42] 1176 -- update friend DB succeed
+[2025/07/24 08:47:39] 1177 -- update friend DB succeed
+[2025/07/24 08:52:40] 1178 -- update friend DB succeed
+[2025/07/24 08:57:40] 1179 -- update friend DB succeed
+[2025/07/24 09:02:41] 1180 -- update friend DB succeed
+[2025/07/24 09:07:41] 1181 -- update friend DB succeed
+[2025/07/24 09:12:39] 1182 -- update friend DB succeed
+[2025/07/24 09:17:40] 1183 -- update friend DB succeed
+[2025/07/24 09:22:40] 1184 -- update friend DB succeed
+[2025/07/24 09:27:41] 1185 -- update friend DB succeed
+[2025/07/24 09:32:41] 1186 -- update friend DB succeed
+[2025/07/24 09:37:42] 1187 -- update friend DB succeed
+[2025/07/24 09:42:39] 1188 -- update friend DB succeed
+[2025/07/24 09:47:40] 1189 -- update friend DB succeed
+[2025/07/24 09:52:40] 1190 -- update friend DB succeed
+[2025/07/24 09:57:41] 1191 -- update friend DB succeed
+[2025/07/24 10:02:41] 1192 -- update friend DB succeed
+[2025/07/24 10:07:39] 1193 -- update friend DB succeed
+[2025/07/24 10:12:40] 1194 -- update friend DB succeed
+[2025/07/24 10:17:40] 1195 -- update friend DB succeed
+[2025/07/24 10:22:41] 1196 -- update friend DB succeed
+[2025/07/24 10:27:41] 1197 -- update friend DB succeed
+[2025/07/24 10:32:42] 1198 -- update friend DB succeed
+[2025/07/24 10:37:39] 1199 -- update friend DB succeed
+[2025/07/24 10:42:40] 1200 -- update friend DB succeed
+[2025/07/24 10:47:40] 1201 -- update friend DB succeed
+[2025/07/24 10:52:41] 1202 -- update friend DB succeed
+[2025/07/24 10:57:41] 1203 -- update friend DB succeed
+[2025/07/24 11:02:39] 1204 -- update friend DB succeed
+[2025/07/24 11:07:40] 1205 -- update friend DB succeed
+[2025/07/24 11:12:40] 1206 -- update friend DB succeed
+[2025/07/24 11:17:41] 1207 -- update friend DB succeed
+[2025/07/24 11:22:41] 1208 -- update friend DB succeed
+[2025/07/24 11:27:42] 1209 -- update friend DB succeed
+[2025/07/24 11:32:40] 1210 -- update friend DB succeed
+[2025/07/24 11:37:40] 1211 -- update friend DB succeed
+[2025/07/24 11:42:41] 1212 -- update friend DB succeed
+[2025/07/24 11:47:41] 1213 -- update friend DB succeed
+[2025/07/24 11:52:42] 1214 -- update friend DB succeed
+[2025/07/24 11:57:39] 1215 -- update friend DB succeed
+[2025/07/24 12:02:40] 1216 -- update friend DB succeed
+[2025/07/24 12:07:40] 1217 -- update friend DB succeed
+[2025/07/24 12:12:41] 1218 -- update friend DB succeed
+[2025/07/24 12:17:42] 1219 -- update friend DB succeed
+[2025/07/24 12:22:39] 1220 -- update friend DB succeed
+[2025/07/24 12:27:40] 1221 -- update friend DB succeed
+[2025/07/24 12:32:41] 1222 -- update friend DB succeed
+[2025/07/24 12:37:41] 1223 -- update friend DB succeed
+[2025/07/24 12:42:42] 1224 -- update friend DB succeed
+[2025/07/24 12:47:39] 1225 -- update friend DB succeed
+[2025/07/24 12:52:40] 1226 -- update friend DB succeed
+[2025/07/24 12:57:41] 1227 -- update friend DB succeed
+[2025/07/24 13:02:41] 1228 -- update friend DB succeed
+[2025/07/24 13:07:42] 1229 -- update friend DB succeed
+[2025/07/24 13:12:40] 1230 -- update friend DB succeed
+[2025/07/24 13:17:40] 1231 -- update friend DB succeed
+[2025/07/24 13:22:41] 1232 -- update friend DB succeed
+[2025/07/24 13:27:42] 1233 -- update friend DB succeed
+[2025/07/24 13:32:42] 1234 -- update friend DB succeed
+[2025/07/24 13:37:40] 1235 -- update friend DB succeed
+[2025/07/24 13:42:41] 1236 -- update friend DB succeed
+[2025/07/24 13:47:41] 1237 -- update friend DB succeed
+[2025/07/24 13:52:42] 1238 -- update friend DB succeed
+[2025/07/24 13:57:42] 1239 -- update friend DB succeed
+[2025/07/24 14:02:40] 1240 -- update friend DB succeed
+[2025/07/24 14:07:40] 1241 -- update friend DB succeed
+[2025/07/24 14:12:41] 1242 -- update friend DB succeed
+[2025/07/24 14:17:42] 1243 -- update friend DB succeed
+[2025/07/24 14:22:42] 1244 -- update friend DB succeed
+[2025/07/24 14:27:40] 1245 -- update friend DB succeed
+[2025/07/24 14:32:41] 1246 -- update friend DB succeed
+[2025/07/24 14:37:41] 1247 -- update friend DB succeed
+[2025/07/24 14:42:42] 1248 -- update friend DB succeed
+[2025/07/24 14:47:42] 1249 -- update friend DB succeed
+[2025/07/24 14:52:40] 1250 -- update friend DB succeed
+[2025/07/24 14:57:41] 1251 -- update friend DB succeed
+[2025/07/24 15:02:41] 1252 -- update friend DB succeed
+[2025/07/24 15:07:42] 1253 -- update friend DB succeed
+[2025/07/24 15:12:43] 1254 -- update friend DB succeed
+[2025/07/24 15:17:40] 1255 -- update friend DB succeed
+[2025/07/24 15:22:41] 1256 -- update friend DB succeed
+[2025/07/24 15:27:41] 1257 -- update friend DB succeed
+[2025/07/24 15:32:42] 1258 -- update friend DB succeed
+[2025/07/24 15:37:42] 1259 -- update friend DB succeed
+[2025/07/24 15:42:40] 1260 -- update friend DB succeed
+[2025/07/24 15:47:40] 1261 -- update friend DB succeed
+[2025/07/24 15:52:41] 1262 -- update friend DB succeed
+[2025/07/24 15:57:42] 1263 -- update friend DB succeed
+[2025/07/24 16:02:42] 1264 -- update friend DB succeed
+[2025/07/24 16:07:40] 1265 -- update friend DB succeed
+[2025/07/24 16:12:40] 1266 -- update friend DB succeed
+[2025/07/24 16:17:41] 1267 -- update friend DB succeed
+[2025/07/24 16:22:41] 1268 -- update friend DB succeed
+[2025/07/24 16:27:42] 1269 -- update friend DB succeed
+[2025/07/24 16:32:42] 1270 -- update friend DB succeed
+[2025/07/24 16:37:42] 1271 -- update friend DB succeed
+[2025/07/24 16:42:40] 1272 -- update friend DB succeed
+[2025/07/24 16:47:41] 1273 -- update friend DB succeed
+[2025/07/24 16:52:41] 1274 -- update friend DB succeed
+[2025/07/24 16:57:42] 1275 -- update friend DB succeed
+[2025/07/24 17:02:43] 1276 -- update friend DB succeed
+[2025/07/24 17:07:40] 1277 -- update friend DB succeed
+[2025/07/24 17:12:41] 1278 -- update friend DB succeed
+[2025/07/24 17:17:42] 1279 -- update friend DB succeed
+[2025/07/24 17:22:43] 1280 -- update friend DB succeed
+[2025/07/24 17:27:40] 1281 -- update friend DB succeed
+[2025/07/24 17:32:41] 1282 -- update friend DB succeed
+[2025/07/24 17:37:42] 1283 -- update friend DB succeed
+[2025/07/24 17:42:42] 1284 -- update friend DB succeed
+[2025/07/24 17:47:40] 1285 -- update friend DB succeed
+[2025/07/24 17:52:41] 1286 -- update friend DB succeed
+[2025/07/24 17:57:41] 1287 -- update friend DB succeed
+[2025/07/24 18:02:42] 1288 -- update friend DB succeed
+[2025/07/24 18:07:43] 1289 -- update friend DB succeed
+[2025/07/24 18:12:40] 1290 -- update friend DB succeed
+[2025/07/24 18:17:41] 1291 -- update friend DB succeed
+[2025/07/24 18:22:41] 1292 -- update friend DB succeed
+[2025/07/24 18:27:42] 1293 -- update friend DB succeed
+[2025/07/24 18:32:43] 1294 -- update friend DB succeed
+[2025/07/24 18:37:40] 1295 -- update friend DB succeed
+[2025/07/24 18:42:41] 1296 -- update friend DB succeed
+[2025/07/24 18:47:42] 1297 -- update friend DB succeed
+[2025/07/24 18:52:43] 1298 -- update friend DB succeed
+[2025/07/24 18:57:40] 1299 -- update friend DB succeed
+[2025/07/24 19:02:41] 1300 -- update friend DB succeed
+[2025/07/24 19:07:41] 1301 -- update friend DB succeed
+[2025/07/24 19:12:42] 1302 -- update friend DB succeed
+[2025/07/24 19:17:43] 1303 -- update friend DB succeed
+[2025/07/24 19:22:41] 1304 -- update friend DB succeed
+[2025/07/24 19:27:41] 1305 -- update friend DB succeed
+[2025/07/24 19:32:42] 1306 -- update friend DB succeed
+[2025/07/24 19:37:43] 1307 -- update friend DB succeed
+[2025/07/24 19:42:40] 1308 -- update friend DB succeed
+[2025/07/24 19:47:41] 1309 -- update friend DB succeed
+[2025/07/24 19:52:42] 1310 -- update friend DB succeed
+[2025/07/24 19:57:42] 1311 -- update friend DB succeed
+[2025/07/24 20:02:40] 1312 -- update friend DB succeed
+[2025/07/24 20:07:41] 1313 -- update friend DB succeed
+[2025/07/24 20:12:42] 1314 -- update friend DB succeed
+[2025/07/24 20:17:42] 1315 -- update friend DB succeed
+[2025/07/24 20:22:40] 1316 -- update friend DB succeed
+[2025/07/24 20:27:41] 1317 -- update friend DB succeed
+[2025/07/24 20:32:41] 1318 -- update friend DB succeed
+[2025/07/24 20:37:42] 1319 -- update friend DB succeed
+[2025/07/24 20:42:43] 1320 -- update friend DB succeed
+[2025/07/24 20:47:41] 1321 -- update friend DB succeed
+[2025/07/24 20:52:41] 1322 -- update friend DB succeed
+[2025/07/24 20:57:42] 1323 -- update friend DB succeed
+[2025/07/24 21:02:40] 1324 -- update friend DB succeed
+[2025/07/24 21:07:41] 1325 -- update friend DB succeed
+[2025/07/24 21:12:42] 1326 -- update friend DB succeed
+[2025/07/24 21:17:43] 1327 -- update friend DB succeed
+[2025/07/24 21:22:40] 1328 -- update friend DB succeed
+[2025/07/24 21:27:41] 1329 -- update friend DB succeed
+[2025/07/24 21:32:42] 1330 -- update friend DB succeed
+[2025/07/24 21:37:42] 1331 -- update friend DB succeed
+[2025/07/24 21:42:43] 1332 -- update friend DB succeed
+[2025/07/24 21:47:40] 1333 -- update friend DB succeed
+[2025/07/24 21:52:41] 1334 -- update friend DB succeed
+[2025/07/24 21:57:42] 1335 -- update friend DB succeed
+[2025/07/24 22:02:42] 1336 -- update friend DB succeed
+[2025/07/24 22:07:43] 1337 -- update friend DB succeed
+[2025/07/24 22:12:41] 1338 -- update friend DB succeed
+[2025/07/24 22:17:42] 1339 -- update friend DB succeed
+[2025/07/24 22:22:42] 1340 -- update friend DB succeed
+[2025/07/24 22:27:43] 1341 -- update friend DB succeed
+[2025/07/24 22:32:41] 1342 -- update friend DB succeed
+[2025/07/24 22:37:42] 1343 -- update friend DB succeed
+[2025/07/24 22:42:42] 1344 -- update friend DB succeed
+[2025/07/24 22:47:43] 1345 -- update friend DB succeed
+[2025/07/24 22:52:41] 1346 -- update friend DB succeed
+[2025/07/24 22:57:41] 1347 -- update friend DB succeed
+[2025/07/24 23:02:42] 1348 -- update friend DB succeed
+[2025/07/24 23:07:42] 1349 -- update friend DB succeed
+[2025/07/24 23:12:43] 1350 -- update friend DB succeed
+[2025/07/24 23:17:41] 1351 -- update friend DB succeed
+[2025/07/24 23:22:42] 1352 -- update friend DB succeed
+[2025/07/24 23:27:43] 1353 -- update friend DB succeed
+[2025/07/24 23:32:43] 1354 -- update friend DB succeed
+[2025/07/24 23:37:41] 1355 -- update friend DB succeed
+[2025/07/24 23:42:42] 1356 -- update friend DB succeed
+[2025/07/24 23:47:42] 1357 -- update friend DB succeed
+[2025/07/24 23:52:43] 1358 -- update friend DB succeed
+[2025/07/24 23:57:40] 1359 -- update friend DB succeed
+[2025/07/25 00:02:41] 1360 -- update friend DB succeed
+[2025/07/25 00:07:42] 1361 -- update friend DB succeed
+[2025/07/25 00:12:42] 1362 -- update friend DB succeed
+[2025/07/25 00:17:43] 1363 -- update friend DB succeed
+[2025/07/25 00:22:40] 1364 -- update friend DB succeed
+[2025/07/25 00:27:41] 1365 -- update friend DB succeed
+[2025/07/25 00:32:42] 1366 -- update friend DB succeed
+[2025/07/25 00:37:43] 1367 -- update friend DB succeed
+[2025/07/25 00:42:41] 1368 -- update friend DB succeed
+[2025/07/25 00:47:41] 1369 -- update friend DB succeed
+[2025/07/25 00:52:42] 1370 -- update friend DB succeed
+[2025/07/25 00:57:43] 1371 -- update friend DB succeed
+[2025/07/25 01:02:43] 1372 -- update friend DB succeed
+[2025/07/25 01:07:41] 1373 -- update friend DB succeed
+[2025/07/25 01:12:42] 1374 -- update friend DB succeed
+[2025/07/25 01:17:42] 1375 -- update friend DB succeed
+[2025/07/25 01:22:43] 1376 -- update friend DB succeed
+[2025/07/25 01:27:41] 1377 -- update friend DB succeed
+[2025/07/25 01:32:41] 1378 -- update friend DB succeed
+[2025/07/25 01:37:42] 1379 -- update friend DB succeed
+[2025/07/25 01:42:43] 1380 -- update friend DB succeed
+[2025/07/25 01:47:43] 1381 -- update friend DB succeed
+[2025/07/25 01:52:41] 1382 -- update friend DB succeed
+[2025/07/25 01:57:42] 1383 -- update friend DB succeed
+[2025/07/25 02:02:43] 1384 -- update friend DB succeed
+[2025/07/25 02:07:43] 1385 -- update friend DB succeed
+[2025/07/25 02:12:41] 1386 -- update friend DB succeed
+[2025/07/25 02:17:42] 1387 -- update friend DB succeed
+[2025/07/25 02:22:43] 1388 -- update friend DB succeed
+[2025/07/25 02:27:43] 1389 -- update friend DB succeed
+[2025/07/25 02:32:41] 1390 -- update friend DB succeed
+[2025/07/25 02:37:41] 1391 -- update friend DB succeed
+[2025/07/25 02:42:42] 1392 -- update friend DB succeed
+[2025/07/25 02:47:42] 1393 -- update friend DB succeed
+[2025/07/25 02:52:43] 1394 -- update friend DB succeed
+[2025/07/25 02:57:44] 1395 -- update friend DB succeed
+[2025/07/25 03:02:41] 1396 -- update friend DB succeed
+[2025/07/25 03:07:42] 1397 -- update friend DB succeed
+[2025/07/25 03:12:43] 1398 -- update friend DB succeed
+[2025/07/25 03:17:44] 1399 -- update friend DB succeed
+[2025/07/25 03:22:42] 1400 -- update friend DB succeed
+[2025/07/25 03:27:42] 1401 -- update friend DB succeed
+[2025/07/25 03:32:43] 1402 -- update friend DB succeed
+[2025/07/25 03:37:44] 1403 -- update friend DB succeed
+[2025/07/25 03:42:41] 1404 -- update friend DB succeed
+[2025/07/25 03:47:42] 1405 -- update friend DB succeed
+[2025/07/25 03:52:43] 1406 -- update friend DB succeed
+[2025/07/25 03:57:41] 1407 -- update friend DB succeed
+[2025/07/25 04:02:42] 1408 -- update friend DB succeed
+[2025/07/25 04:07:43] 1409 -- update friend DB succeed
+[2025/07/25 04:12:44] 1410 -- update friend DB succeed
+[2025/07/25 04:17:41] 1411 -- update friend DB succeed
+[2025/07/25 04:22:42] 1412 -- update friend DB succeed
+[2025/07/25 04:27:42] 1413 -- update friend DB succeed
+[2025/07/25 04:32:43] 1414 -- update friend DB succeed
+[2025/07/25 04:37:41] 1415 -- update friend DB succeed
+[2025/07/25 04:42:42] 1416 -- update friend DB succeed
+[2025/07/25 04:47:42] 1417 -- update friend DB succeed
+[2025/07/25 04:52:43] 1418 -- update friend DB succeed
+[2025/07/25 04:57:44] 1419 -- update friend DB succeed
+[2025/07/25 05:02:41] 1420 -- update friend DB succeed
+[2025/07/25 05:07:42] 1421 -- update friend DB succeed
+[2025/07/25 05:12:43] 1422 -- update friend DB succeed
+[2025/07/25 05:17:44] 1423 -- update friend DB succeed
+[2025/07/25 05:22:41] 1424 -- update friend DB succeed
+[2025/07/25 05:27:42] 1425 -- update friend DB succeed
+[2025/07/25 05:32:43] 1426 -- update friend DB succeed
+[2025/07/25 05:37:43] 1427 -- update friend DB succeed
+[2025/07/25 05:42:41] 1428 -- update friend DB succeed
+[2025/07/25 05:47:42] 1429 -- update friend DB succeed
+[2025/07/25 05:52:43] 1430 -- update friend DB succeed
+[2025/07/25 05:57:44] 1431 -- update friend DB succeed
+[2025/07/25 06:02:44] 1432 -- update friend DB succeed
+[2025/07/25 06:07:42] 1433 -- update friend DB succeed
+[2025/07/25 06:12:42] 1434 -- update friend DB succeed
+[2025/07/25 06:17:43] 1435 -- update friend DB succeed
+[2025/07/25 06:22:44] 1436 -- update friend DB succeed
+[2025/07/25 06:27:42] 1437 -- update friend DB succeed
+[2025/07/25 06:32:43] 1438 -- update friend DB succeed
+[2025/07/25 06:37:43] 1439 -- update friend DB succeed
+[2025/07/25 06:42:44] 1440 -- update friend DB succeed
+[2025/07/25 06:47:41] 1441 -- update friend DB succeed
+[2025/07/25 06:52:42] 1442 -- update friend DB succeed
+[2025/07/25 06:57:43] 1443 -- update friend DB succeed
+[2025/07/25 07:02:43] 1444 -- update friend DB succeed
+[2025/07/25 07:07:44] 1445 -- update friend DB succeed
+[2025/07/25 07:12:42] 1446 -- update friend DB succeed
+[2025/07/25 07:17:43] 1447 -- update friend DB succeed
+[2025/07/25 07:22:44] 1448 -- update friend DB succeed
+[2025/07/25 07:27:41] 1449 -- update friend DB succeed
+[2025/07/25 07:32:42] 1450 -- update friend DB succeed
+[2025/07/25 07:37:43] 1451 -- update friend DB succeed
+[2025/07/25 07:42:44] 1452 -- update friend DB succeed
+[2025/07/25 07:47:41] 1453 -- update friend DB succeed
+[2025/07/25 07:52:42] 1454 -- update friend DB succeed
+[2025/07/25 07:57:43] 1455 -- update friend DB succeed
+[2025/07/25 08:02:44] 1456 -- update friend DB succeed
+[2025/07/25 08:07:42] 1457 -- update friend DB succeed
+[2025/07/25 08:12:42] 1458 -- update friend DB succeed
+[2025/07/25 08:17:43] 1459 -- update friend DB succeed
+[2025/07/25 08:22:44] 1460 -- update friend DB succeed
+[2025/07/25 08:27:44] 1461 -- update friend DB succeed
+[2025/07/25 08:32:42] 1462 -- update friend DB succeed
+[2025/07/25 08:37:42] 1463 -- update friend DB succeed
+[2025/07/25 08:42:43] 1464 -- update friend DB succeed
+[2025/07/25 08:47:44] 1465 -- update friend DB succeed
+[2025/07/25 08:52:44] 1466 -- update friend DB succeed
+[2025/07/25 08:57:42] 1467 -- update friend DB succeed
+[2025/07/25 09:02:43] 1468 -- update friend DB succeed
+[2025/07/25 09:07:44] 1469 -- update friend DB succeed
+[2025/07/25 09:12:44] 1470 -- update friend DB succeed
+[2025/07/25 09:17:42] 1471 -- update friend DB succeed
+[2025/07/25 09:22:43] 1472 -- update friend DB succeed
+[2025/07/25 09:27:43] 1473 -- update friend DB succeed
+[2025/07/25 09:32:44] 1474 -- update friend DB succeed
+[2025/07/25 09:37:42] 1475 -- update friend DB succeed
+[2025/07/25 09:42:42] 1476 -- update friend DB succeed
+[2025/07/25 09:47:43] 1477 -- update friend DB succeed
+[2025/07/25 09:52:44] 1478 -- update friend DB succeed
+[2025/07/25 09:57:44] 1479 -- update friend DB succeed
+[2025/07/25 10:02:42] 1480 -- update friend DB succeed
+[2025/07/25 10:07:42] 1481 -- update friend DB succeed
+[2025/07/25 10:12:43] 1482 -- update friend DB succeed
+[2025/07/25 10:17:44] 1483 -- update friend DB succeed
+[2025/07/25 10:22:44] 1484 -- update friend DB succeed
+[2025/07/25 10:27:42] 1485 -- update friend DB succeed
+[2025/07/25 10:32:43] 1486 -- update friend DB succeed
+[2025/07/25 10:37:43] 1487 -- update friend DB succeed
+[2025/07/25 10:42:44] 1488 -- update friend DB succeed
+[2025/07/25 10:47:45] 1489 -- update friend DB succeed
+[2025/07/25 10:52:42] 1490 -- update friend DB succeed
+[2025/07/25 10:57:43] 1491 -- update friend DB succeed
+[2025/07/25 11:02:44] 1492 -- update friend DB succeed
+[2025/07/25 11:07:45] 1493 -- update friend DB succeed
+[2025/07/25 11:12:42] 1494 -- update friend DB succeed
+[2025/07/25 11:17:43] 1495 -- update friend DB succeed
+[2025/07/25 11:22:44] 1496 -- update friend DB succeed
+[2025/07/25 11:27:45] 1497 -- update friend DB succeed
+[2025/07/25 11:32:42] 1498 -- update friend DB succeed
+[2025/07/25 11:37:43] 1499 -- update friend DB succeed
+[2025/07/25 11:42:44] 1500 -- update friend DB succeed
+[2025/07/25 11:47:44] 1501 -- update friend DB succeed
+[2025/07/25 11:51:18] 1502 -- Destroy Channel: <00000007> \S754886848
+[2025/07/25 11:51:18] 1503 -- Destroy Channel: <00000009> \B754886848
+[2025/07/25 11:51:18] 1504 -- Destroy Channel: <00000014> \F0
+[2025/07/25 11:51:18] 1505 -- player logout: 123456
+[2025/07/25 11:52:42] 1506 -- update friend DB succeed
+[2025/07/25 11:57:43] 1507 -- update friend DB succeed
+[2025/07/25 12:02:44] 1508 -- update friend DB succeed
+[2025/07/25 12:07:44] 1509 -- update friend DB succeed
+[2025/07/25 12:12:45] 1510 -- update friend DB succeed
+[2025/07/25 12:17:42] 1511 -- update friend DB succeed
+[2025/07/25 12:22:43] 1512 -- update friend DB succeed
+[2025/07/25 12:27:44] 1513 -- update friend DB succeed
+[2025/07/25 12:32:44] 1514 -- update friend DB succeed
+[2025/07/25 12:37:42] 1515 -- update friend DB succeed
+[2025/07/25 12:42:43] 1516 -- update friend DB succeed
+[2025/07/25 12:47:43] 1517 -- update friend DB succeed
+[2025/07/25 12:52:44] 1518 -- update friend DB succeed
+[2025/07/25 12:57:42] 1519 -- update friend DB succeed
+[2025/07/25 13:02:43] 1520 -- update friend DB succeed
+[2025/07/25 13:07:44] 1521 -- update friend DB succeed
+[2025/07/25 13:12:44] 1522 -- update friend DB succeed
+[2025/07/25 13:17:45] 1523 -- update friend DB succeed
+[2025/07/25 13:22:43] 1524 -- update friend DB succeed
+[2025/07/25 13:27:43] 1525 -- update friend DB succeed
+[2025/07/25 13:32:44] 1526 -- update friend DB succeed
+[2025/07/25 13:37:45] 1527 -- update friend DB succeed
+[2025/07/25 13:42:42] 1528 -- update friend DB succeed
+[2025/07/25 13:47:43] 1529 -- update friend DB succeed
+[2025/07/25 13:52:43] 1530 -- update friend DB succeed
+[2025/07/25 13:57:44] 1531 -- update friend DB succeed
+[2025/07/25 14:02:45] 1532 -- update friend DB succeed
+[2025/07/25 14:07:45] 1533 -- update friend DB succeed
+[2025/07/25 14:12:43] 1534 -- update friend DB succeed
+[2025/07/25 14:17:44] 1535 -- update friend DB succeed
+[2025/07/25 14:22:45] 1536 -- update friend DB succeed
+[2025/07/25 14:27:42] 1537 -- update friend DB succeed
+[2025/07/25 14:32:43] 1538 -- update friend DB succeed
+[2025/07/25 14:37:44] 1539 -- update friend DB succeed
+[2025/07/25 14:42:45] 1540 -- update friend DB succeed
+[2025/07/25 14:47:42] 1541 -- update friend DB succeed
+[2025/07/25 14:52:43] 1542 -- update friend DB succeed
+[2025/07/25 14:57:44] 1543 -- update friend DB succeed
+[2025/07/25 15:02:45] 1544 -- update friend DB succeed
+[2025/07/25 15:07:42] 1545 -- update friend DB succeed
+[2025/07/25 15:12:43] 1546 -- update friend DB succeed
+[2025/07/25 15:17:44] 1547 -- update friend DB succeed
+[2025/07/25 15:22:45] 1548 -- update friend DB succeed
+[2025/07/25 15:27:45] 1549 -- update friend DB succeed
+[2025/07/25 15:32:43] 1550 -- update friend DB succeed
+[2025/07/25 15:37:44] 1551 -- update friend DB succeed
+[2025/07/25 15:42:44] 1552 -- update friend DB succeed
+[2025/07/25 15:47:45] 1553 -- update friend DB succeed
+[2025/07/25 15:52:43] 1554 -- update friend DB succeed
+[2025/07/25 15:57:44] 1555 -- update friend DB succeed
+[2025/07/25 16:02:44] 1556 -- update friend DB succeed
+[2025/07/25 16:07:45] 1557 -- update friend DB succeed
+[2025/07/25 16:12:43] 1558 -- update friend DB succeed
+[2025/07/25 16:17:43] 1559 -- update friend DB succeed
+[2025/07/25 16:22:44] 1560 -- update friend DB succeed
+[2025/07/25 16:27:45] 1561 -- update friend DB succeed
+[2025/07/25 16:32:45] 1562 -- update friend DB succeed
+[2025/07/25 16:37:43] 1563 -- update friend DB succeed
+[2025/07/25 16:42:44] 1564 -- update friend DB succeed
+[2025/07/25 16:47:45] 1565 -- update friend DB succeed
+[2025/07/25 16:52:42] 1566 -- update friend DB succeed
+[2025/07/25 16:57:43] 1567 -- update friend DB succeed
+[2025/07/25 17:02:44] 1568 -- update friend DB succeed
+[2025/07/25 17:07:45] 1569 -- update friend DB succeed
+[2025/07/25 17:12:45] 1570 -- update friend DB succeed
+[2025/07/25 17:17:43] 1571 -- update friend DB succeed
+[2025/07/25 17:22:44] 1572 -- update friend DB succeed
+[2025/07/25 17:27:44] 1573 -- update friend DB succeed
+[2025/07/25 17:32:45] 1574 -- update friend DB succeed
+[2025/07/25 17:37:45] 1575 -- update friend DB succeed
+[2025/07/25 17:42:43] 1576 -- update friend DB succeed
+[2025/07/25 17:47:44] 1577 -- update friend DB succeed
+[2025/07/25 17:52:44] 1578 -- update friend DB succeed
+[2025/07/25 17:57:45] 1579 -- update friend DB succeed
+[2025/07/25 18:02:43] 1580 -- update friend DB succeed
+[2025/07/25 18:07:43] 1581 -- update friend DB succeed
+[2025/07/25 18:12:44] 1582 -- update friend DB succeed
+[2025/07/25 18:17:45] 1583 -- update friend DB succeed
+[2025/07/25 18:22:45] 1584 -- update friend DB succeed
+[2025/07/25 18:27:43] 1585 -- update friend DB succeed
+[2025/07/25 18:32:44] 1586 -- update friend DB succeed
+[2025/07/25 18:37:44] 1587 -- update friend DB succeed
+[2025/07/25 18:42:45] 1588 -- update friend DB succeed
+[2025/07/25 18:47:45] 1589 -- update friend DB succeed
+[2025/07/25 18:52:46] 1590 -- update friend DB succeed
+[2025/07/25 18:57:43] 1591 -- update friend DB succeed
+[2025/07/25 19:02:43] 1592 -- update friend DB succeed
+[2025/07/25 19:07:44] 1593 -- update friend DB succeed
+[2025/07/25 19:12:44] 1594 -- update friend DB succeed
+[2025/07/25 19:17:45] 1595 -- update friend DB succeed
+[2025/07/25 19:22:45] 1596 -- update friend DB succeed
+[2025/07/25 19:27:46] 1597 -- update friend DB succeed
+[2025/07/25 19:32:43] 1598 -- update friend DB succeed
+[2025/07/25 19:37:44] 1599 -- update friend DB succeed
+[2025/07/25 19:42:44] 1600 -- update friend DB succeed
+[2025/07/25 19:47:45] 1601 -- update friend DB succeed
+[2025/07/25 19:52:46] 1602 -- update friend DB succeed
+[2025/07/25 19:57:44] 1603 -- update friend DB succeed
+[2025/07/25 20:02:45] 1604 -- update friend DB succeed
+[2025/07/25 20:07:45] 1605 -- update friend DB succeed
+[2025/07/25 20:12:43] 1606 -- update friend DB succeed
+[2025/07/25 20:17:44] 1607 -- update friend DB succeed
+[2025/07/25 20:22:45] 1608 -- update friend DB succeed
+[2025/07/25 20:27:46] 1609 -- update friend DB succeed
+[2025/07/25 20:32:43] 1610 -- update friend DB succeed
+[2025/07/25 20:37:44] 1611 -- update friend DB succeed
+[2025/07/25 20:42:45] 1612 -- update friend DB succeed
+[2025/07/25 20:47:46] 1613 -- update friend DB succeed
+[2025/07/25 20:52:44] 1614 -- update friend DB succeed
+[2025/07/25 20:57:44] 1615 -- update friend DB succeed
+[2025/07/25 21:02:45] 1616 -- update friend DB succeed
+[2025/07/25 21:07:46] 1617 -- update friend DB succeed
+[2025/07/25 21:12:44] 1618 -- update friend DB succeed
+[2025/07/25 21:17:44] 1619 -- update friend DB succeed
+[2025/07/25 21:22:45] 1620 -- update friend DB succeed
+[2025/07/25 21:27:46] 1621 -- update friend DB succeed
+[2025/07/25 21:32:44] 1622 -- update friend DB succeed
+[2025/07/25 21:37:45] 1623 -- update friend DB succeed
+[2025/07/25 21:42:45] 1624 -- update friend DB succeed
+[2025/07/25 21:47:43] 1625 -- update friend DB succeed
+[2025/07/25 21:52:44] 1626 -- update friend DB succeed
+[2025/07/25 21:57:44] 1627 -- update friend DB succeed
+[2025/07/25 22:02:45] 1628 -- update friend DB succeed
+[2025/07/25 22:07:45] 1629 -- update friend DB succeed
+[2025/07/25 22:12:43] 1630 -- update friend DB succeed
+[2025/07/25 22:17:44] 1631 -- update friend DB succeed
+[2025/07/25 22:22:44] 1632 -- update friend DB succeed
+[2025/07/25 22:27:45] 1633 -- update friend DB succeed
+[2025/07/25 22:32:46] 1634 -- update friend DB succeed
+[2025/07/25 22:37:43] 1635 -- update friend DB succeed
+[2025/07/25 22:42:44] 1636 -- update friend DB succeed
+[2025/07/25 22:47:44] 1637 -- update friend DB succeed
+[2025/07/25 22:52:45] 1638 -- update friend DB succeed
+[2025/07/25 22:57:46] 1639 -- update friend DB succeed
+[2025/07/25 23:02:43] 1640 -- update friend DB succeed
+[2025/07/25 23:07:44] 1641 -- update friend DB succeed
+[2025/07/25 23:12:44] 1642 -- update friend DB succeed
+[2025/07/25 23:17:45] 1643 -- update friend DB succeed
+[2025/07/25 23:22:45] 1644 -- update friend DB succeed

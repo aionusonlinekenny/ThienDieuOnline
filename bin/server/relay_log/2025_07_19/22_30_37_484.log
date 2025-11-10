@@ -1,0 +1,206 @@
+
+*
+***** S3Relay Start (@ 2025/07/19 22:30:37.484) >>>>>
+*
+
+[2025/07/19 22:30:37] 1 -- Initializing ...
+[2025/07/19 22:30:37] 2 -- Connect Database Success!
+[2025/07/19 22:30:37] 3 -- Create Channel: [Stock, GM] <00000000> GM
+[2025/07/19 22:30:37] 4 -- Create Channel: [Stock] <00000001> 世界
+[2025/07/19 22:30:37] 5 -- friend timing update db: start
+[2025/07/19 22:30:37] 6 -- relay server startup
+[2025/07/19 22:30:37] 7 -- root client create: 192.168.254.42
+[2025/07/19 22:30:37] 8 -- DBRole client create: 192.168.254.42
+[2025/07/19 22:30:37] 9 -- root client close: 192.168.254.42
+[2025/07/19 22:30:37] 10 -- gateway client create: 192.168.254.42
+[2025/07/19 22:30:37] 11 -- host server startup
+[2025/07/19 22:30:37] 12 -- tong server startup
+[2025/07/19 22:30:37] 13 -- chat server startup
+[2025/07/19 22:30:37] 14 -- SockThread start success
+[2025/07/19 22:30:37] 15 -- tong database open ok!
+[2025/07/19 22:30:37] 16 -- tongset init ok !
+[2025/07/19 22:30:37] 17 -- Initialize OK
+[2025/07/19 22:30:46] 18 -- host connect create: 127.0.0.1
+[2025/07/19 22:30:46] 19 -- chat connect create: 127.0.0.1
+[2025/07/19 22:30:46] 20 -- tong connect create: 127.0.0.1
+[2025/07/19 22:31:43] 21 -- host connect create: 192.168.254.44
+[2025/07/19 22:31:43] 22 -- chat connect create: 192.168.254.44
+[2025/07/19 22:31:43] 23 -- tong connect create: 192.168.254.44
+[2025/07/19 22:31:43] 24 -- host connect create: 192.168.254.43
+[2025/07/19 22:31:43] 25 -- chat connect create: 192.168.254.43
+[2025/07/19 22:31:43] 26 -- tong connect create: 192.168.254.43
+[2025/07/19 22:31:46] 27 -- host connect create: 192.168.254.45
+[2025/07/19 22:31:46] 28 -- chat connect create: 192.168.254.45
+[2025/07/19 22:31:46] 29 -- tong connect create: 192.168.254.45
+[2025/07/19 22:32:07] 30 -- load someone: BaoDiaSu
+[2025/07/19 22:32:07] 31 -- player login: 1234567 [BaoDiaSu] (2CFEA8C0, 00000000)
+[2025/07/19 22:32:07] 32 -- Query ChannelID: \S from (2CFEA8C0, 00000000)
+[2025/07/19 22:32:07] 33 -- Create Channel: <00000002> \S754886848
+[2025/07/19 22:32:07] 34 -- Query ChannelID: 世界 from (2CFEA8C0, 00000000)
+[2025/07/19 22:32:07] 35 -- Query ChannelID: \F0 from (2CFEA8C0, 00000000)
+[2025/07/19 22:32:07] 36 -- Create Channel: <00000003> \F0
+[2025/07/19 22:32:07] 37 -- Query ChannelID: GM from (2CFEA8C0, 00000000)
+[2025/07/19 22:32:07] 38 -- Query ChannelID: \B from (2CFEA8C0, 00000000)
+[2025/07/19 22:32:07] 39 -- Create Channel: <00000004> \B754886848
+[2025/07/19 22:32:07] 40 -- Query ChannelID: \S from (2CFEA8C0, 00000000)
+[2025/07/19 22:32:07] 41 -- Query ChannelID: 世界 from (2CFEA8C0, 00000000)
+[2025/07/19 22:32:07] 42 -- Query ChannelID: \F0 from (2CFEA8C0, 00000000)
+[2025/07/19 22:32:07] 43 -- Query ChannelID: GM from (2CFEA8C0, 00000000)
+[2025/07/19 22:32:07] 44 -- Query ChannelID: \B from (2CFEA8C0, 00000000)
+[2025/07/19 22:32:07] 45 -- sync friend list: BaoDiaSu (full)
+[2025/07/19 22:32:07] 46 -- Query ChannelID: \S from (2CFEA8C0, 00000000)
+[2025/07/19 22:32:07] 47 -- Query ChannelID: 世界 from (2CFEA8C0, 00000000)
+[2025/07/19 22:32:07] 48 -- Query ChannelID: \F0 from (2CFEA8C0, 00000000)
+[2025/07/19 22:32:07] 49 -- Query ChannelID: GM from (2CFEA8C0, 00000000)
+[2025/07/19 22:32:07] 50 -- Query ChannelID: \B from (2CFEA8C0, 00000000)
+[2025/07/19 22:32:07] 51 -- Query ChannelID: \S from (2CFEA8C0, 00000000)
+[2025/07/19 22:32:07] 52 -- Query ChannelID: 世界 from (2CFEA8C0, 00000000)
+[2025/07/19 22:32:07] 53 -- Query ChannelID: \F0 from (2CFEA8C0, 00000000)
+[2025/07/19 22:32:07] 54 -- Query ChannelID: GM from (2CFEA8C0, 00000000)
+[2025/07/19 22:32:07] 55 -- Query ChannelID: \B from (2CFEA8C0, 00000000)
+[2025/07/19 22:32:07] 56 -- Subscribe Channel: 00000002 by (2CFEA8C0,00000000)
+[2025/07/19 22:32:07] 57 -- Subscribe Channel: 00000001 by (2CFEA8C0,00000000)
+[2025/07/19 22:32:07] 58 -- Subscribe Channel: 00000003 by (2CFEA8C0,00000000)
+[2025/07/19 22:32:07] 59 -- Subscribe Channel: GM <00000000> by (2CFEA8C0,00000000)
+[2025/07/19 22:32:07] 60 -- Subscribe Channel: 00000004 by (2CFEA8C0,00000000)
+[2025/07/19 22:32:07] 61 -- Subscribe Channel: 00000002 by (2CFEA8C0,00000000)
+[2025/07/19 22:32:07] 62 -- Subscribe Channel: 00000001 by (2CFEA8C0,00000000)
+[2025/07/19 22:32:07] 63 -- Subscribe Channel: 00000003 by (2CFEA8C0,00000000)
+[2025/07/19 22:32:07] 64 -- Subscribe Channel: GM <00000000> by (2CFEA8C0,00000000)
+[2025/07/19 22:32:07] 65 -- Subscribe Channel: 00000004 by (2CFEA8C0,00000000)
+[2025/07/19 22:32:07] 66 -- Subscribe Channel: 00000002 by (2CFEA8C0,00000000)
+[2025/07/19 22:32:07] 67 -- Subscribe Channel: 00000001 by (2CFEA8C0,00000000)
+[2025/07/19 22:32:07] 68 -- Subscribe Channel: 00000003 by (2CFEA8C0,00000000)
+[2025/07/19 22:32:07] 69 -- Subscribe Channel: GM <00000000> by (2CFEA8C0,00000000)
+[2025/07/19 22:32:07] 70 -- Subscribe Channel: 00000004 by (2CFEA8C0,00000000)
+[2025/07/19 22:32:07] 71 -- Subscribe Channel: 00000002 by (2CFEA8C0,00000000)
+[2025/07/19 22:32:07] 72 -- Subscribe Channel: 00000001 by (2CFEA8C0,00000000)
+[2025/07/19 22:32:07] 73 -- Subscribe Channel: 00000003 by (2CFEA8C0,00000000)
+[2025/07/19 22:32:07] 74 -- Subscribe Channel: GM <00000000> by (2CFEA8C0,00000000)
+[2025/07/19 22:32:07] 75 -- Subscribe Channel: 00000004 by (2CFEA8C0,00000000)
+[2025/07/19 22:32:37] 76 -- Destroy Channel: <00000002> \S754886848
+[2025/07/19 22:32:37] 77 -- Destroy Channel: <00000003> \F0
+[2025/07/19 22:32:37] 78 -- Destroy Channel: <00000004> \B754886848
+[2025/07/19 22:32:37] 79 -- player logout: 1234567
+[2025/07/19 22:35:41] 80 -- update friend DB succeed
+[2025/07/19 22:40:41] 81 -- update friend DB succeed
+[2025/07/19 22:45:42] 82 -- update friend DB succeed
+[2025/07/19 22:50:43] 83 -- update friend DB succeed
+[2025/07/19 22:55:40] 84 -- update friend DB succeed
+[2025/07/19 23:00:41] 85 -- update friend DB succeed
+[2025/07/19 23:05:42] 86 -- update friend DB succeed
+[2025/07/19 23:10:43] 87 -- update friend DB succeed
+[2025/07/19 23:15:40] 88 -- update friend DB succeed
+[2025/07/19 23:20:41] 89 -- update friend DB succeed
+[2025/07/19 23:25:42] 90 -- update friend DB succeed
+[2025/07/19 23:30:43] 91 -- update friend DB succeed
+[2025/07/19 23:35:40] 92 -- update friend DB succeed
+[2025/07/19 23:40:41] 93 -- update friend DB succeed
+[2025/07/19 23:45:41] 94 -- update friend DB succeed
+[2025/07/19 23:50:42] 95 -- update friend DB succeed
+[2025/07/19 23:55:43] 96 -- update friend DB succeed
+[2025/07/20 00:00:41] 97 -- update friend DB succeed
+[2025/07/20 00:05:41] 98 -- update friend DB succeed
+[2025/07/20 00:10:42] 99 -- update friend DB succeed
+[2025/07/20 00:15:43] 100 -- update friend DB succeed
+[2025/07/20 00:20:40] 101 -- update friend DB succeed
+[2025/07/20 00:25:41] 102 -- update friend DB succeed
+[2025/07/20 00:30:42] 103 -- update friend DB succeed
+[2025/07/20 00:35:42] 104 -- update friend DB succeed
+[2025/07/20 00:40:43] 105 -- update friend DB succeed
+[2025/07/20 00:45:40] 106 -- update friend DB succeed
+[2025/07/20 00:50:41] 107 -- update friend DB succeed
+[2025/07/20 00:55:42] 108 -- update friend DB succeed
+[2025/07/20 01:00:42] 109 -- update friend DB succeed
+[2025/07/20 01:05:43] 110 -- update friend DB succeed
+[2025/07/20 01:10:43] 111 -- update friend DB succeed
+[2025/07/20 01:15:41] 112 -- update friend DB succeed
+[2025/07/20 01:20:41] 113 -- update friend DB succeed
+[2025/07/20 01:25:42] 114 -- update friend DB succeed
+[2025/07/20 01:30:43] 115 -- update friend DB succeed
+[2025/07/20 01:35:43] 116 -- update friend DB succeed
+[2025/07/20 01:40:41] 117 -- update friend DB succeed
+[2025/07/20 01:45:42] 118 -- update friend DB succeed
+[2025/07/20 01:50:42] 119 -- update friend DB succeed
+[2025/07/20 01:55:43] 120 -- update friend DB succeed
+[2025/07/20 02:00:43] 121 -- update friend DB succeed
+[2025/07/20 02:05:41] 122 -- update friend DB succeed
+[2025/07/20 02:10:41] 123 -- update friend DB succeed
+[2025/07/20 02:15:42] 124 -- update friend DB succeed
+[2025/07/20 02:20:43] 125 -- update friend DB succeed
+[2025/07/20 02:25:43] 126 -- update friend DB succeed
+[2025/07/20 02:30:41] 127 -- update friend DB succeed
+[2025/07/20 02:35:41] 128 -- update friend DB succeed
+[2025/07/20 02:40:42] 129 -- update friend DB succeed
+[2025/07/20 02:45:42] 130 -- update friend DB succeed
+[2025/07/20 02:50:43] 131 -- update friend DB succeed
+[2025/07/20 02:55:41] 132 -- update friend DB succeed
+[2025/07/20 03:00:42] 133 -- update friend DB succeed
+[2025/07/20 03:05:42] 134 -- update friend DB succeed
+[2025/07/20 03:10:43] 135 -- update friend DB succeed
+[2025/07/20 03:15:43] 136 -- update friend DB succeed
+[2025/07/20 03:20:41] 137 -- update friend DB succeed
+[2025/07/20 03:25:42] 138 -- update friend DB succeed
+[2025/07/20 03:30:42] 139 -- update friend DB succeed
+[2025/07/20 03:35:43] 140 -- update friend DB succeed
+[2025/07/20 03:40:43] 141 -- update friend DB succeed
+[2025/07/20 03:45:41] 142 -- update friend DB succeed
+[2025/07/20 03:50:42] 143 -- update friend DB succeed
+[2025/07/20 03:55:42] 144 -- update friend DB succeed
+[2025/07/20 04:00:43] 145 -- update friend DB succeed
+[2025/07/20 04:05:44] 146 -- update friend DB succeed
+[2025/07/20 04:10:41] 147 -- update friend DB succeed
+[2025/07/20 04:15:42] 148 -- update friend DB succeed
+[2025/07/20 04:20:42] 149 -- update friend DB succeed
+[2025/07/20 04:25:43] 150 -- update friend DB succeed
+[2025/07/20 04:30:44] 151 -- update friend DB succeed
+[2025/07/20 04:35:41] 152 -- update friend DB succeed
+[2025/07/20 04:40:42] 153 -- update friend DB succeed
+[2025/07/20 04:45:42] 154 -- update friend DB succeed
+[2025/07/20 04:50:43] 155 -- update friend DB succeed
+[2025/07/20 04:55:43] 156 -- update friend DB succeed
+[2025/07/20 05:00:44] 157 -- update friend DB succeed
+[2025/07/20 05:05:41] 158 -- update friend DB succeed
+[2025/07/20 05:10:42] 159 -- update friend DB succeed
+[2025/07/20 05:15:42] 160 -- update friend DB succeed
+[2025/07/20 05:20:43] 161 -- update friend DB succeed
+[2025/07/20 05:25:43] 162 -- update friend DB succeed
+[2025/07/20 05:30:44] 163 -- update friend DB succeed
+[2025/07/20 05:35:42] 164 -- update friend DB succeed
+[2025/07/20 05:40:42] 165 -- update friend DB succeed
+[2025/07/20 05:45:43] 166 -- update friend DB succeed
+[2025/07/20 05:50:44] 167 -- update friend DB succeed
+[2025/07/20 05:55:41] 168 -- update friend DB succeed
+[2025/07/20 06:00:42] 169 -- update friend DB succeed
+[2025/07/20 06:05:42] 170 -- update friend DB succeed
+[2025/07/20 06:10:43] 171 -- update friend DB succeed
+[2025/07/20 06:15:44] 172 -- update friend DB succeed
+[2025/07/20 06:20:41] 173 -- update friend DB succeed
+[2025/07/20 06:25:42] 174 -- update friend DB succeed
+[2025/07/20 06:30:43] 175 -- update friend DB succeed
+[2025/07/20 06:35:43] 176 -- update friend DB succeed
+[2025/07/20 06:40:44] 177 -- update friend DB succeed
+[2025/07/20 06:45:41] 178 -- update friend DB succeed
+[2025/07/20 06:50:42] 179 -- update friend DB succeed
+[2025/07/20 06:55:42] 180 -- update friend DB succeed
+[2025/07/20 07:00:43] 181 -- update friend DB succeed
+[2025/07/20 07:05:43] 182 -- update friend DB succeed
+[2025/07/20 07:10:44] 183 -- update friend DB succeed
+[2025/07/20 07:15:41] 184 -- update friend DB succeed
+[2025/07/20 07:20:42] 185 -- update friend DB succeed
+[2025/07/20 07:25:42] 186 -- update friend DB succeed
+[2025/07/20 07:30:43] 187 -- update friend DB succeed
+[2025/07/20 07:35:44] 188 -- update friend DB succeed
+[2025/07/20 07:40:41] 189 -- update friend DB succeed
+[2025/07/20 07:45:42] 190 -- update friend DB succeed
+[2025/07/20 07:50:42] 191 -- update friend DB succeed
+[2025/07/20 07:55:43] 192 -- update friend DB succeed
+[2025/07/20 08:00:44] 193 -- update friend DB succeed
+[2025/07/20 08:05:41] 194 -- update friend DB succeed
+[2025/07/20 08:10:42] 195 -- update friend DB succeed
+[2025/07/20 08:15:43] 196 -- update friend DB succeed
+[2025/07/20 08:20:43] 197 -- update friend DB succeed
+[2025/07/20 08:25:44] 198 -- update friend DB succeed
+[2025/07/20 08:30:41] 199 -- update friend DB succeed
+[2025/07/20 08:35:42] 200 -- update friend DB succeed
+[2025/07/20 08:40:42] 201 -- update friend DB succeed

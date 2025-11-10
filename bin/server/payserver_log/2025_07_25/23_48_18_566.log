@@ -1,0 +1,39 @@
+
+*
+***** Sword3PaySys Start (@ 2025/07/25 23:48:18.566) >>>>>
+*
+
+[2025/07/25 23:48:24] 1 >> DB Connect 0 is busy !
+[2025/07/25 23:48:24] 2 >> Add Gateway(192.168.254.42 : 54426) Client 0 ! -- At 0
+[2025/07/25 23:48:24] 3 >> DB Connect 0 is free !
+[2025/07/25 23:48:24] 4 >> DB Connect 0 is busy !
+[2025/07/25 23:48:24] 5 >> Gateway txjx(192.168.254.42)000C-2930-B738: Verify OK !
+[2025/07/25 23:48:24] 6 >> Gateway unlock OK!
+[2025/07/25 23:48:24] 7 >> Gateway Connect OK!
+[2025/07/25 23:48:27] 8 >> DB Connect 0 is free !
+[2025/07/25 23:48:36] 9 >> Gateway txjx(192.168.254.42): Ping 10(s)
+[2025/07/25 23:48:45] 10 >> Gateway txjx(192.168.254.42): Ping 10(s)
+[2025/07/25 23:48:54] 11 >> Gateway txjx(192.168.254.42): Ping 10(s)
+[2025/07/25 23:49:00] 12 >> DB Connect 0 is busy !
+[2025/07/25 23:49:00] 13 >> Gateway txjx(192.168.254.42): User 123456 Login Success ! (Ext:369)
+[2025/07/25 23:49:00] 14 >> Gateway txjx(192.168.254.42): User 123456 Enter Game Success !
+[2025/07/25 23:49:00] 15 >> DB Connect 0 is free !
+[2025/07/25 23:49:06] 16 >> Gateway txjx(192.168.254.42): Ping 10(s)
+[2025/07/25 23:49:15] 17 >> Gateway txjx(192.168.254.42): Ping 10(s)
+[2025/07/25 23:49:24] 18 >> Gateway txjx(192.168.254.42): Ping 10(s)
+[2025/07/25 23:49:36] 19 >> Gateway txjx(192.168.254.42): Ping 10(s)
+[2025/07/25 23:49:45] 20 >> Gateway txjx(192.168.254.42): Ping 10(s)
+[2025/07/25 23:49:54] 21 >> Gateway txjx(192.168.254.42): Ping 10(s)
+[2025/07/25 23:50:06] 22 >> Gateway txjx(192.168.254.42): Ping 10(s)
+[2025/07/25 23:50:12] 23 >> DB Connect 0 is busy !
+[2025/07/25 23:50:12] 24 >> [S3PDB_MSSQLServer_Connection::Do COM error: IDispatch error #3092
+[2025/07/25 23:50:12] 25 >> Gateway txjx(192.168.254.42): User 123456 Logout Success ! (Ext:0)
+[2025/07/25 23:50:12] 26 >> DB Connect 0 is free !
+[2025/07/25 23:50:15] 27 >> Gateway txjx(192.168.254.42): Ping 10(s)
+[2025/07/25 23:50:15] 28 >> Remove Gateway Client 0 ! -- At 0
+[2025/07/25 23:50:18] Nomal exit !!!
+
+*
+***** Sword3PaySys Stop (@ 2025/07/25 23:50:18.037) <<<<<
+*
+

@@ -1,0 +1,9 @@
+
+function main(NpcIndex)
+Talk(1,"","Thiªn Lý m· kh«ng thiÕu, nh­ng ng­êi biÕt dïng ngùa hái cã mÊy ai!")	
+end;
+
+
+
+
+

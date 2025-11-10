@@ -1,0 +1,87 @@
+
+*
+***** S3Relay Start (@ 2025/07/20 16:45:34.708) >>>>>
+*
+
+[2025/07/20 16:45:34] 1 -- Initializing ...
+[2025/07/20 16:45:34] 2 -- Connect Database Success!
+[2025/07/20 16:45:34] 3 -- Create Channel: [Stock, GM] <00000000> GM
+[2025/07/20 16:45:34] 4 -- Create Channel: [Stock] <00000001> 世界
+[2025/07/20 16:45:34] 5 -- friend timing update db: start
+[2025/07/20 16:45:34] 6 -- relay server startup
+[2025/07/20 16:45:34] 7 -- root client create: 192.168.254.42
+[2025/07/20 16:45:34] 8 -- DBRole client create: 192.168.254.42
+[2025/07/20 16:45:34] 9 -- root client close: 192.168.254.42
+[2025/07/20 16:45:34] 10 -- gateway client create: 192.168.254.42
+[2025/07/20 16:45:34] 11 -- host server startup
+[2025/07/20 16:45:34] 12 -- tong server startup
+[2025/07/20 16:45:34] 13 -- chat server startup
+[2025/07/20 16:45:34] 14 -- SockThread start success
+[2025/07/20 16:45:34] 15 -- tong database open ok!
+[2025/07/20 16:45:34] 16 -- tongset init ok !
+[2025/07/20 16:45:34] 17 -- Initialize OK
+[2025/07/20 16:45:43] 18 -- host connect create: 127.0.0.1
+[2025/07/20 16:45:43] 19 -- chat connect create: 127.0.0.1
+[2025/07/20 16:45:43] 20 -- tong connect create: 127.0.0.1
+[2025/07/20 16:45:55] 21 -- host connect create: 192.168.254.43
+[2025/07/20 16:45:55] 22 -- chat connect create: 192.168.254.43
+[2025/07/20 16:45:55] 23 -- tong connect create: 192.168.254.43
+[2025/07/20 16:45:58] 24 -- host connect create: 192.168.254.44
+[2025/07/20 16:45:58] 25 -- chat connect create: 192.168.254.44
+[2025/07/20 16:45:58] 26 -- tong connect create: 192.168.254.44
+[2025/07/20 16:46:19] 27 -- load someone: BaoDaiSu
+[2025/07/20 16:46:19] 28 -- player login: 1234567 [BaoDaiSu] (2CFEA8C0, 00000000)
+[2025/07/20 16:46:19] 29 -- sync friend list: BaoDaiSu (full)
+[2025/07/20 16:46:19] 30 -- Query ChannelID: \S from (2CFEA8C0, 00000000)
+[2025/07/20 16:46:19] 31 -- Create Channel: <00000002> \S754886848
+[2025/07/20 16:46:19] 32 -- Query ChannelID: 世界 from (2CFEA8C0, 00000000)
+[2025/07/20 16:46:19] 33 -- Query ChannelID: \F0 from (2CFEA8C0, 00000000)
+[2025/07/20 16:46:19] 34 -- Create Channel: <00000003> \F0
+[2025/07/20 16:46:19] 35 -- Query ChannelID: GM from (2CFEA8C0, 00000000)
+[2025/07/20 16:46:19] 36 -- Query ChannelID: \B from (2CFEA8C0, 00000000)
+[2025/07/20 16:46:19] 37 -- Create Channel: <00000004> \B754886848
+[2025/07/20 16:46:19] 38 -- Query ChannelID: \S from (2CFEA8C0, 00000000)
+[2025/07/20 16:46:19] 39 -- Query ChannelID: 世界 from (2CFEA8C0, 00000000)
+[2025/07/20 16:46:19] 40 -- Query ChannelID: \F0 from (2CFEA8C0, 00000000)
+[2025/07/20 16:46:19] 41 -- Query ChannelID: GM from (2CFEA8C0, 00000000)
+[2025/07/20 16:46:19] 42 -- Query ChannelID: \B from (2CFEA8C0, 00000000)
+[2025/07/20 16:46:19] 43 -- Query ChannelID: \S from (2CFEA8C0, 00000000)
+[2025/07/20 16:46:19] 44 -- Query ChannelID: 世界 from (2CFEA8C0, 00000000)
+[2025/07/20 16:46:19] 45 -- Query ChannelID: \F0 from (2CFEA8C0, 00000000)
+[2025/07/20 16:46:19] 46 -- Query ChannelID: GM from (2CFEA8C0, 00000000)
+[2025/07/20 16:46:19] 47 -- Query ChannelID: \B from (2CFEA8C0, 00000000)
+[2025/07/20 16:46:19] 48 -- Query ChannelID: \S from (2CFEA8C0, 00000000)
+[2025/07/20 16:46:19] 49 -- Query ChannelID: 世界 from (2CFEA8C0, 00000000)
+[2025/07/20 16:46:19] 50 -- Query ChannelID: \F0 from (2CFEA8C0, 00000000)
+[2025/07/20 16:46:19] 51 -- Query ChannelID: GM from (2CFEA8C0, 00000000)
+[2025/07/20 16:46:19] 52 -- Query ChannelID: \B from (2CFEA8C0, 00000000)
+[2025/07/20 16:46:19] 53 -- Subscribe Channel: 00000002 by (2CFEA8C0,00000000)
+[2025/07/20 16:46:19] 54 -- Subscribe Channel: 00000001 by (2CFEA8C0,00000000)
+[2025/07/20 16:46:19] 55 -- Subscribe Channel: 00000003 by (2CFEA8C0,00000000)
+[2025/07/20 16:46:19] 56 -- Subscribe Channel: GM <00000000> by (2CFEA8C0,00000000)
+[2025/07/20 16:46:19] 57 -- Subscribe Channel: 00000004 by (2CFEA8C0,00000000)
+[2025/07/20 16:46:19] 58 -- Subscribe Channel: 00000002 by (2CFEA8C0,00000000)
+[2025/07/20 16:46:19] 59 -- Subscribe Channel: 00000001 by (2CFEA8C0,00000000)
+[2025/07/20 16:46:19] 60 -- Subscribe Channel: 00000003 by (2CFEA8C0,00000000)
+[2025/07/20 16:46:19] 61 -- Subscribe Channel: GM <00000000> by (2CFEA8C0,00000000)
+[2025/07/20 16:46:19] 62 -- Subscribe Channel: 00000004 by (2CFEA8C0,00000000)
+[2025/07/20 16:46:19] 63 -- Subscribe Channel: 00000002 by (2CFEA8C0,00000000)
+[2025/07/20 16:46:19] 64 -- Subscribe Channel: 00000001 by (2CFEA8C0,00000000)
+[2025/07/20 16:46:19] 65 -- Subscribe Channel: 00000003 by (2CFEA8C0,00000000)
+[2025/07/20 16:46:19] 66 -- Subscribe Channel: GM <00000000> by (2CFEA8C0,00000000)
+[2025/07/20 16:46:19] 67 -- Subscribe Channel: 00000004 by (2CFEA8C0,00000000)
+[2025/07/20 16:46:19] 68 -- Subscribe Channel: 00000002 by (2CFEA8C0,00000000)
+[2025/07/20 16:46:19] 69 -- Subscribe Channel: 00000001 by (2CFEA8C0,00000000)
+[2025/07/20 16:46:19] 70 -- Subscribe Channel: 00000003 by (2CFEA8C0,00000000)
+[2025/07/20 16:46:19] 71 -- Subscribe Channel: GM <00000000> by (2CFEA8C0,00000000)
+[2025/07/20 16:46:19] 72 -- Subscribe Channel: 00000004 by (2CFEA8C0,00000000)
+[2025/07/20 16:47:50] 73 -- [UpdateExtPoint][1234567] Update Coin [1092] into database successfully!!!
+[2025/07/20 16:47:59] 74 -- Destroy Channel: <00000002> \S754886848
+[2025/07/20 16:47:59] 75 -- Destroy Channel: <00000003> \F0
+[2025/07/20 16:47:59] 76 -- Destroy Channel: <00000004> \B754886848
+[2025/07/20 16:47:59] 77 -- player logout: 1234567
+[2025/07/20 16:50:38] 78 -- update friend DB succeed
+[2025/07/20 16:55:39] 79 -- update friend DB succeed
+[2025/07/20 17:00:39] 80 -- update friend DB succeed
+[2025/07/20 17:05:40] 81 -- update friend DB succeed
+[2025/07/20 17:10:40] 82 -- update friend DB succeed

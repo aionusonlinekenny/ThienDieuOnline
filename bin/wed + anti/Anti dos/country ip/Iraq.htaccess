@@ -1,0 +1,39 @@
+# Country: IRAQ
+# ISO Code: IQ
+# Total Networks: 34
+# Total Subnets:  225,280
+deny from 31.25.136.0/21
+deny from 37.17.128.0/19
+deny from 46.30.224.0/21
+deny from 46.31.72.0/21
+deny from 46.243.16.0/21
+deny from 46.253.128.0/20
+deny from 62.201.192.0/18
+deny from 78.109.224.0/20
+deny from 80.77.176.0/20
+deny from 81.90.16.0/20
+deny from 81.92.224.0/20
+deny from 81.95.80.0/20
+deny from 86.111.144.0/21
+deny from 93.91.192.0/20
+deny from 93.93.104.0/21
+deny from 93.94.48.0/21
+deny from 93.187.32.0/21
+deny from 95.159.64.0/18
+deny from 95.170.192.0/19
+deny from 109.127.64.0/18
+deny from 109.205.112.0/21
+deny from 109.224.0.0/18
+deny from 130.193.128.0/17
+deny from 130.255.88.0/21
+deny from 149.255.192.0/18
+deny from 159.255.160.0/21
+deny from 176.28.72.0/21
+deny from 176.241.80.0/20
+deny from 178.17.48.0/20
+deny from 178.22.32.0/21
+deny from 188.72.0.0/18
+deny from 194.117.56.0/21
+deny from 212.126.96.0/19
+deny from 217.171.176.0/20
+#
